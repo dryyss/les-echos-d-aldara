@@ -1,0 +1,82 @@
+[
+  {
+    "id": "m1-01",
+    "type": "principale",
+    "acte": 1,
+    "titre": "Une matinée ordinaire",
+    "resume": "Aubin veut du minerai. Une journée comme les autres, en principe.",
+    "taches": [
+      { "type": "parler", "cible": "aubin", "texte": "Parler à Maître Aubin dans la forge" },
+      {
+        "type": "trouver",
+        "cible": "minerai-ocre",
+        "texte": "Aller chercher le minerai au fond du village",
+        "quantite": 1
+      },
+      {
+        "type": "resoudre",
+        "cible": "caisses-lila",
+        "texte": "Aider Lila, coincée derrière des caisses"
+      },
+      {
+        "type": "livrer",
+        "cible": "aubin",
+        "texte": "Rapporter le minerai à Aubin",
+        "quantite": 1
+      }
+    ],
+    "recompenses": { "resonance": "poussee", "xp": 30 },
+    "suivante": "m1-02",
+    "drapeauFin": "m1_01_fini",
+    "zone": "brumeval"
+  },
+  {
+    "id": "m1-02",
+    "type": "principale",
+    "acte": 1,
+    "titre": "Le secret d’Aubin",
+    "resume": "Aubin sait. Il veut me parler au sanctuaire, ce soir, pendant la fête.",
+    "taches": [
+      { "type": "aller", "cible": "brumeval", "texte": "Rejoindre la fête des moissons sur la place" },
+      {
+        "type": "parler",
+        "cible": "brumeval-villageois",
+        "texte": "Parler à 3 villageois",
+        "quantite": 3
+      },
+      { "type": "parler", "cible": "aubin", "texte": "Retrouver Aubin au sanctuaire" },
+      {
+        "type": "ecouter",
+        "cible": "caillou",
+        "texte": "Utiliser Écoute sur Caillou, le chien d’Aubin"
+      }
+    ],
+    "recompenses": { "resonance": "ecoute" },
+    "suivante": "m1-03",
+    "prerequis": ["m1_01_fini"],
+    "drapeauFin": "m1_02_fini",
+    "zone": "brumeval"
+  },
+  {
+    "id": "m1-03",
+    "type": "principale",
+    "acte": 1,
+    "titre": "La nuit des masques",
+    "resume": "Des masques de cuivre. Aubin n’est plus là. Je dois partir.",
+    "taches": [
+      { "type": "aller", "cible": "brumeval", "texte": "Rejoindre la place attaquée par l’Ordre" },
+      { "type": "vaincre", "cible": "a1-sbires-place", "texte": "Vaincre 2 sbires de l’Ordre" },
+      {
+        "type": "cinematique",
+        "cible": "a1-s03-attaque",
+        "texte": "Assister à l’enlèvement d’Aubin"
+      },
+      { "type": "parler", "cible": "villageois-apres", "texte": "Parler aux villageois après l’attaque" },
+      { "type": "trouver", "cible": "marteau-aubin", "texte": "Récupérer le marteau d’Aubin dans la forge" }
+    ],
+    "recompenses": { "xp": 50, "objets": [{ "id": "marteau-aubin", "quantite": 1 }] },
+    "prerequis": ["m1_02_fini"],
+    "drapeauFin": "m1_03_fini",
+    "zone": "brumeval"
+  }
+]

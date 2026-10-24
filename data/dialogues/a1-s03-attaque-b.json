@@ -1,0 +1,24 @@
+{
+  "id": "a1-s03-attaque-b",
+  "titre": "Acte 1, scène 3 : L’attaque (après le combat)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m1-03", "tache": 1 },
+    {
+      "perso": "corvo",
+      "expr": "sourire",
+      "texte": "Oh ? Le petit a du répondant ! Ça résonne, là-dedans ?"
+    },
+    { "type": "playSound", "son": "coup" },
+    { "type": "shake", "duree": 500, "intensite": 4 },
+    { "type": "flash", "couleur": "#ffffff", "duree": 200 },
+    {
+      "perso": "ilse",
+      "texte": "La Clé est sous l’autel du sanctuaire. Le vieux pensait vraiment qu’on ne trouverait pas ?"
+    },
+    { "perso": "ilse", "texte": "Emmenez-le. Le Maître voudra lui parler." },
+    { "perso": "aubin", "expr": "fatigue", "texte": "Kaël… ne les suis pas… vis ta vie…" },
+    { "type": "setFlag", "drapeau": "attaque_brumeval" },
+    { "type": "quest", "action": "task", "mission": "m1-03", "tache": 2 },
+    { "type": "fade", "vers": "noir", "duree": 1200 }
+  ]
+}

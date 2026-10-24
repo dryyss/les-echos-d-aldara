@@ -1,0 +1,198 @@
+[
+  {
+    "id": "kael",
+    "name": "Kaël",
+    "portrait": "kael",
+    "voice": { "pitch": 260, "wave": "square", "length": 40 },
+    "color": "#3fae5a"
+  },
+  {
+    "id": "nyra",
+    "name": "Nyra",
+    "portrait": "nyra",
+    "voice": { "pitch": 380, "wave": "square", "length": 35 },
+    "color": "#e07030"
+  },
+  {
+    "id": "aubin",
+    "name": "Aubin",
+    "portrait": "aubin",
+    "voice": { "pitch": 170, "wave": "sawtooth", "length": 55 },
+    "color": "#c4a574"
+  },
+  {
+    "id": "lila",
+    "name": "Lila",
+    "portrait": "lila",
+    "voice": { "pitch": 520, "wave": "triangle", "length": 35 },
+    "color": "#f0c060"
+  },
+  {
+    "id": "caillou",
+    "name": "Caillou",
+    "portrait": "caillou",
+    "voice": { "pitch": 140, "wave": "square", "length": 25 },
+    "color": "#b08968"
+  },
+  {
+    "id": "bertrand",
+    "name": "Gros Bertrand",
+    "portrait": "bertrand",
+    "voice": { "pitch": 150, "wave": "sawtooth", "length": 50 },
+    "color": "#d4a05a"
+  },
+  {
+    "id": "margot",
+    "name": "Vieille Margot",
+    "portrait": "margot",
+    "voice": { "pitch": 300, "wave": "triangle", "length": 50 },
+    "color": "#9a8aaa"
+  },
+  {
+    "id": "joss",
+    "name": "Fermier Joss",
+    "portrait": "joss",
+    "voice": { "pitch": 220, "wave": "square", "length": 45 },
+    "color": "#8aaa6a"
+  },
+  {
+    "id": "paulin",
+    "name": "Meunier Paulin",
+    "portrait": "paulin",
+    "voice": { "pitch": 200, "wave": "triangle", "length": 45 },
+    "color": "#c0a080"
+  },
+  {
+    "id": "villageoise",
+    "name": "Villageoise",
+    "portrait": "villageois-femme",
+    "voice": { "pitch": 400, "wave": "triangle", "length": 40 },
+    "color": "#e8c8a0"
+  },
+  {
+    "id": "villageois",
+    "name": "Villageois",
+    "portrait": "villageois-homme",
+    "voice": { "pitch": 240, "wave": "square", "length": 45 },
+    "color": "#c8c0a0"
+  },
+  {
+    "id": "ilse",
+    "name": "Ilse",
+    "portrait": "ilse",
+    "voice": { "pitch": 320, "wave": "triangle", "length": 45 },
+    "color": "#d8e8f0"
+  },
+  {
+    "id": "corvo",
+    "name": "Corvo",
+    "portrait": "corvo",
+    "voice": { "pitch": 130, "wave": "sawtooth", "length": 30 },
+    "color": "#c04030"
+  },
+  {
+    "id": "varn",
+    "name": "Varn",
+    "portrait": "varn",
+    "voice": { "pitch": 90, "wave": "sine", "length": 70 },
+    "color": "#6a6080"
+  },
+  {
+    "id": "sbire",
+    "name": "Sbire de l’Ordre",
+    "portrait": "sbire",
+    "voice": { "pitch": 180, "wave": "square", "length": 40 },
+    "color": "#8a7060"
+  },
+  {
+    "id": "gontran",
+    "name": "Maire Gontran",
+    "portrait": "gontran",
+    "voice": { "pitch": 210, "wave": "sawtooth", "length": 50 },
+    "color": "#e0c050"
+  },
+  {
+    "id": "brann",
+    "name": "Chasseur Brann",
+    "portrait": "chasseur",
+    "voice": { "pitch": 190, "wave": "square", "length": 45 },
+    "color": "#a07050"
+  },
+  {
+    "id": "lucien",
+    "name": "Lucien",
+    "portrait": "lucien",
+    "voice": { "pitch": 280, "wave": "triangle", "length": 40 },
+    "color": "#d0a070"
+  },
+  {
+    "id": "gaspard",
+    "name": "Gaspard",
+    "portrait": "gaspard",
+    "voice": { "pitch": 200, "wave": "square", "length": 45 },
+    "color": "#808890"
+  },
+  {
+    "id": "rosa",
+    "name": "Rosa",
+    "portrait": "rosa",
+    "voice": { "pitch": 420, "wave": "triangle", "length": 40 },
+    "color": "#e07080"
+  },
+  {
+    "id": "garde",
+    "name": "Garde",
+    "portrait": "garde-royal",
+    "voice": { "pitch": 230, "wave": "square", "length": 45 },
+    "color": "#7080a0"
+  },
+  {
+    "id": "enfant",
+    "name": "Enfant",
+    "portrait": "enfant",
+    "voice": { "pitch": 640, "wave": "triangle", "length": 35 },
+    "color": "#f0d080"
+  },
+  {
+    "id": "tobias",
+    "name": "Tobias",
+    "portrait": "tobias",
+    "voice": { "pitch": 210, "wave": "triangle", "length": 45 },
+    "color": "#c09060"
+  },
+  {
+    "id": "mineur",
+    "name": "Mineur",
+    "portrait": "mineur",
+    "voice": { "pitch": 180, "wave": "sawtooth", "length": 45 },
+    "color": "#a09070"
+  },
+  {
+    "id": "aubergiste",
+    "name": "Aubergiste",
+    "portrait": "aubergiste",
+    "voice": { "pitch": 200, "wave": "triangle", "length": 45 },
+    "color": "#c8a060"
+  },
+  {
+    "id": "gres",
+    "name": "Grès",
+    "portrait": null,
+    "voice": { "pitch": 1600, "wave": "sine", "length": 28 },
+    "color": "#c4b48a"
+  },
+  {
+    "id": "tison",
+    "name": "Tison",
+    "portrait": null,
+    "voice": { "pitch": 1500, "wave": "sine", "length": 28 },
+    "color": "#ff7040"
+  },
+  {
+    "id": "narrateur",
+    "name": "Narrateur",
+    "portrait": null,
+    "voice": { "pitch": 160, "wave": "sine", "length": 60 },
+    "color": "#f4e9c8"
+  }
+]

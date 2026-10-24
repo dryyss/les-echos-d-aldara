@@ -1,0 +1,3725 @@
+[
+  {
+    "id": "sbire-ordre",
+    "name": "Sbire de l’Ordre",
+    "description": "Manteau noir, masque de cuivre. Il frappe sans un mot.",
+    "element": "neutre",
+    "level": 2,
+    "stats": {
+      "hp": 22,
+      "pr": 0,
+      "attack": 26,
+      "defense": 2,
+      "speed": 5,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 8,
+    "coins": 6,
+    "drops": [
+      {
+        "item": "herbe-soin",
+        "chance": 0.12
+      }
+    ],
+    "skills": [
+      {
+        "name": "Coup de gantelet",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 4,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "coup"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sbire-ordre",
+    "act": 1
+  },
+  {
+    "id": "sbire-arbaletrier",
+    "name": "Arbalétrier de l’Ordre",
+    "description": "Il vise de loin, toujours derrière un autre masque.",
+    "element": "neutre",
+    "level": 5,
+    "stats": {
+      "hp": 28,
+      "pr": 0,
+      "attack": 32,
+      "defense": 3,
+      "speed": 7,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 14,
+    "coins": 10,
+    "drops": [
+      {
+        "item": "herbe-soin",
+        "chance": 0.1
+      }
+    ],
+    "skills": [
+      {
+        "name": "Carreau",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 8,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "carreau"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sbire-arbaletrier",
+    "act": 1
+  },
+  {
+    "id": "loup-collines",
+    "name": "Loup des collines",
+    "description": "Un loup trop maigre, trop silencieux. La brume l’a changé.",
+    "element": "vent",
+    "level": 2,
+    "stats": {
+      "hp": 18,
+      "pr": 0,
+      "attack": 24,
+      "defense": 0,
+      "speed": 9,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 6,
+    "coins": 4,
+    "drops": [
+      {
+        "item": "herbe-soin",
+        "chance": 0.08
+      }
+    ],
+    "skills": [
+      {
+        "name": "Morsure",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 3,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "morsure"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "loup-collines",
+    "act": 1
+  },
+  {
+    "id": "corbeau-rouge",
+    "name": "Corbeau rouge",
+    "description": "Ses plumes ont la couleur de la rouille. Il pique les yeux.",
+    "element": "vent",
+    "level": 3,
+    "stats": {
+      "hp": 16,
+      "pr": 0,
+      "attack": 25,
+      "defense": 0,
+      "speed": 11,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 7,
+    "coins": 5,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Pic",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 4,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "pic"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "corbeau-rouge",
+    "act": 1
+  },
+  {
+    "id": "sanglier-brume",
+    "name": "Sanglier de brume",
+    "description": "Il charge sans voir. La brume lui sert de bouclier.",
+    "element": "terre",
+    "level": 4,
+    "stats": {
+      "hp": 36,
+      "pr": 0,
+      "attack": 30,
+      "defense": 5,
+      "speed": 5,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 12,
+    "coins": 8,
+    "drops": [
+      {
+        "item": "herbe-soin",
+        "chance": 0.18
+      }
+    ],
+    "skills": [
+      {
+        "name": "Charge",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 6,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "charge"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "sanglier-brume",
+    "act": 1
+  },
+  {
+    "id": "champignon-fou",
+    "name": "Champignon fou",
+    "description": "Il crache des spores depuis que le bois a perdu son calme.",
+    "element": "terre",
+    "level": 3,
+    "stats": {
+      "hp": 20,
+      "pr": 0,
+      "attack": 22,
+      "defense": 3,
+      "speed": 4,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 8,
+    "coins": 5,
+    "drops": [
+      {
+        "item": "antidote",
+        "chance": 0.2
+      }
+    ],
+    "skills": [
+      {
+        "name": "Spores",
+        "kind": "status",
+        "element": "terre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "spores",
+        "status": "poison",
+        "statusChance": 0.45
+      },
+      {
+        "name": "Coup de pied",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 2,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "coup"
+      }
+    ],
+    "ai": "random",
+    "boss": false,
+    "size": "small",
+    "sprite": "champignon-fou",
+    "act": 1
+  },
+  {
+    "id": "araignee-mousse",
+    "name": "Araignée de mousse",
+    "description": "Elle tisse entre les racines. Un fil suffit à faire tomber.",
+    "element": "terre",
+    "level": 4,
+    "stats": {
+      "hp": 24,
+      "pr": 0,
+      "attack": 28,
+      "defense": 2,
+      "speed": 10,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 10,
+    "coins": 7,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Morsure",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 5,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "morsure"
+      },
+      {
+        "name": "Toile",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "toile",
+        "status": "etourdi",
+        "statusChance": 0.25
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "araignee-mousse",
+    "act": 1
+  },
+  {
+    "id": "racine-animee",
+    "name": "Racine animée",
+    "description": "Une racine trop vive, trop en colère. Elle fouette le sol.",
+    "element": "terre",
+    "level": 5,
+    "stats": {
+      "hp": 32,
+      "pr": 0,
+      "attack": 30,
+      "defense": 6,
+      "speed": 4,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 13,
+    "coins": 8,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Fouet",
+        "kind": "attack",
+        "element": "terre",
+        "power": 6,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "fouet"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "racine-animee",
+    "act": 1
+  },
+  {
+    "id": "chauve-souris-ocre",
+    "name": "Chauve-souris d’ocre",
+    "description": "Elle niche dans la mine. Ses ailes soulèvent la poussière.",
+    "element": "vent",
+    "level": 6,
+    "stats": {
+      "hp": 20,
+      "pr": 0,
+      "attack": 34,
+      "defense": 1,
+      "speed": 12,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 12,
+    "coins": 7,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Vrille",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 5,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "vrille"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "chauve-souris-ocre",
+    "act": 1
+  },
+  {
+    "id": "rat-mineur",
+    "name": "Rat des galeries",
+    "description": "Il a appris à voler le pain des mineurs, et le reste.",
+    "element": "neutre",
+    "level": 6,
+    "stats": {
+      "hp": 18,
+      "pr": 0,
+      "attack": 28,
+      "defense": 1,
+      "speed": 11,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 10,
+    "coins": 6,
+    "drops": [
+      {
+        "item": "herbe-soin",
+        "chance": 0.1
+      }
+    ],
+    "skills": [
+      {
+        "name": "Morsure",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 4,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "morsure"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "rat-mineur",
+    "act": 1
+  },
+  {
+    "id": "scarabee-ocre",
+    "name": "Scarabée d’ocre",
+    "description": "Sa carapace sonne comme du métal quand on la frappe.",
+    "element": "terre",
+    "level": 7,
+    "stats": {
+      "hp": 40,
+      "pr": 0,
+      "attack": 36,
+      "defense": 8,
+      "speed": 5,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 16,
+    "coins": 11,
+    "drops": [
+      {
+        "item": "minerai-ocre",
+        "chance": 0.15
+      }
+    ],
+    "skills": [
+      {
+        "name": "Charge",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 6,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "charge"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "scarabee-ocre",
+    "act": 1
+  },
+  {
+    "id": "golem-ocre",
+    "name": "Golem d’ocre",
+    "description": "Un tas de minerai qui a décidé de se lever.",
+    "element": "terre",
+    "level": 8,
+    "stats": {
+      "hp": 56,
+      "pr": 0,
+      "attack": 42,
+      "defense": 8,
+      "speed": 3,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 22,
+    "coins": 16,
+    "drops": [
+      {
+        "item": "minerai-ocre",
+        "chance": 0.3
+      }
+    ],
+    "skills": [
+      {
+        "name": "Poing de pierre",
+        "kind": "attack",
+        "element": "terre",
+        "power": 10,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "poing"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "golem-ocre",
+    "act": 1
+  },
+  {
+    "id": "gardien-pierre",
+    "name": "Gardien de pierre",
+    "description": "Statue des Accordeurs, trop ancienne pour savoir pourquoi elle frappe.",
+    "element": "terre",
+    "level": 9,
+    "stats": {
+      "hp": 52,
+      "pr": 0,
+      "attack": 44,
+      "defense": 7,
+      "speed": 4,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 24,
+    "coins": 18,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Marteau de pierre",
+        "kind": "attack",
+        "element": "terre",
+        "power": 10,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "marteau"
+      },
+      {
+        "name": "Peau de roche",
+        "kind": "buff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "self",
+        "weight": 1,
+        "animation": "buff",
+        "stat": "defense",
+        "amount": 20,
+        "turns": 2
+      }
+    ],
+    "ai": "defensive",
+    "boss": false,
+    "size": "large",
+    "sprite": "gardien-pierre",
+    "act": 1
+  },
+  {
+    "id": "ombre-tellume",
+    "name": "Ombre de Tellume",
+    "description": "Une ombre trop nette. Elle n’a plus de corps, seulement une faim.",
+    "element": "terre",
+    "level": 9,
+    "stats": {
+      "hp": 38,
+      "pr": 0,
+      "attack": 40,
+      "defense": 4,
+      "speed": 8,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 20,
+    "coins": 14,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Toucher froid",
+        "kind": "spell",
+        "element": "terre",
+        "power": 22,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "ombre"
+      },
+      {
+        "name": "Silence",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "silence",
+        "status": "silence",
+        "statusChance": 0.25
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "ombre-tellume",
+    "act": 1
+  },
+  {
+    "id": "nyra-duel",
+    "name": "Nyra",
+    "description": "Un duel amical. Elle vise juste, et elle aime ça.",
+    "element": "feu",
+    "level": 6,
+    "stats": {
+      "hp": 70,
+      "pr": 12,
+      "attack": 38,
+      "defense": 4,
+      "speed": 10,
+      "luck": 6
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 0,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Flèche vive",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 8,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "fleche"
+      },
+      {
+        "name": "Étincelle",
+        "kind": "spell",
+        "element": "feu",
+        "power": 24,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "etincelle"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "nyra-duel",
+    "act": 1
+  },
+  {
+    "id": "cerf-de-mousse",
+    "name": "Cerf de Mousse",
+    "description": "Gardien du bois, rendu fou par le passage de l’Ordre.",
+    "element": "terre",
+    "level": 6,
+    "stats": {
+      "hp": 200,
+      "pr": 0,
+      "attack": 48,
+      "defense": 6,
+      "speed": 9,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 180,
+    "coins": 70,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Charge du bois",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "charge"
+      },
+      {
+        "name": "Piétinement",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 8,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "pietinement"
+      },
+      {
+        "name": "Hurlement vert",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "hurlement",
+        "stat": "defense",
+        "amount": 20,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "cerf-de-mousse",
+    "noFlee": true,
+    "act": 1
+  },
+  {
+    "id": "corvo",
+    "name": "Corvo",
+    "description": "Le jumeau qui rit trop fort. Il aime les poutres trop lourdes.",
+    "element": "feu",
+    "level": 8,
+    "stats": {
+      "hp": 260,
+      "pr": 0,
+      "attack": 50,
+      "defense": 6,
+      "speed": 7,
+      "luck": 4
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 220,
+    "coins": 90,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Masse de cuivre",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "masse"
+      },
+      {
+        "name": "Éclat de rire",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 8,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "rire"
+      },
+      {
+        "name": "Étourdir",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "choc",
+        "status": "etourdi",
+        "statusChance": 0.3
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "large",
+    "sprite": "corvo",
+    "noFlee": true,
+    "act": 1
+  },
+  {
+    "id": "ilse",
+    "name": "Ilse",
+    "description": "Le jumeau qui ne rit pas. Chaque geste est une mesure.",
+    "element": "eau",
+    "level": 8,
+    "stats": {
+      "hp": 240,
+      "pr": 16,
+      "attack": 46,
+      "defense": 7,
+      "speed": 9,
+      "luck": 5
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 220,
+    "coins": 90,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lame nette",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame"
+      },
+      {
+        "name": "Givre",
+        "kind": "spell",
+        "element": "eau",
+        "power": 28,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "givre"
+      },
+      {
+        "name": "Gel",
+        "kind": "status",
+        "element": "eau",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "gel",
+        "status": "sommeil",
+        "statusChance": 0.2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "medium",
+    "sprite": "ilse",
+    "noFlee": true,
+    "act": 1
+  },
+  {
+    "id": "crabe-geant",
+    "name": "Crabe géant",
+    "description": "Sa pince ferme comme une porte de cale.",
+    "element": "eau",
+    "level": 12,
+    "stats": {
+      "hp": 90,
+      "pr": 0,
+      "attack": 96,
+      "defense": 16,
+      "speed": 10,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 42,
+    "coins": 24,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Pince",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "pince"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "crabe-geant",
+    "act": 2
+  },
+  {
+    "id": "mouette-voleuse",
+    "name": "Mouette voleuse",
+    "description": "Elle vole le pain, puis les chapeaux, puis le reste.",
+    "element": "vent",
+    "level": 11,
+    "stats": {
+      "hp": 70,
+      "pr": 0,
+      "attack": 90,
+      "defense": 8,
+      "speed": 20,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 40,
+    "coins": 20,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Bec",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 8,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "bec"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "mouette-voleuse",
+    "act": 2
+  },
+  {
+    "id": "garde-royal",
+    "name": "Garde royal",
+    "description": "Cuirasse propre, regard lassé. Il fait son métier.",
+    "element": "neutre",
+    "level": 13,
+    "stats": {
+      "hp": 100,
+      "pr": 0,
+      "attack": 100,
+      "defense": 14,
+      "speed": 12,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 48,
+    "coins": 28,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Estoc",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "estoc"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "garde-royal",
+    "act": 2
+  },
+  {
+    "id": "meduse-bleue",
+    "name": "Méduse bleue",
+    "description": "Elle flotte, elle brûle, elle n’a pas d’yeux.",
+    "element": "eau",
+    "level": 13,
+    "stats": {
+      "hp": 80,
+      "pr": 0,
+      "attack": 94,
+      "defense": 10,
+      "speed": 14,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 46,
+    "coins": 22,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Filaments",
+        "kind": "spell",
+        "element": "eau",
+        "power": 48,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "filaments"
+      },
+      {
+        "name": "Paralysie",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "choc",
+        "status": "etourdi",
+        "statusChance": 0.2
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "meduse-bleue",
+    "act": 2
+  },
+  {
+    "id": "poisson-epee",
+    "name": "Poisson-épée",
+    "description": "Un éclair d’argent. On le voit trop tard.",
+    "element": "eau",
+    "level": 14,
+    "stats": {
+      "hp": 88,
+      "pr": 0,
+      "attack": 110,
+      "defense": 11,
+      "speed": 20,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 52,
+    "coins": 26,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Estoc marin",
+        "kind": "attack",
+        "element": "eau",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "estoc"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "poisson-epee",
+    "act": 2
+  },
+  {
+    "id": "corail-anime",
+    "name": "Corail animé",
+    "description": "Le temple se défend encore, branche après branche.",
+    "element": "eau",
+    "level": 15,
+    "stats": {
+      "hp": 120,
+      "pr": 0,
+      "attack": 105,
+      "defense": 18,
+      "speed": 8,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 58,
+    "coins": 32,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Épine",
+        "kind": "attack",
+        "element": "eau",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "epine"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "corail-anime",
+    "act": 2
+  },
+  {
+    "id": "sbire-eau",
+    "name": "Sbire des marées",
+    "description": "Même masque, manteau mouillé. L’Ordre a appris à nager.",
+    "element": "eau",
+    "level": 14,
+    "stats": {
+      "hp": 96,
+      "pr": 0,
+      "attack": 102,
+      "defense": 12,
+      "speed": 13,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 50,
+    "coins": 30,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Trident",
+        "kind": "attack",
+        "element": "eau",
+        "power": 12,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "trident"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sbire-eau",
+    "act": 2
+  },
+  {
+    "id": "tete-de-givre",
+    "name": "Tête de givre",
+    "description": "Un morceau de canal gelé, devenu visage.",
+    "element": "eau",
+    "level": 15,
+    "stats": {
+      "hp": 84,
+      "pr": 0,
+      "attack": 98,
+      "defense": 14,
+      "speed": 11,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 54,
+    "coins": 28,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Souffle froid",
+        "kind": "spell",
+        "element": "eau",
+        "power": 50,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "givre"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "tete-de-givre",
+    "act": 2
+  },
+  {
+    "id": "anguille-electrique",
+    "name": "Anguille électrique",
+    "description": "Elle n’a pas besoin de dents. L’eau suffit.",
+    "element": "eau",
+    "level": 16,
+    "stats": {
+      "hp": 92,
+      "pr": 0,
+      "attack": 112,
+      "defense": 12,
+      "speed": 18,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 62,
+    "coins": 34,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Décharge",
+        "kind": "spell",
+        "element": "eau",
+        "power": 55,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "eclair",
+        "status": "etourdi",
+        "statusChance": 0.2
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "anguille-electrique",
+    "act": 2
+  },
+  {
+    "id": "sirene-echo",
+    "name": "Sirène d’Écho",
+    "description": "Elle chante une note trop juste. On oublie de nager.",
+    "element": "eau",
+    "level": 17,
+    "stats": {
+      "hp": 110,
+      "pr": 20,
+      "attack": 100,
+      "defense": 13,
+      "speed": 16,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 70,
+    "coins": 40,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Chant",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "chant",
+        "status": "sommeil",
+        "statusChance": 0.35
+      },
+      {
+        "name": "Griffes",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 10,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "griffe"
+      }
+    ],
+    "ai": "support",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sirene-echo",
+    "act": 2
+  },
+  {
+    "id": "hydre-givre",
+    "name": "Hydre de Givre",
+    "description": "Trois têtes, une seule colère. L’Ordre l’a tirée des canaux.",
+    "element": "eau",
+    "level": 16,
+    "stats": {
+      "hp": 900,
+      "pr": 0,
+      "attack": 128,
+      "defense": 18,
+      "speed": 14,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 700,
+    "coins": 220,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Morsure triple",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 16,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "morsure"
+      },
+      {
+        "name": "Souffle de glace",
+        "kind": "spell",
+        "element": "eau",
+        "power": 62,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "givre"
+      },
+      {
+        "name": "Gel profond",
+        "kind": "status",
+        "element": "eau",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "gel",
+        "status": "sommeil",
+        "statusChance": 0.25
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "hydre-givre",
+    "noFlee": true,
+    "act": 2
+  },
+  {
+    "id": "leviathan-corail",
+    "name": "Léviathan de corail",
+    "description": "Le temple a un gardien. Il a trop de dents, trop de branches.",
+    "element": "eau",
+    "level": 18,
+    "stats": {
+      "hp": 1100,
+      "pr": 0,
+      "attack": 130,
+      "defense": 20,
+      "speed": 12,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 850,
+    "coins": 280,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Queue de récif",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 18,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "queue"
+      },
+      {
+        "name": "Raz",
+        "kind": "spell",
+        "element": "eau",
+        "power": 70,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "vague"
+      },
+      {
+        "name": "Étreinte",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "etreinte",
+        "stat": "speed",
+        "amount": 25,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "leviathan-corail",
+    "noFlee": true,
+    "act": 2
+  },
+  {
+    "id": "rat-egout",
+    "name": "Rat d’égout",
+    "description": "Il connaît Valcourt mieux que la Garde.",
+    "element": "neutre",
+    "level": 21,
+    "stats": {
+      "hp": 170,
+      "pr": 0,
+      "attack": 150,
+      "defense": 18,
+      "speed": 26,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 100,
+    "coins": 50,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Morsure",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 10,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "morsure",
+        "status": "poison",
+        "statusChance": 0.2
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "rat-egout",
+    "act": 3
+  },
+  {
+    "id": "limon-vert",
+    "name": "Limon vert",
+    "description": "Une flaque qui refuse de rester au sol.",
+    "element": "eau",
+    "level": 22,
+    "stats": {
+      "hp": 200,
+      "pr": 0,
+      "attack": 148,
+      "defense": 22,
+      "speed": 14,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 110,
+    "coins": 55,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclaboussure",
+        "kind": "spell",
+        "element": "eau",
+        "power": 80,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "limon"
+      },
+      {
+        "name": "Poison",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemy",
+        "weight": 1,
+        "animation": "spores",
+        "status": "poison",
+        "statusChance": 0.4
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "limon-vert",
+    "act": 3
+  },
+  {
+    "id": "garde-elite",
+    "name": "Garde d’élite",
+    "description": "Il a prêté serment. Il n’écoute plus les excuses.",
+    "element": "neutre",
+    "level": 24,
+    "stats": {
+      "hp": 240,
+      "pr": 0,
+      "attack": 170,
+      "defense": 30,
+      "speed": 22,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 130,
+    "coins": 80,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Fente",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "fente"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "garde-elite",
+    "act": 3
+  },
+  {
+    "id": "corbeau-geant",
+    "name": "Corbeau géant",
+    "description": "Trop grand pour un oiseau, trop vif pour une bête.",
+    "element": "vent",
+    "level": 23,
+    "stats": {
+      "hp": 190,
+      "pr": 0,
+      "attack": 160,
+      "defense": 20,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 120,
+    "coins": 64,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Serres",
+        "kind": "attack",
+        "element": "vent",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "serres"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "corbeau-geant",
+    "act": 3
+  },
+  {
+    "id": "harpie",
+    "name": "Harpie",
+    "description": "Elle crie plus haut que le vent, et plus juste.",
+    "element": "vent",
+    "level": 25,
+    "stats": {
+      "hp": 210,
+      "pr": 0,
+      "attack": 175,
+      "defense": 22,
+      "speed": 32,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 140,
+    "coins": 72,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Griffes",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "griffe"
+      },
+      {
+        "name": "Cri",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "cri",
+        "stat": "attack",
+        "amount": 20,
+        "turns": 2
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "harpie",
+    "act": 3
+  },
+  {
+    "id": "chevre-folle",
+    "name": "Chèvre folle",
+    "description": "Les falaises l’ont rendue plus dure que la pierre.",
+    "element": "terre",
+    "level": 23,
+    "stats": {
+      "hp": 220,
+      "pr": 0,
+      "attack": 162,
+      "defense": 26,
+      "speed": 20,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 118,
+    "coins": 60,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Coup de tête",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "charge"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "chevre-folle",
+    "act": 3
+  },
+  {
+    "id": "elementaire-vent",
+    "name": "Élémentaire de vent",
+    "description": "Une forme trop claire dans l’air trop vide.",
+    "element": "vent",
+    "level": 26,
+    "stats": {
+      "hp": 200,
+      "pr": 0,
+      "attack": 180,
+      "defense": 20,
+      "speed": 32,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 150,
+    "coins": 80,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lame d’air",
+        "kind": "spell",
+        "element": "vent",
+        "power": 90,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame-vent"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "elementaire-vent",
+    "act": 3
+  },
+  {
+    "id": "gargouille",
+    "name": "Gargouille",
+    "description": "Elle gardait la tour. Elle n’a pas appris à s’arrêter.",
+    "element": "terre",
+    "level": 27,
+    "stats": {
+      "hp": 280,
+      "pr": 0,
+      "attack": 185,
+      "defense": 36,
+      "speed": 16,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 160,
+    "coins": 90,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Pierre vive",
+        "kind": "attack",
+        "element": "terre",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "pierre"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "gargouille",
+    "act": 3
+  },
+  {
+    "id": "planeur-ordre",
+    "name": "Planeur de l’Ordre",
+    "description": "Un masque dans le ciel. Il fond sans un cri.",
+    "element": "vent",
+    "level": 25,
+    "stats": {
+      "hp": 180,
+      "pr": 0,
+      "attack": 172,
+      "defense": 18,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 135,
+    "coins": 70,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Piqué",
+        "kind": "attack",
+        "element": "vent",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "pique"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "planeur-ordre",
+    "act": 3
+  },
+  {
+    "id": "sbire-vent",
+    "name": "Sbire du vent",
+    "description": "Cape courte, masque léger. Il a appris à ne plus toucher le sol.",
+    "element": "vent",
+    "level": 26,
+    "stats": {
+      "hp": 200,
+      "pr": 0,
+      "attack": 176,
+      "defense": 20,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 145,
+    "coins": 76,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lame courte",
+        "kind": "attack",
+        "element": "vent",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sbire-vent",
+    "act": 3
+  },
+  {
+    "id": "crocodile-mecanique",
+    "name": "Crocodile mécanique",
+    "description": "Les égouts ont un gardien en cuivre et en dents.",
+    "element": "eau",
+    "level": 24,
+    "stats": {
+      "hp": 1600,
+      "pr": 0,
+      "attack": 190,
+      "defense": 32,
+      "speed": 18,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 1400,
+    "coins": 400,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Mâchoire",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 20,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "machoire"
+      },
+      {
+        "name": "Queue de fer",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 14,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "queue"
+      },
+      {
+        "name": "Engrenage",
+        "kind": "buff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "self",
+        "weight": 1,
+        "animation": "buff",
+        "stat": "attack",
+        "amount": 20,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "crocodile-mecanique",
+    "noFlee": true,
+    "act": 3
+  },
+  {
+    "id": "roc-tempete",
+    "name": "Roc Tempête",
+    "description": "L’oiseau de la tour. Ses ailes font plier les poutres.",
+    "element": "vent",
+    "level": 28,
+    "stats": {
+      "hp": 1900,
+      "pr": 0,
+      "attack": 200,
+      "defense": 28,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 1700,
+    "coins": 480,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Rafale",
+        "kind": "spell",
+        "element": "vent",
+        "power": 110,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "rafale"
+      },
+      {
+        "name": "Serres",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 18,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "serres"
+      },
+      {
+        "name": "Tourbillon",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "tourbillon",
+        "stat": "speed",
+        "amount": 25,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "roc-tempete",
+    "noFlee": true,
+    "act": 3
+  },
+  {
+    "id": "scorpion-cendre",
+    "name": "Scorpion de cendre",
+    "description": "Il attend sous le sable. La queue arrive avant l’ombre.",
+    "element": "feu",
+    "level": 32,
+    "stats": {
+      "hp": 340,
+      "pr": 0,
+      "attack": 224,
+      "defense": 40,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 200,
+    "coins": 110,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Dard",
+        "kind": "attack",
+        "element": "feu",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "dard",
+        "status": "poison",
+        "statusChance": 0.3
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "scorpion-cendre",
+    "act": 4
+  },
+  {
+    "id": "scarabee-cendre",
+    "name": "Scarabée de cendre",
+    "description": "Il roule des braises comme d’autres roulent des boules.",
+    "element": "feu",
+    "level": 33,
+    "stats": {
+      "hp": 360,
+      "pr": 0,
+      "attack": 220,
+      "defense": 48,
+      "speed": 22,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 210,
+    "coins": 120,
+    "drops": [
+      {
+        "item": "cendre-sacree",
+        "chance": 0.1
+      }
+    ],
+    "skills": [
+      {
+        "name": "Boule de braise",
+        "kind": "spell",
+        "element": "feu",
+        "power": 130,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "braise"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "scarabee-cendre",
+    "act": 4
+  },
+  {
+    "id": "bandit-dunes",
+    "name": "Bandit des dunes",
+    "description": "Il vole l’eau d’abord. Le reste, s’il en reste.",
+    "element": "neutre",
+    "level": 33,
+    "stats": {
+      "hp": 350,
+      "pr": 0,
+      "attack": 230,
+      "defense": 36,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 215,
+    "coins": 140,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Cimeterre",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "bandit-dunes",
+    "act": 4
+  },
+  {
+    "id": "chacal-sable",
+    "name": "Chacal de sable",
+    "description": "Il rit trop aigu. Le désert lui a appris la faim.",
+    "element": "feu",
+    "level": 32,
+    "stats": {
+      "hp": 320,
+      "pr": 0,
+      "attack": 228,
+      "defense": 34,
+      "speed": 36,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 200,
+    "coins": 115,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Morsure",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 14,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "morsure"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "chacal-sable",
+    "act": 4
+  },
+  {
+    "id": "salamandre",
+    "name": "Salamandre",
+    "description": "Elle nage dans la lave comme d’autres dans un ruisseau.",
+    "element": "feu",
+    "level": 36,
+    "stats": {
+      "hp": 420,
+      "pr": 0,
+      "attack": 250,
+      "defense": 42,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 250,
+    "coins": 150,
+    "drops": [
+      {
+        "item": "ecaille-salamandre",
+        "chance": 0.12
+      }
+    ],
+    "skills": [
+      {
+        "name": "Souffle",
+        "kind": "spell",
+        "element": "feu",
+        "power": 150,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "souffle"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "salamandre",
+    "act": 4
+  },
+  {
+    "id": "elementaire-feu",
+    "name": "Élémentaire de feu",
+    "description": "Une flamme qui a pris forme, et qui n’en veut plus d’autre.",
+    "element": "feu",
+    "level": 37,
+    "stats": {
+      "hp": 400,
+      "pr": 0,
+      "attack": 260,
+      "defense": 38,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 260,
+    "coins": 160,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Brasier",
+        "kind": "spell",
+        "element": "feu",
+        "power": 160,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "brasier"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "elementaire-feu",
+    "act": 4
+  },
+  {
+    "id": "dragonnet-braise",
+    "name": "Dragonnet de braise",
+    "description": "Trop petit pour un dragon, trop fier pour fuir.",
+    "element": "feu",
+    "level": 38,
+    "stats": {
+      "hp": 480,
+      "pr": 0,
+      "attack": 270,
+      "defense": 44,
+      "speed": 32,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 280,
+    "coins": 180,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Griffes",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 16,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "griffe"
+      },
+      {
+        "name": "Crachat",
+        "kind": "spell",
+        "element": "feu",
+        "power": 155,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "crachat"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "dragonnet-braise",
+    "act": 4
+  },
+  {
+    "id": "echo-terre",
+    "name": "Écho de terre",
+    "description": "Une note trop lourde, devenue pierre.",
+    "element": "terre",
+    "level": 40,
+    "stats": {
+      "hp": 520,
+      "pr": 0,
+      "attack": 260,
+      "defense": 55,
+      "speed": 24,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 300,
+    "coins": 190,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Secousse",
+        "kind": "spell",
+        "element": "terre",
+        "power": 160,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "seisme"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "echo-terre",
+    "act": 4
+  },
+  {
+    "id": "echo-feu",
+    "name": "Écho de feu",
+    "description": "Une note trop vive, devenue flamme.",
+    "element": "feu",
+    "level": 40,
+    "stats": {
+      "hp": 480,
+      "pr": 0,
+      "attack": 280,
+      "defense": 42,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 300,
+    "coins": 190,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclat",
+        "kind": "spell",
+        "element": "feu",
+        "power": 165,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "eclat"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "echo-feu",
+    "act": 4
+  },
+  {
+    "id": "echo-eau",
+    "name": "Écho d’eau",
+    "description": "Une note trop calme, devenue vague.",
+    "element": "eau",
+    "level": 40,
+    "stats": {
+      "hp": 500,
+      "pr": 0,
+      "attack": 250,
+      "defense": 48,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 300,
+    "coins": 190,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Ressac",
+        "kind": "spell",
+        "element": "eau",
+        "power": 160,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "vague"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "echo-eau",
+    "act": 4
+  },
+  {
+    "id": "echo-vent",
+    "name": "Écho de vent",
+    "description": "Une note trop rapide, devenue coupe.",
+    "element": "vent",
+    "level": 40,
+    "stats": {
+      "hp": 460,
+      "pr": 0,
+      "attack": 270,
+      "defense": 40,
+      "speed": 40,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 300,
+    "coins": 190,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Tranchant",
+        "kind": "spell",
+        "element": "vent",
+        "power": 165,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame-vent"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "echo-vent",
+    "act": 4
+  },
+  {
+    "id": "statue-animee",
+    "name": "Statue animée",
+    "description": "Un Accordeur de pierre qui a oublié son nom.",
+    "element": "terre",
+    "level": 41,
+    "stats": {
+      "hp": 560,
+      "pr": 0,
+      "attack": 265,
+      "defense": 58,
+      "speed": 22,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 320,
+    "coins": 200,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Poing ancien",
+        "kind": "attack",
+        "element": "terre",
+        "power": 20,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "poing"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "statue-animee",
+    "act": 4
+  },
+  {
+    "id": "sbire-elite",
+    "name": "Sbire d’élite",
+    "description": "Le meilleur masque de l’Ordre. Il ne tremble plus.",
+    "element": "neutre",
+    "level": 42,
+    "stats": {
+      "hp": 540,
+      "pr": 0,
+      "attack": 280,
+      "defense": 50,
+      "speed": 34,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 330,
+    "coins": 210,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lame d’élite",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 20,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "sbire-elite",
+    "act": 4
+  },
+  {
+    "id": "ver-des-sables",
+    "name": "Ver des sables",
+    "description": "Le désert a une gueule. Elle s’ouvre sous les pieds.",
+    "element": "feu",
+    "level": 34,
+    "stats": {
+      "hp": 2600,
+      "pr": 0,
+      "attack": 260,
+      "defense": 42,
+      "speed": 24,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 2400,
+    "coins": 700,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Engloutir",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 24,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "gueule"
+      },
+      {
+        "name": "Jet de sable",
+        "kind": "spell",
+        "element": "feu",
+        "power": 140,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "sable"
+      },
+      {
+        "name": "Secousse",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "seisme",
+        "stat": "speed",
+        "amount": 20,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "ver-des-sables",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "gardienne-sanctuaire",
+    "name": "Gardienne du sanctuaire",
+    "description": "Statue d’Accordeur. Elle teste ceux qui veulent résonner à deux.",
+    "element": "terre",
+    "level": 38,
+    "stats": {
+      "hp": 2800,
+      "pr": 0,
+      "attack": 270,
+      "defense": 50,
+      "speed": 26,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 2800,
+    "coins": 800,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Jugement",
+        "kind": "spell",
+        "element": "terre",
+        "power": 170,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "jugement"
+      },
+      {
+        "name": "Chœur",
+        "kind": "spell",
+        "element": "feu",
+        "power": 150,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "choeur"
+      },
+      {
+        "name": "Silence sacré",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "silence",
+        "status": "silence",
+        "statusChance": 0.3
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "gardienne-sanctuaire",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "dragon-braise",
+    "name": "Dragon de Braise",
+    "description": "Gardien sauvage du Temple de Braise. La lave lui obéit encore.",
+    "element": "feu",
+    "level": 42,
+    "stats": {
+      "hp": 3200,
+      "pr": 0,
+      "attack": 300,
+      "defense": 52,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 3200,
+    "coins": 900,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Souffle de lave",
+        "kind": "spell",
+        "element": "feu",
+        "power": 190,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "souffle"
+      },
+      {
+        "name": "Griffes",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 22,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "griffe"
+      },
+      {
+        "name": "Ailes de cendre",
+        "kind": "debuff",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "cendres",
+        "stat": "defense",
+        "amount": 25,
+        "turns": 2
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "dragon-braise",
+    "lueurReward": "magma",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "ilse-finale",
+    "name": "Ilse",
+    "description": "Plus de mesure, plus de doute. Elle se bat pour ce qu’il reste.",
+    "element": "eau",
+    "level": 43,
+    "stats": {
+      "hp": 2100,
+      "pr": 30,
+      "attack": 290,
+      "defense": 48,
+      "speed": 34,
+      "luck": 8
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 2000,
+    "coins": 500,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lame ultime",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 22,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "lame"
+      },
+      {
+        "name": "Tempête de givre",
+        "kind": "spell",
+        "element": "eau",
+        "power": 185,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "givre"
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "medium",
+    "sprite": "ilse-finale",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "corvo-final",
+    "name": "Corvo",
+    "description": "Il rit encore. Moins fort. Il frappe plus juste.",
+    "element": "feu",
+    "level": 43,
+    "stats": {
+      "hp": 2200,
+      "pr": 0,
+      "attack": 295,
+      "defense": 46,
+      "speed": 30,
+      "luck": 6
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 2000,
+    "coins": 500,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Masse brisée",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 24,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "masse"
+      },
+      {
+        "name": "Choc",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 16,
+        "targets": "enemies",
+        "weight": 2,
+        "animation": "choc"
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "large",
+    "sprite": "corvo-final",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "varn-1",
+    "name": "Varn",
+    "description": "Le Maître de l’Ordre, encore masqué. Il change d’élément comme on change de note.",
+    "element": "terre",
+    "level": 44,
+    "stats": {
+      "hp": 2500,
+      "pr": 40,
+      "attack": 290,
+      "defense": 50,
+      "speed": 32,
+      "luck": 8
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 2500,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Note de terre",
+        "kind": "spell",
+        "element": "terre",
+        "power": 180,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "terre",
+        "phases": [
+          0
+        ]
+      },
+      {
+        "name": "Note de feu",
+        "kind": "spell",
+        "element": "feu",
+        "power": 180,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "feu",
+        "phases": [
+          1
+        ]
+      },
+      {
+        "name": "Note d’eau",
+        "kind": "spell",
+        "element": "eau",
+        "power": 180,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "eau",
+        "phases": [
+          2
+        ]
+      },
+      {
+        "name": "Note de vent",
+        "kind": "spell",
+        "element": "vent",
+        "power": 180,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "vent",
+        "phases": [
+          2
+        ]
+      },
+      {
+        "name": "Frappe",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 18,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "coup"
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "varn-1",
+    "phases": [
+      {
+        "hpBelow": 0.66,
+        "element": "feu",
+        "line": "Ils nous ont appris à nous taire."
+      },
+      {
+        "hpBelow": 0.33,
+        "element": "eau",
+        "line": "J’ai appris à crier."
+      }
+    ],
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "varn-2",
+    "name": "Varn",
+    "description": "Protégé par quatre Lueurs volées. Tant qu’elles vivent, il ne tombe pas.",
+    "element": "neutre",
+    "level": 45,
+    "stats": {
+      "hp": 3200,
+      "pr": 40,
+      "attack": 295,
+      "defense": 52,
+      "speed": 34,
+      "luck": 8
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 2000,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Écho volé",
+        "kind": "spell",
+        "element": "feu",
+        "power": 190,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "echo"
+      },
+      {
+        "name": "Frappe",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 20,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "coup"
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "varn-2",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "lueur-volee-terre",
+    "name": "Lueur volée (terre)",
+    "description": "Une Lueur arrachée. Elle tourne autour de Varn malgré elle.",
+    "element": "terre",
+    "level": 40,
+    "stats": {
+      "hp": 400,
+      "pr": 0,
+      "attack": 200,
+      "defense": 40,
+      "speed": 30,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 80,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclat de terre",
+        "kind": "spell",
+        "element": "terre",
+        "power": 140,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "terre"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "lueur-volee-terre",
+    "act": 4
+  },
+  {
+    "id": "lueur-volee-feu",
+    "name": "Lueur volée (feu)",
+    "description": "Une Lueur arrachée. Elle brûle trop vite.",
+    "element": "feu",
+    "level": 40,
+    "stats": {
+      "hp": 380,
+      "pr": 0,
+      "attack": 220,
+      "defense": 32,
+      "speed": 32,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 10,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 60,
+      "eau": -60,
+      "vent": 0
+    },
+    "xp": 80,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclat de feu",
+        "kind": "spell",
+        "element": "feu",
+        "power": 145,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "feu"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "lueur-volee-feu",
+    "act": 4
+  },
+  {
+    "id": "lueur-volee-eau",
+    "name": "Lueur volée (eau)",
+    "description": "Une Lueur arrachée. Elle tremble comme une goutte.",
+    "element": "eau",
+    "level": 40,
+    "stats": {
+      "hp": 420,
+      "pr": 0,
+      "attack": 190,
+      "defense": 38,
+      "speed": 28,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 10,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": -60,
+      "eau": 60,
+      "vent": 0
+    },
+    "xp": 80,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclat d’eau",
+        "kind": "spell",
+        "element": "eau",
+        "power": 140,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "eau"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "lueur-volee-eau",
+    "act": 4
+  },
+  {
+    "id": "lueur-volee-vent",
+    "name": "Lueur volée (vent)",
+    "description": "Une Lueur arrachée. Elle fuit sans pouvoir partir.",
+    "element": "vent",
+    "level": 40,
+    "stats": {
+      "hp": 360,
+      "pr": 0,
+      "attack": 210,
+      "defense": 30,
+      "speed": 40,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 10
+    },
+    "resistance": {
+      "terre": -60,
+      "feu": 0,
+      "eau": 0,
+      "vent": 60
+    },
+    "xp": 80,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Éclat de vent",
+        "kind": "spell",
+        "element": "vent",
+        "power": 145,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "vent"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "small",
+    "sprite": "lueur-volee-vent",
+    "act": 4
+  },
+  {
+    "id": "varn-3",
+    "name": "Varn",
+    "description": "L’écho du Chœur déchaîné. Les Accords sont la seule note plus forte que lui.",
+    "element": "neutre",
+    "level": 45,
+    "stats": {
+      "hp": 4000,
+      "pr": 50,
+      "attack": 300,
+      "defense": 55,
+      "speed": 36,
+      "luck": 10
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 4000,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Chœur brisé",
+        "kind": "spell",
+        "element": "feu",
+        "power": 200,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "choeur"
+      },
+      {
+        "name": "Frappe du masque",
+        "kind": "attack",
+        "element": "neutre",
+        "power": 24,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "coup"
+      },
+      {
+        "name": "Silence du monde",
+        "kind": "status",
+        "element": "neutre",
+        "power": 0,
+        "targets": "enemies",
+        "weight": 1,
+        "animation": "silence",
+        "status": "silence",
+        "statusChance": 0.25
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "varn-3",
+    "noFlee": true,
+    "act": 4
+  },
+  {
+    "id": "spectre-accordeur",
+    "name": "Spectre d’Accordeur",
+    "description": "Un souvenir trop ancien pour pardonner.",
+    "element": "terre",
+    "level": 48,
+    "stats": {
+      "hp": 600,
+      "pr": 0,
+      "attack": 290,
+      "defense": 50,
+      "speed": 34,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 360,
+    "coins": 220,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Lamentation",
+        "kind": "spell",
+        "element": "terre",
+        "power": 180,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "ombre"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "medium",
+    "sprite": "spectre-accordeur",
+    "act": 4
+  },
+  {
+    "id": "colosse-oublie",
+    "name": "Colosse oublié",
+    "description": "Il garde un couloir que plus personne n’emprunte.",
+    "element": "terre",
+    "level": 49,
+    "stats": {
+      "hp": 720,
+      "pr": 0,
+      "attack": 300,
+      "defense": 60,
+      "speed": 20,
+      "luck": 3
+    },
+    "power": {
+      "terre": 10,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 60,
+      "feu": 0,
+      "eau": 0,
+      "vent": -60
+    },
+    "xp": 400,
+    "coins": 250,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Écrasement",
+        "kind": "attack",
+        "element": "terre",
+        "power": 26,
+        "targets": "enemy",
+        "weight": 3,
+        "animation": "ecrasement"
+      }
+    ],
+    "ai": "aggressive",
+    "boss": false,
+    "size": "large",
+    "sprite": "colosse-oublie",
+    "act": 4
+  },
+  {
+    "id": "maitre-echo",
+    "name": "Maître de l’Écho",
+    "description": "Le secret sous Valcourt. Il n’a plus de visage, seulement une note.",
+    "element": "neutre",
+    "level": 50,
+    "stats": {
+      "hp": 3800,
+      "pr": 0,
+      "attack": 300,
+      "defense": 58,
+      "speed": 38,
+      "luck": 3
+    },
+    "power": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "resistance": {
+      "terre": 0,
+      "feu": 0,
+      "eau": 0,
+      "vent": 0
+    },
+    "xp": 5000,
+    "coins": 0,
+    "drops": [],
+    "skills": [
+      {
+        "name": "Quatre notes",
+        "kind": "spell",
+        "element": "terre",
+        "power": 200,
+        "targets": "enemies",
+        "weight": 3,
+        "animation": "choeur"
+      },
+      {
+        "name": "Écho final",
+        "kind": "spell",
+        "element": "feu",
+        "power": 190,
+        "targets": "enemy",
+        "weight": 2,
+        "animation": "echo"
+      }
+    ],
+    "ai": "boss",
+    "boss": true,
+    "size": "boss",
+    "sprite": "maitre-echo",
+    "noFlee": true,
+    "act": 4
+  }
+]

@@ -27,6 +27,7 @@ const config: Phaser.Types.Core.GameConfig = {
 };
 
 const game = new Phaser.Game(config);
+(window as Window & { game?: Phaser.Game }).game = game;
 
 window.addEventListener('resize', () => {
   game.scale.setZoom(currentZoom());

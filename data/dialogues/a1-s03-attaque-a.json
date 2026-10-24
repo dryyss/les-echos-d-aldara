@@ -1,0 +1,59 @@
+{
+  "id": "a1-s03-attaque-a",
+  "titre": "Acte 1, scène 3 : L’attaque (les masques)",
+  "lignes": [
+    { "type": "playMusic", "musique": "attaque", "fondu": 800 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "shake", "duree": 400, "intensite": 2 },
+    { "type": "spawn", "pnj": "ilse", "sprite": "ilse", "x": 14, "y": 10, "direction": "down" },
+    { "type": "spawn", "pnj": "corvo", "sprite": "corvo", "x": 16, "y": 10, "direction": "down" },
+    {
+      "perso": "bertrand",
+      "expr": "colere",
+      "texte": "Qui êtes-vous ?! On n’a rien, ici ! Que du blé et de la tourte !"
+    },
+    { "type": "move", "cible": "ilse", "direction": "down", "pas": 1 },
+    { "type": "move", "cible": "corvo", "direction": "down", "pas": 1 },
+    {
+      "perso": "ilse",
+      "texte": "Nous cherchons le gardien de la Clé de Terre. Vous avez une minute pour nous le livrer."
+    },
+    {
+      "perso": "corvo",
+      "expr": "sourire",
+      "texte": "Ou deux ! Moi je suis patient. Enfin, pas trop. Ha !"
+    },
+    {
+      "perso": "margot",
+      "expr": "surpris",
+      "texte": "Une clé ? Quelle clé ? On n’a même pas de serrure à l’église !"
+    },
+    { "type": "move", "cible": "aubin", "direction": "up", "pas": 2 },
+    { "perso": "aubin", "expr": "colere", "texte": "Kaël, reste en arrière. C’est moi qu’ils veulent." },
+    {
+      "perso": "ilse",
+      "texte": "Aubin de Brumeval. Dernier gardien de la lignée de Terre. Le Maître vous salue."
+    },
+    {
+      "perso": "aubin",
+      "texte": "Dis à ton maître qu’il peut venir me saluer lui-même. Et repartir les mains vides."
+    },
+    {
+      "perso": "corvo",
+      "expr": "sourire",
+      "texte": "Oh, il me plaît, le vieux ! Je peux le taper, Ilse ? Je peux ?"
+    },
+    { "perso": "ilse", "texte": "Fais vite." },
+    { "type": "playSound", "son": "coup" },
+    { "type": "shake", "duree": 300, "intensite": 3 },
+    { "type": "wait", "duree": 400 },
+    { "type": "playSound", "son": "coup" },
+    { "type": "emote", "cible": "aubin", "emote": "sueur" },
+    { "perso": "kael", "expr": "colere", "texte": "Aubin !" },
+    { "type": "spawn", "pnj": "sbire-1", "sprite": "sbire", "x": 12, "y": 12, "direction": "up" },
+    { "type": "spawn", "pnj": "sbire-2", "sprite": "sbire", "x": 18, "y": 12, "direction": "up" },
+    { "perso": "sbire", "texte": "Un gamin ? On nous a pas payés pour ça." },
+    { "type": "quest", "action": "task", "mission": "m1-03", "tache": 0 },
+    { "type": "startBattle", "groupe": "a1-sbires-place" }
+  ]
+}

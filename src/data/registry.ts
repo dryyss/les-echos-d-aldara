@@ -73,32 +73,50 @@ function merged<T>(glob: Glob<T | T[]>): T[] {
   return result;
 }
 
-const options = { eager: true, import: 'default' } as const;
-
 export function loadRawGameData(): RawGameData {
   return {
-    heroes: single(import.meta.glob<HeroData[]>('/data/heroes.json', options)),
-    spells: single(import.meta.glob<SpellData[]>('/data/spells.json', options)),
-    lueurs: single(import.meta.glob<LueurData[]>('/data/lueurs.json', options)),
-    summons: single(import.meta.glob<SummonData[]>('/data/summons.json', options)),
-    enemies: single(import.meta.glob<EnemyData[]>('/data/enemies.json', options)),
-    encounters: single(import.meta.glob<EncounterGroup[]>('/data/encounters.json', options)),
-    items: single(import.meta.glob<ItemData[]>('/data/items.json', options)),
-    recipes: single(import.meta.glob<RecipeData[]>('/data/recipes.json', options)),
-    shops: single(import.meta.glob<ShopData[]>('/data/shops.json', options)),
-    resonances: single(import.meta.glob<ResonanceData[]>('/data/resonances.json', options)),
-    quests: single(import.meta.glob<QuestData[]>('/data/quests.json', options)),
-    lore: single(import.meta.glob<LoreData[]>('/data/lore.json', options)),
-    characters: merged(
-      import.meta.glob<CharacterData | CharacterData[]>('/data/characters/*.json', options),
+    heroes: single(import.meta.glob<HeroData[]>('/data/heroes.json', { eager: true, import: 'default' })),
+    spells: single(import.meta.glob<SpellData[]>('/data/spells.json', { eager: true, import: 'default' })),
+    lueurs: single(import.meta.glob<LueurData[]>('/data/lueurs.json', { eager: true, import: 'default' })),
+    summons: single(import.meta.glob<SummonData[]>('/data/summons.json', { eager: true, import: 'default' })),
+    enemies: single(import.meta.glob<EnemyData[]>('/data/enemies.json', { eager: true, import: 'default' })),
+    encounters: single(
+      import.meta.glob<EncounterGroup[]>('/data/encounters.json', { eager: true, import: 'default' }),
     ),
-    npcs: merged(import.meta.glob<NpcData | NpcData[]>('/data/npcs/*.json', options)),
-    banters: merged(import.meta.glob<BanterData | BanterData[]>('/data/banter/*.json', options)),
+    items: single(import.meta.glob<ItemData[]>('/data/items.json', { eager: true, import: 'default' })),
+    recipes: single(import.meta.glob<RecipeData[]>('/data/recipes.json', { eager: true, import: 'default' })),
+    shops: single(import.meta.glob<ShopData[]>('/data/shops.json', { eager: true, import: 'default' })),
+    resonances: single(
+      import.meta.glob<ResonanceData[]>('/data/resonances.json', { eager: true, import: 'default' }),
+    ),
+    quests: single(import.meta.glob<QuestData[]>('/data/quests.json', { eager: true, import: 'default' })),
+    lore: single(import.meta.glob<LoreData[]>('/data/lore.json', { eager: true, import: 'default' })),
+    characters: merged(
+      import.meta.glob<CharacterData | CharacterData[]>('/data/characters/*.json', {
+        eager: true,
+        import: 'default',
+      }),
+    ),
+    npcs: merged(
+      import.meta.glob<NpcData | NpcData[]>('/data/npcs/*.json', { eager: true, import: 'default' }),
+    ),
+    banters: merged(
+      import.meta.glob<BanterData | BanterData[]>('/data/banter/*.json', {
+        eager: true,
+        import: 'default',
+      }),
+    ),
     scenes: merged(
-      import.meta.glob<DialogueScene | DialogueScene[]>('/data/dialogues/*.json', options),
+      import.meta.glob<DialogueScene | DialogueScene[]>('/data/dialogues/*.json', {
+        eager: true,
+        import: 'default',
+      }),
     ),
     music: merged(
-      import.meta.glob<MusicTrackData | MusicTrackData[]>('/data/audio/music/*.json', options),
+      import.meta.glob<MusicTrackData | MusicTrackData[]>('/data/audio/music/*.json', {
+        eager: true,
+        import: 'default',
+      }),
     ),
   };
 }

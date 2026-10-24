@@ -1,0 +1,78 @@
+{
+  "id": "a1-s04-depart",
+  "titre": "Acte 1, scène 4 : Le départ",
+  "lignes": [
+    { "type": "playMusic", "musique": "brumeval", "fondu": 1200 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    {
+      "perso": "lila",
+      "expr": "surpris",
+      "texte": "Kaël ! Tu te réveilles ! T’as dormi toute la nuit, j’ai cru que t’étais mort !"
+    },
+    { "perso": "kael", "expr": "triste", "texte": "Aubin…" },
+    {
+      "perso": "lila",
+      "texte": "Ils l’ont emmené. Vers le Bois des Murmures, Joss les a vus passer."
+    },
+    {
+      "perso": "joss",
+      "expr": "colere",
+      "texte": "Tout ça, c’est à cause de lui. J’ai tout vu, hier soir. Il a jeté des sbires en l’air sans les toucher."
+    },
+    { "perso": "margot", "texte": "Un Résonant… Sous notre nez. Depuis des années." },
+    {
+      "perso": "bertrand",
+      "texte": "Allez, allez, on se calme. Le petit a défendu le village, quand même."
+    },
+    {
+      "perso": "joss",
+      "expr": "colere",
+      "texte": "Le village, il a brûlé parce qu’on cachait des Résonants ! Aubin aussi, il en était, pas vrai ?"
+    },
+    { "perso": "joss", "texte": "C’est pour ça qu’ils sont venus !" },
+    {
+      "perso": "lila",
+      "expr": "colere",
+      "texte": "Arrêtez ! Kaël a rien fait de mal ! C’est eux, les méchants, avec leurs masques !"
+    },
+    { "type": "wait", "duree": 600 },
+    {
+      "choix": [
+        {
+          "texte": "Je vais ramener Aubin.",
+          "suite": [
+            {
+              "perso": "bertrand",
+              "texte": "Alors va, petit. Et reviens entier, qu’on puisse s’excuser correctement."
+            }
+          ]
+        },
+        {
+          "texte": "Vous avez raison d’avoir peur.",
+          "suite": [
+            {
+              "perso": "bertrand",
+              "texte": "Peut-être. Mais avoir peur, ça n’a jamais rendu personne plus juste."
+            }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m1-03", "tache": 3 },
+    { "type": "give", "objet": "marteau-aubin", "quantite": 1 },
+    { "ecran": "Kaël a obtenu le Marteau d’Aubin." },
+    { "type": "quest", "action": "task", "mission": "m1-03", "tache": 4 },
+    { "perso": "kael", "texte": "Je vais le chercher. Point." },
+    {
+      "perso": "lila",
+      "expr": "sourire",
+      "texte": "Tiens. C’est du pain de la fête. Bertrand dit que c’est sa meilleure tourte."
+    },
+    { "perso": "lila", "texte": "Il dit ça de toutes ses tourtes." },
+    { "type": "give", "objet": "pain-fete", "quantite": 1 },
+    { "perso": "lila", "texte": "Dis, Kaël… tu vas revenir, hein ?" },
+    { "perso": "kael", "expr": "sourire", "texte": "Promis juré. Croix de bois, croix de fer." },
+    { "type": "playMusic", "musique": "collines", "fondu": 1500 },
+    { "type": "quest", "action": "complete", "mission": "m1-03" }
+  ]
+}

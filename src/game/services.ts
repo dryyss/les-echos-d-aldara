@@ -1,5 +1,5 @@
 import sfxDefs from '../../data/audio/sfx.json';
-import { DataRegistry, getRegistry } from '../data/registry';
+import { getRegistry, type DataRegistry } from '../data/registry';
 import { InputManager } from './input/InputManager';
 import { GameState } from '../systems/GameState';
 import { QuestManager } from '../systems/QuestManager';

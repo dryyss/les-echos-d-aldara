@@ -1,0 +1,200 @@
+[
+  {
+    "id": "villageoise",
+    "name": "Villageoise",
+    "sprite": "villageois-femme",
+    "character": "villageoise",
+    "wander": true,
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Pars si tu veux. Moi je reste. Quelqu’un doit balayer les cendres.",
+        "pensee": "Il a poussé ces caisses sans les toucher. Je l’ai vu. Je ne dirai rien."
+      },
+      {
+        "texte": "Bonjour, Kaël ! Ce soir, c’est la fête des moissons. Tu viendras danser, cette année ?",
+        "pensee": "Il a l’air fatigué, le fils d’Aubin. Toujours le nez dans le fer."
+      }
+    ]
+  },
+  {
+    "id": "lila",
+    "name": "Lila",
+    "sprite": "lila",
+    "character": "lila",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Tu vas revenir, hein ?",
+        "pensee": "S’il ne revient pas, je le suis. Même jusqu’au bois."
+      },
+      {
+        "si": { "flag": "m1_01_fini" },
+        "texte": "Promis juré, je dirai rien. Croix de bois, croix de fer.",
+        "pensee": "Les pierres ont des rêves. Kaël l’a dit. Alors c’est vrai."
+      },
+      {
+        "texte": "Kaël ! Kaël, c’est toi ? Je suis coincée !",
+        "pensee": "Le chat est remonté. Moi non."
+      }
+    ]
+  },
+  {
+    "id": "bertrand",
+    "name": "Gros Bertrand",
+    "sprite": "bertrand",
+    "character": "bertrand",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Reviens entier, petit. Ma tourte t’attendra.",
+        "pensee": "J’aurais dû me battre, moi aussi. J’ai eu peur."
+      },
+      {
+        "texte": "Une chambre ? Pour toi, c’est gratuit. Enfin, tu fais la vaisselle.",
+        "pensee": "J’aurais dû me battre, moi aussi. J’ai eu peur."
+      }
+    ]
+  },
+  {
+    "id": "margot",
+    "name": "Vieille Margot",
+    "sprite": "margot",
+    "character": "margot",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Je n’aurais pas dû dire ça sur les Résonants…",
+        "pensee": "Ma sœur entendait les pierres, elle aussi. On ne l’a jamais revue."
+      },
+      {
+        "texte": "Cette brume, je l’aime pas.",
+        "pensee": "Ma sœur entendait les pierres, elle aussi. On ne l’a jamais revue."
+      }
+    ]
+  },
+  {
+    "id": "joss",
+    "name": "Fermier Joss",
+    "sprite": "joss",
+    "character": "joss",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Pars, et emmène tes malheurs avec toi.",
+        "pensee": "S’ils reviennent, je perds tout. Ma ferme, mes bêtes. Tout."
+      },
+      {
+        "texte": "La récolte est bonne, cette année.",
+        "pensee": "S’ils reviennent, je perds tout. Ma ferme, mes bêtes. Tout."
+      }
+    ]
+  },
+  {
+    "id": "paulin",
+    "name": "Meunier Paulin",
+    "sprite": "paulin",
+    "character": "paulin",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Le moulin a tenu. Comme toi.",
+        "pensee": "Le gamin a poussé ma meule sans la toucher. Je l’ai vu. Je ne dirai rien."
+      },
+      {
+        "texte": "Ma meule est bloquée. Si tu as des bras, je paie.",
+        "pensee": "Le gamin a poussé ma meule sans la toucher. Je l’ai vu. Je ne dirai rien."
+      }
+    ]
+  },
+  {
+    "id": "caillou",
+    "name": "Caillou",
+    "sprite": "caillou",
+    "character": "caillou",
+    "lines": [
+      {
+        "si": { "flag": "attaque_brumeval" },
+        "texte": "Wouf…",
+        "pensee": "Maître parti. Os sous le banc. Je garde les os. Je garde la maison."
+      },
+      {
+        "texte": "Wouf !",
+        "pensee": "Os… os… OS. Sous le banc. Personne doit savoir. Os."
+      }
+    ]
+  },
+  {
+    "id": "aubin",
+    "name": "Aubin",
+    "sprite": "aubin",
+    "character": "aubin",
+    "lines": [
+      {
+        "scene": "a1-s01-matin-brumeval-a",
+        "pensee": "Il entend déjà les pierres. Trop tôt. Beaucoup trop tôt."
+      }
+    ]
+  },
+  {
+    "id": "gontran",
+    "name": "Maire Gontran",
+    "sprite": "gontran",
+    "character": "gontran",
+    "lines": [
+      {
+        "texte": "Hautegrange, ville propre, ville calme, ville sans sorcière !",
+        "pensee": "Si mon jardin n’est pas prêt pour la foire, ma femme me tue."
+      }
+    ]
+  },
+  {
+    "id": "garde-hautegrange",
+    "name": "Garde",
+    "sprite": "garde-royal",
+    "character": "garde",
+    "lines": [
+      {
+        "texte": "Pas d’armes dégainées. Pas de magie. Pas de bêtises.",
+        "pensee": "J’espère que la sorcière ne passe pas pendant mon tour de garde."
+      }
+    ]
+  },
+  {
+    "id": "brann",
+    "name": "Chasseur Brann",
+    "sprite": "chasseur",
+    "character": "brann",
+    "lines": [
+      {
+        "texte": "Un Résonant, c’est une bête. On chasse les bêtes.",
+        "pensee": "La prime, c’est pour payer les dettes de mon père. Je n’ai jamais aimé chasser."
+      }
+    ]
+  },
+  {
+    "id": "lucien",
+    "name": "Lucien",
+    "sprite": "lucien",
+    "character": "lucien",
+    "lines": [
+      {
+        "texte": "Moi, je fais ça pour l’argent. C’est tout.",
+        "pensee": "Elle m’a laissé partir, une fois. Elle aurait pu me brûler."
+      }
+    ]
+  },
+  {
+    "id": "enfant-marche",
+    "name": "Enfant du marché",
+    "sprite": "enfant",
+    "character": "enfant",
+    "wander": true,
+    "lines": [
+      {
+        "texte": "T’as déjà vu une sorcière, toi ? Moi je voudrais bien !",
+        "pensee": "Si j’étais Résonant, je volerais. Comme un oiseau."
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "zone": "brumeval",
+    "si": { "flag": "attaque_brumeval" },
+    "lignes": {
+      "kael": "… Je reviendrai.",
+      "nyra": "Ton village est sympa. Enfin, il l’était."
+    }
+  },
+  {
+    "zone": "bois",
+    "lignes": {
+      "kael": "Le bois respire mieux."
+    }
+  },
+  {
+    "zone": "hautegrange",
+    "lignes": {
+      "kael": "Trop d’affiches.",
+      "nyra": "Ils ont mal dessiné mon nez, sur l’affiche."
+    }
+  },
+  {
+    "zone": "mine",
+    "lignes": {
+      "kael": "Ça sent le fer.",
+      "nyra": "J’aime pas les endroits sans ciel."
+    }
+  },
+  {
+    "zone": "tellume",
+    "lignes": {
+      "kael": "Les pierres chantent ici.",
+      "nyra": "Ça me donne la chair de poule. Mais c’est beau."
+    }
+  }
+]

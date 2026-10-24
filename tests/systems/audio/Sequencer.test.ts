@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { MusicData, MusicTrack } from '../../../src/systems/audio/patterns';
 import { Sequencer } from '../../../src/systems/audio/Sequencer';
 import { Synth } from '../../../src/systems/audio/Synth';
-import { FakeAudioContext, FakeGain } from './fakeAudioContext';
+import { FakeAudioContext, type FakeGain } from './fakeAudioContext';
 
 const C4 = 261.63;
 

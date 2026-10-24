@@ -4,6 +4,7 @@ import { services, startNewGame } from '../game/services';
 
 export class TitleScene extends Phaser.Scene {
   private started = false;
+  private readyAt = 0;
 
   constructor() {
     super(SCENES.title);
@@ -11,6 +12,8 @@ export class TitleScene extends Phaser.Scene {
 
   create(): void {
     this.started = false;
+    this.readyAt = this.time.now + 250;
+    services.input.state.reset();
     this.cameras.main.setBackgroundColor(COLORS.background);
     services.audio.playMusic('titre', { fade: 0.8 });
 
@@ -40,7 +43,9 @@ export class TitleScene extends Phaser.Scene {
   }
 
   override update(_time: number, delta: number): void {
-    if (!this.started && services.input.anyJustPressed()) this.startGame();
+    if (!this.started && this.time.now >= this.readyAt && services.input.anyJustPressed()) {
+      this.startGame();
+    }
     services.input.update(delta);
   }
 
