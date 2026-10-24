@@ -1,0 +1,51 @@
+{
+  "id": "a1-s01-matin-brumeval-a",
+  "titre": "Acte 1, scène 1 : Le matin à Brumeval (le réveil à la forge)",
+  "lignes": [
+    { "type": "playMusic", "musique": "brumeval", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1500 },
+    { "type": "quest", "action": "start", "mission": "m1-01" },
+    { "type": "anim", "cible": "aubin", "animation": "aubin/marteler" },
+    { "type": "playSound", "son": "coup" },
+    { "type": "wait", "duree": 450 },
+    { "type": "playSound", "son": "coup" },
+    { "type": "wait", "duree": 450 },
+    { "type": "face", "cible": "aubin", "direction": "down" },
+    {
+      "perso": "aubin",
+      "expr": "sourire",
+      "texte": "Debout, l’apprenti ! Le soleil t’a battu, et pourtant il se lève tous les jours."
+    },
+    { "perso": "kael", "expr": "fatigue", "texte": "…" },
+    {
+      "choix": [
+        {
+          "texte": "J’arrive.",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "sourire",
+              "texte": "Bien. Un forgeron qui se lève tôt, c’est un forgeron qui finit tôt."
+            }
+          ]
+        },
+        {
+          "texte": "Encore cinq minutes.",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "colere",
+              "texte": "Cinq minutes, et je te refroidis avec le seau du puits. À toi de voir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perso": "aubin",
+      "texte": "Il me manque du minerai pour la commande du meunier. Va en chercher au fond du village, près du vieux puits."
+    },
+    { "perso": "aubin", "expr": "sourire", "texte": "Et ne traîne pas avec Lila, d’accord ?" },
+    { "type": "quest", "action": "task", "mission": "m1-01", "tache": 0 }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "a4-bonus-sefa-confiance",
+  "titre": "Acte 4, scène bonus : Sefa et Kaël, la nuit à l’oasis (si confiance)",
+  "lignes": [
+    { "type": "playMusic", "musique": "sefa", "fondu": 2000 },
+    { "type": "moveTo", "cible": "sefa", "x": 11, "y": 8, "vitesse": 0.8 },
+    { "type": "face", "cible": "sefa", "direction": "left" },
+    { "type": "face", "cible": "player", "direction": "right" },
+    { "type": "wait", "duree": 800 },
+    { "perso": "sefa", "expr": "neutre", "texte": "Tu dors pas non plus, grand ?" },
+    { "perso": "kael", "expr": "neutre", "texte": "…" },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Ça, c’est un « non » de forgeron. Je commence à parler ta langue."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "À Ventelune, quand tu as dit « je te crois »… J’ai failli m’enfuir. Par réflexe. On me croit jamais, d’habitude."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "Tu es restée." },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Je suis restée. Et tu sais quoi ? J’ai volé des trucs toute ma vie. Ça, c’est la première chose qu’on m’a donnée."
+    },
+    { "type": "emote", "cible": "sefa", "emote": "coeur" },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Bon. Si tu répètes ça à Nyra, je nie tout. Bonne nuit, grand."
+    },
+    { "type": "setFlag", "drapeau": "bonus_sefa_vu" },
+    { "type": "playMusic", "musique": "oasis", "fondu": 2000 }
+  ]
+}

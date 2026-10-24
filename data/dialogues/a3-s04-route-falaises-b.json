@@ -1,0 +1,30 @@
+{
+  "id": "a3-s04-route-falaises-b",
+  "titre": "Acte 3, scène 4 : La route des falaises (l’autel du moulin)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-04", "tache": 0 },
+    { "type": "playSound", "son": "ecoute" },
+    { "pensee": "Que le souffle chasse ce qui encombre. Que celui qui écoute fasse danser l’air." },
+    { "type": "moveTo", "cible": "sefa", "x": 10, "y": 5 },
+    { "type": "face", "cible": "sefa", "direction": "up" },
+    { "type": "wait", "duree": 600 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "flash", "couleur": "#dbe9f4", "duree": 300 },
+    { "type": "shake", "duree": 500, "intensite": 2 },
+    { "perso": "sefa", "expr": "neutre", "texte": "… Pas mal." },
+    {
+      "perso": "nyra",
+      "expr": "surpris",
+      "texte": "C’est tout ? « Pas mal » ? Moi quand j’ai eu Braise, j’ai fait la fête !"
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Toi, tu fais la fête quand tu trouves une pomme."
+    },
+    { "type": "give", "resonance": "bourrasque" },
+    { "ecran": "Sefa a appris la Résonance Bourrasque." },
+    { "type": "quest", "action": "task", "mission": "m3-04", "tache": 1 },
+    { "type": "save" }
+  ]
+}

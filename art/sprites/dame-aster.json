@@ -1,0 +1,17 @@
+{
+  "id": "dame-aster",
+  "base": "villageois-femme",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#ececec",
+    "H": "#b0b0b8",
+    "a": "#f4f0f8",
+    "A": "#c4bcd4",
+    "b": "#b8a8d8",
+    "B": "#8a7aa8",
+    "r": "#c4bcd4",
+    "f": "#6a6a7a"
+  }
+}

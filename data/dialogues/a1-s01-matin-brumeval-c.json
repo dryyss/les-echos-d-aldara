@@ -1,0 +1,16 @@
+{
+  "id": "a1-s01-matin-brumeval-c",
+  "titre": "Acte 1, scène 1 : Le matin à Brumeval (Lila coincée derrière les caisses)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m1-01", "tache": 1 },
+    { "type": "emote", "cible": "player", "emote": "question" },
+    { "type": "wait", "duree": 400 },
+    {
+      "perso": "lila",
+      "expr": "surpris",
+      "texte": "Kaël ! Kaël, c’est toi ? Je suis coincée ! J’ai voulu attraper le chat et tout est tombé !"
+    },
+    { "perso": "kael", "texte": "Bouge pas." },
+    { "type": "give", "resonance": "poussee" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "a3-s05-cite-suspendue-c",
+  "titre": "Acte 3, scène 5 : La cité suspendue (la défense des ponts)",
+  "lignes": [
+    { "type": "playMusic", "musique": "attaque", "fondu": 300 },
+    { "type": "spawn", "pnj": "planeur-1", "sprite": "planeur-ordre", "x": 12, "y": 6, "direction": "down" },
+    { "type": "move", "cible": "planeur-1", "direction": "down", "pas": 2, "vitesse": 1.8 },
+    { "type": "startBattle", "groupe": "a3-planeurs-1" },
+    { "type": "despawn", "pnj": "planeur-1" },
+    { "type": "spawn", "pnj": "planeur-2", "sprite": "planeur-ordre", "x": 6, "y": 6, "direction": "down" },
+    { "type": "move", "cible": "planeur-2", "direction": "down", "pas": 2, "vitesse": 1.8 },
+    { "type": "startBattle", "groupe": "a3-planeurs-2" },
+    { "type": "despawn", "pnj": "planeur-2" },
+    { "type": "spawn", "pnj": "planeur-3", "sprite": "planeur-ordre", "x": 18, "y": 6, "direction": "down" },
+    { "type": "move", "cible": "planeur-3", "direction": "down", "pas": 2, "vitesse": 1.8 },
+    { "type": "startBattle", "groupe": "a3-planeurs-3" },
+    { "type": "despawn", "pnj": "planeur-3" },
+    { "type": "quest", "action": "task", "mission": "m3-05", "tache": 1 },
+    { "type": "playMusic", "musique": "tension", "fondu": 800 }
+  ]
+}

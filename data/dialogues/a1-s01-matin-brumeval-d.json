@@ -1,0 +1,45 @@
+{
+  "id": "a1-s01-matin-brumeval-d",
+  "titre": "Acte 1, scène 1 : Le matin à Brumeval (après la Poussée)",
+  "lignes": [
+    { "type": "playSound", "son": "poussee" },
+    { "type": "shake", "duree": 300, "intensite": 2 },
+    { "ecran": "Kaël a utilisé la Résonance Poussée." },
+    { "type": "move", "cible": "lila", "direction": "down", "pas": 1 },
+    { "type": "emote", "cible": "lila", "emote": "exclamation" },
+    { "perso": "lila", "expr": "surpris", "texte": "… Kaël. T’as même pas touché la caisse." },
+    { "perso": "kael", "texte": "…" },
+    { "perso": "lila", "expr": "surpris", "texte": "T’es un Résonant ?! Comme dans les histoires ?" },
+    {
+      "choix": [
+        {
+          "texte": "Ne le dis à personne.",
+          "suite": [
+            {
+              "perso": "lila",
+              "expr": "sourire",
+              "texte": "Promis juré ! Croix de bois, croix de fer ! C’est notre secret."
+            }
+          ]
+        },
+        {
+          "texte": "Je ne sais pas ce que c’était.",
+          "suite": [
+            {
+              "perso": "lila",
+              "expr": "sourire",
+              "texte": "Moi je sais : c’était trop bien. Mais je dirai rien, promis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perso": "lila",
+      "expr": "neutre",
+      "texte": "Dis, Kaël… tu crois que les pierres ont des rêves ?"
+    },
+    { "perso": "kael", "expr": "sourire", "texte": "Peut-être. Elles chantent, en tout cas." },
+    { "type": "quest", "action": "task", "mission": "m1-01", "tache": 2 }
+  ]
+}

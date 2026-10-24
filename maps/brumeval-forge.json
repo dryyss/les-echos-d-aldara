@@ -1,0 +1,58 @@
+{
+  "id": "brumeval-forge",
+  "name": "Forge d’Aubin",
+  "tileset": "interieur",
+  "music": "brumeval",
+  "zone": "brumeval",
+  "indoor": true,
+  "ground": [
+    "____________",
+    "____________",
+    "____________",
+    "____________",
+    "____oo______",
+    "____oo______",
+    "____________",
+    "____________",
+    "____________",
+    "____________"
+  ],
+  "decor": [
+    "HHHHHHHHHHHH",
+    "#E........L#",
+    "#n.A.......#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#K........a#",
+    "#..........#",
+    "#....D.....#",
+    "############"
+  ],
+  "collisions": [
+    "............",
+    "............",
+    "............",
+    "............",
+    "............",
+    "............",
+    "............",
+    "............",
+    ".....o......",
+    "............"
+  ],
+  "encounters": null,
+  "objects": [
+    { "type": "spawn", "id": "defaut", "x": 4, "y": 5, "direction": "down" },
+    { "type": "spawn", "id": "depuis-brumeval", "x": 5, "y": 7, "direction": "up" },
+    {
+      "type": "warp",
+      "x": 5,
+      "y": 8,
+      "to": { "map": "brumeval", "spawn": "depuis-brumeval-forge" },
+      "direction": "down"
+    },
+    { "type": "npc", "id": "aubin", "x": 6, "y": 3, "direction": "down" },
+    { "type": "forge", "x": 10, "y": 6 }
+  ]
+}

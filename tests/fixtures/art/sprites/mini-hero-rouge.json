@@ -1,0 +1,8 @@
+{
+  "id": "mini-hero-rouge",
+  "base": "mini-hero",
+  "palette": { "h": "#c0392b" },
+  "frames": {
+    "down-0": ["....", "hhhh", ".ss.", "gggg", ".kk.", "k..k"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "a3-s05-cite-suspendue-e",
+  "titre": "Acte 3, scène 5 : La cité suspendue (l’autel du sommet)",
+  "lignes": [
+    { "type": "moveTo", "cible": "sefa", "x": 10, "y": 5 },
+    { "type": "face", "cible": "sefa", "direction": "up" },
+    { "type": "wait", "duree": 600 },
+    { "type": "playSound", "son": "envol" },
+    { "type": "flash", "couleur": "#dbe9f4", "duree": 300 },
+    { "type": "face", "cible": "sefa", "direction": "right" },
+    { "type": "wait", "duree": 400 },
+    { "type": "move", "cible": "sefa", "direction": "right", "pas": 2, "vitesse": 1.5 },
+    { "type": "playSound", "son": "pas-bois" },
+    { "type": "face", "cible": "sefa", "direction": "left" },
+    { "perso": "sefa", "expr": "sourire", "texte": "Ha. Ça, j’aime bien." },
+    { "type": "give", "resonance": "envol" },
+    { "ecran": "Sefa a appris la Résonance Envol." },
+    { "type": "quest", "action": "task", "mission": "m3-05", "tache": 3 },
+    { "type": "move", "cible": "sefa", "direction": "left", "pas": 2, "vitesse": 1.5 },
+    { "type": "spawn", "pnj": "dame-aster", "sprite": "dame-aster", "x": 6, "y": 9, "direction": "up" },
+    { "type": "move", "cible": "dame-aster", "direction": "up", "pas": 2, "vitesse": 0.8 },
+    { "type": "face", "cible": "player", "direction": "left" },
+    {
+      "perso": "dame-aster",
+      "expr": "neutre",
+      "texte": "La Clé est dans la Tour des Vents, au-delà du grand pont. Ramenez-la ici. Je la protégerai moi-même."
+    },
+    { "type": "quest", "action": "task", "mission": "m3-05", "tache": 4 },
+    { "type": "quest", "action": "complete", "mission": "m3-05" },
+    { "type": "despawn", "pnj": "dame-aster" },
+    { "type": "save" }
+  ]
+}

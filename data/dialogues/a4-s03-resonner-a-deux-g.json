@@ -1,0 +1,30 @@
+{
+  "id": "a4-s03-resonner-a-deux-g",
+  "titre": "Acte 4, scène 3 : Résonner à deux (la gardienne du sanctuaire)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m4-03", "tache": 3 },
+    { "type": "spawn", "pnj": "gardienne", "sprite": "gardienne-sanctuaire", "x": 10, "y": 4, "direction": "down" },
+    { "type": "playSound", "son": "tremblement" },
+    { "type": "shake", "duree": 900, "intensite": 3 },
+    { "type": "flash", "couleur": "#ffffff", "duree": 200 },
+    { "type": "move", "cible": "gardienne", "direction": "down", "pas": 1, "vitesse": 0.5 },
+    { "type": "emote", "cible": "player", "emote": "exclamation" },
+    { "type": "playMusic", "musique": "boss", "fondu": 300 },
+    { "type": "startBattle", "groupe": "boss-gardienne" },
+    { "type": "quest", "action": "task", "mission": "m4-03", "tache": 4 },
+    { "type": "despawn", "pnj": "gardienne" },
+    { "type": "playMusic", "musique": "oasis", "fondu": 1500 },
+    { "type": "spawn", "pnj": "mere-sahra-cine", "sprite": "mere-sahra", "x": 10, "y": 10, "direction": "up" },
+    { "type": "face", "cible": "player", "direction": "down" },
+    {
+      "perso": "mere-sahra",
+      "expr": "sourire",
+      "texte": "Vous êtes prêts. Maintenant, allez réparer ce qui a été cassé."
+    },
+    { "type": "quest", "action": "complete", "mission": "m4-03" },
+    { "type": "quest", "action": "start", "mission": "m4-04" },
+    { "type": "despawn", "pnj": "mere-sahra-cine" },
+    { "type": "heal" },
+    { "type": "save" }
+  ]
+}

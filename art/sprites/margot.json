@@ -1,0 +1,16 @@
+{
+  "id": "margot",
+  "base": "villageois-femme",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c8c4b8",
+    "H": "#8e8a80",
+    "a": "#7a4a8a",
+    "A": "#52305e",
+    "b": "#4a3a3a",
+    "B": "#2e2424",
+    "r": "#52305e"
+  }
+}

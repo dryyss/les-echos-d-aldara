@@ -1,0 +1,31 @@
+{
+  "id": "a4-s01-mer-cendres-b",
+  "titre": "Acte 4, scène 1 : La mer de cendres (le Ver des Sables)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m4-01", "tache": 0 },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 8, "y": 10, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-escorte-1", "sprite": "garde-royal", "x": 7, "y": 11, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-escorte-2", "sprite": "garde-royal", "x": 9, "y": 11, "direction": "up" },
+    { "type": "playSound", "son": "tremblement" },
+    { "type": "shake", "duree": 1200, "intensite": 4 },
+    { "type": "playSound", "son": "chute" },
+    { "type": "spawn", "pnj": "ver-des-sables", "sprite": "ver-des-sables", "x": 10, "y": 5, "direction": "down" },
+    { "type": "emote", "cible": "player", "emote": "exclamation" },
+    { "type": "playMusic", "musique": "boss", "fondu": 300 },
+    { "perso": "dumarre", "expr": "colere", "texte": "Formation de défense ! Les gamins, devant !" },
+    { "perso": "nyra", "expr": "surpris", "texte": "Pourquoi c’est nous, devant ?" },
+    {
+      "perso": "dumarre",
+      "expr": "colere",
+      "texte": "Parce que vous lancez du feu et moi j’ai une épée !"
+    },
+    { "type": "startBattle", "groupe": "boss-ver-sables" },
+    { "type": "quest", "action": "task", "mission": "m4-01", "tache": 2 },
+    { "type": "despawn", "pnj": "ver-des-sables" },
+    { "type": "playMusic", "musique": "desert", "fondu": 1500 },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-escorte-1" },
+    { "type": "despawn", "pnj": "garde-escorte-2" },
+    { "type": "save" }
+  ]
+}

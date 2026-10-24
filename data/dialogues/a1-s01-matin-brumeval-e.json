@@ -1,0 +1,45 @@
+{
+  "id": "a1-s01-matin-brumeval-e",
+  "titre": "Acte 1, scène 1 : Le matin à Brumeval (retour à la forge)",
+  "lignes": [
+    { "type": "face", "cible": "aubin", "direction": "down" },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "Te voilà. Tu en as mis du temps… Tiens, tu as les mains qui tremblent. Ça va ?"
+    },
+    {
+      "choix": [
+        {
+          "texte": "Ça va.",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "neutre",
+              "texte": "Hm. Si tu le dis. Le fer aussi dit qu’il va bien, jusqu’à ce qu’il casse."
+            }
+          ]
+        },
+        {
+          "texte": "Il s’est passé quelque chose.",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "triste",
+              "texte": "Pas ici. Ce soir, après la fête, retrouve-moi au sanctuaire. On parlera."
+            }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m1-01", "tache": 3 },
+    { "type": "quest", "action": "complete", "mission": "m1-01" },
+    { "type": "fade", "vers": "noir", "duree": 1200 },
+    { "type": "playMusic", "musique": null, "fondu": 1000 },
+    { "type": "wait", "duree": 800 },
+    { "type": "quest", "action": "start", "mission": "m1-02" },
+    { "type": "teleport", "carte": "brumeval", "x": 12, "y": 11, "direction": "down" },
+    { "type": "setMapState", "cle": "nuit", "valeur": true },
+    { "type": "save" }
+  ]
+}

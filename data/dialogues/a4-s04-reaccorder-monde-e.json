@@ -1,0 +1,26 @@
+{
+  "id": "a4-s04-reaccorder-monde-e",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (Ventelune : les Aster)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ventelune", "fondu": 1000 },
+    { "type": "spawn", "pnj": "dame-aster", "sprite": "dame-aster", "x": 10, "y": 4, "direction": "down" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "face", "cible": "dame-aster", "direction": "up" },
+    { "type": "wait", "duree": 1000 },
+    { "type": "face", "cible": "dame-aster", "direction": "down" },
+    { "perso": "dame-aster", "expr": "sourire", "texte": "Les planeurs de Ventelune sont à vous." },
+    { "type": "setFlag", "drapeau": "alliance_aster" },
+    { "type": "despawn", "pnj": "dame-aster" },
+    {
+      "type": "if",
+      "condition": {
+        "all": [{ "flag": "alliance_marelle" }, { "flag": "alliance_aster" }, { "flag": "alliance_brumeval" }]
+      },
+      "alors": [
+        { "type": "quest", "action": "task", "mission": "m4-04", "tache": 3 },
+        { "type": "quest", "action": "complete", "mission": "m4-04" }
+      ]
+    },
+    { "type": "save" }
+  ]
+}

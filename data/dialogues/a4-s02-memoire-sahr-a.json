@@ -1,0 +1,34 @@
+{
+  "id": "a4-s02-memoire-sahr-a",
+  "titre": "Acte 4, scène 2 : La mémoire de Sahr (l’oasis)",
+  "lignes": [
+    { "type": "playMusic", "musique": "oasis", "fondu": 2000 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    {
+      "type": "if",
+      "condition": { "quest": "m4-01", "status": "active" },
+      "alors": [
+        { "type": "quest", "action": "task", "mission": "m4-01", "tache": 3 },
+        { "type": "quest", "action": "complete", "mission": "m4-01" }
+      ]
+    },
+    { "type": "quest", "action": "start", "mission": "m4-02" },
+    { "type": "spawn", "pnj": "enfant-cendrais-cine", "sprite": "enfant", "x": 12, "y": 8, "direction": "left" },
+    { "type": "moveTo", "cible": "enfant-cendrais-cine", "x": 10, "y": 9, "vitesse": 1.8 },
+    { "type": "emote", "cible": "enfant-cendrais-cine", "emote": "exclamation" },
+    {
+      "perso": "enfant-cendrais",
+      "expr": "sourire",
+      "texte": "Des Résonants ! Regarde, maman, ils ont des Lueurs ! Comme dans les chants !"
+    },
+    { "type": "moveTo", "cible": "enfant-cendrais-cine", "x": 14, "y": 6, "vitesse": 1.8 },
+    { "type": "despawn", "pnj": "enfant-cendrais-cine" },
+    {
+      "perso": "nyra",
+      "expr": "surpris",
+      "texte": "… Ils nous regardent pas comme des monstres."
+    },
+    { "perso": "sefa", "expr": "sourire", "texte": "Ça fait bizarre, hein ?" },
+    { "type": "save" }
+  ]
+}

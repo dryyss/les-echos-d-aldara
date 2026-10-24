@@ -1,0 +1,21 @@
+{
+  "id": "a4-s04-reaccorder-monde-a",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (le Diapason de Terre)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ruines", "fondu": 1000 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "perso": "kael", "expr": "neutre", "texte": "À moi." },
+    { "type": "move", "cible": "player", "direction": "up", "pas": 1, "vitesse": 0.7 },
+    { "type": "wait", "duree": 800 },
+    { "type": "playMusic", "musique": "kael", "fondu": 500 },
+    { "type": "playSound", "son": "ecoute" },
+    { "type": "wait", "duree": 1500 },
+    { "type": "playSound", "son": "accord" },
+    { "type": "flash", "couleur": "#d8a862", "duree": 600 },
+    { "type": "setFlag", "drapeau": "diapason_terre_reaccorde" },
+    { "type": "quest", "action": "task", "mission": "m4-04", "tache": 0 },
+    { "type": "wait", "duree": 1000 },
+    { "type": "playMusic", "musique": "ruines", "fondu": 2000 },
+    { "type": "save" }
+  ]
+}

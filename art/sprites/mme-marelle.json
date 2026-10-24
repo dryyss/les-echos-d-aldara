@@ -1,0 +1,16 @@
+{
+  "id": "mme-marelle",
+  "base": "villageois-femme",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#4a80c8",
+    "H": "#2c5088",
+    "a": "#e0e8f0",
+    "A": "#b0bcc8",
+    "b": "#3a6a8a",
+    "B": "#244858",
+    "r": "#b0bcc8"
+  }
+}

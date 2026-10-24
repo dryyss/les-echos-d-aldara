@@ -1,0 +1,64 @@
+{
+  "id": "a4-s05-temple-braise-b",
+  "titre": "Acte 4, scène 5 : Le Temple de Braise (le Dragon et la Clé du Feu)",
+  "lignes": [
+    { "type": "spawn", "pnj": "dragon-braise", "sprite": "dragon-braise", "x": 10, "y": 4, "direction": "down" },
+    { "type": "playSound", "son": "braise" },
+    { "type": "shake", "duree": 800, "intensite": 3 },
+    { "type": "flash", "couleur": "#ff7a3c", "duree": 300 },
+    { "type": "emote", "cible": "nyra", "emote": "exclamation" },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Un dragon. Un vrai dragon. Ok, je retire ce que j’ai dit sur les choses énormes. Celui-là, je l’adore."
+    },
+    { "type": "playMusic", "musique": "boss", "fondu": 300 },
+    { "type": "startBattle", "groupe": "boss-dragon-braise" },
+    { "type": "quest", "action": "task", "mission": "m4-05", "tache": 3 },
+    { "type": "playMusic", "musique": "volcan", "fondu": 1500 },
+    { "type": "moveTo", "cible": "nyra", "x": 10, "y": 7, "vitesse": 0.8 },
+    { "type": "face", "cible": "nyra", "direction": "up" },
+    { "type": "wait", "duree": 1000 },
+    { "type": "playSound", "son": "lueur-trouvee" },
+    { "type": "spawn", "pnj": "magma-pnj", "sprite": "magma", "x": 10, "y": 5 },
+    { "type": "moveTo", "cible": "magma-pnj", "x": 10, "y": 6, "vitesse": 1.5 },
+    { "type": "emote", "cible": "magma-pnj", "emote": "musique" },
+    { "perso": "nyra", "expr": "surpris", "texte": "… Il me fait un cadeau ?" },
+    { "type": "playMusic", "musique": "nyra", "fondu": 800 },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Les gardiens reconnaissent ceux qui entendent leur chant."
+    },
+    { "type": "despawn", "pnj": "magma-pnj" },
+    { "type": "give", "lueur": "magma" },
+    { "ecran": "Nyra a obtenu la Lueur Magma." },
+    { "type": "playMusic", "musique": "volcan", "fondu": 1500 },
+    { "type": "moveTo", "cible": "player", "x": 13, "y": 6, "vitesse": 0.8 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "playSound", "son": "objet" },
+    { "type": "give", "objet": "cle-feu", "quantite": 1 },
+    { "type": "quest", "action": "task", "mission": "m4-05", "tache": 4 },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 10, "y": 13, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-escorte-1", "sprite": "garde-royal", "x": 8, "y": 14, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-escorte-2", "sprite": "garde-royal", "x": 12, "y": 14, "direction": "up" },
+    { "type": "moveTo", "cible": "dumarre", "x": 10, "y": 10, "vitesse": 1.2 },
+    { "type": "face", "cible": "player", "direction": "down" },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "On la protège. Personne ne la touche. Mes gardes encerclent le temple."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Ils vont venir. Varn ne renonce jamais. Il a juste besoin de nous trouver."
+    },
+    { "type": "quest", "action": "complete", "mission": "m4-05" },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-escorte-1" },
+    { "type": "despawn", "pnj": "garde-escorte-2" },
+    { "type": "despawn", "pnj": "dragon-braise" },
+    { "type": "save" }
+  ]
+}

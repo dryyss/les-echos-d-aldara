@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import { COLORS, GAME_HEIGHT, GAME_WIDTH } from './config';
 import { BootScene } from './scenes/BootScene';
 import { TitleScene } from './scenes/TitleScene';
+import { WorldScene } from './scenes/WorldScene';
 import { computeIntegerZoom } from './utils/scale';
 
 function currentZoom(): number {
@@ -22,7 +23,7 @@ const config: Phaser.Types.Core.GameConfig = {
     autoCenter: Phaser.Scale.CENTER_BOTH,
     zoom: currentZoom(),
   },
-  scene: [BootScene, TitleScene],
+  scene: [BootScene, TitleScene, WorldScene],
 };
 
 const game = new Phaser.Game(config);

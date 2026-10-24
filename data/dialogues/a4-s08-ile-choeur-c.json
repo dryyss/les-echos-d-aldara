@@ -1,0 +1,30 @@
+{
+  "id": "a4-s08-ile-choeur-c",
+  "titre": "Acte 4, scène 8 : L’Île du Chœur (la salle des six Accords)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "flash", "couleur": "#ffffff", "duree": 500 },
+    { "type": "shake", "duree": 800, "intensite": 2 },
+    { "type": "quest", "action": "task", "mission": "m4-07", "tache": 1 },
+    { "type": "quest", "action": "task", "mission": "m4-07", "tache": 2 },
+    {
+      "type": "if",
+      "condition": { "flag": "lueurs_27" },
+      "alors": [
+        { "type": "wait", "duree": 800 },
+        { "type": "playSound", "son": "lueur-trouvee" },
+        { "type": "spawn", "pnj": "prisme-pnj", "sprite": "prisme", "x": 10, "y": 5 },
+        { "type": "moveTo", "cible": "prisme-pnj", "x": 10, "y": 7, "vitesse": 1 },
+        { "type": "emote", "cible": "prisme-pnj", "emote": "musique" },
+        { "perso": "prisme", "expr": "neutre", "texte": "… Chœur. Chœur. Chœur." },
+        { "type": "despawn", "pnj": "prisme-pnj" },
+        { "type": "give", "lueur": "prisme" },
+        { "ecran": "La classe Accordeur est débloquée." },
+        { "type": "quest", "action": "task", "mission": "m4-07", "tache": 3 }
+      ],
+      "sinon": [{ "type": "quest", "action": "task", "mission": "m4-07", "tache": 3 }]
+    },
+    { "type": "setMapState", "cle": "porte-sommet", "valeur": "open" },
+    { "type": "save" }
+  ]
+}

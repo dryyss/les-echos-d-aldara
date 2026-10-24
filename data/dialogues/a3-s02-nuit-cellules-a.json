@@ -1,0 +1,21 @@
+{
+  "id": "a3-s02-nuit-cellules-a",
+  "titre": "Acte 3, scène 2 : La nuit des cellules (la cellule)",
+  "lignes": [
+    { "type": "playMusic", "musique": "egouts", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    { "type": "quest", "action": "start", "mission": "m3-02" },
+    { "type": "move", "cible": "nyra", "direction": "left", "pas": 2 },
+    { "type": "move", "cible": "nyra", "direction": "right", "pas": 2 },
+    {
+      "perso": "nyra",
+      "expr": "colere",
+      "texte": "Je pourrais faire fondre les barreaux. Mais il y a dix gardes dans le couloir."
+    },
+    {
+      "perso": "oren",
+      "expr": "neutre",
+      "texte": "Onze. J’ai compté les bruits de pas. Techniquement, ça ne change pas grand-chose."
+    }
+  ]
+}

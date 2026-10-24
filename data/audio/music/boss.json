@@ -1,0 +1,38 @@
+{
+  "id": "boss",
+  "title": "Le Masque de cuivre",
+  "bpm": 160,
+  "stepsPerBeat": 4,
+  "loop": true,
+  "tracks": [
+    {
+      "name": "melodie",
+      "wave": "sawtooth",
+      "volume": 0.16,
+      "vibrato": 10,
+      "release": 0.03,
+      "pattern": "D5:2 D5:2 F5:2 D5:2 G#5:4 A5:4 | A5:2 G#5:2 G5:2 F5:2 E5:2 F5:2 D5:4 | Eb5:2 Eb5:2 Gb5:2 Eb5:2 Bb5:4 A5:4 | D5:2 A5:2 G#5:2 F5:2 D5:4 .:4 | D5:2 F5:2 A5:2 D6:2 C#6:4 A5:4 | Bb5:2 A5:2 Bb5:2 F5:2 D5:4 Bb4:4 | C#5:2 E5:2 A5:2 G#5:2 E5:4 C#5:4 | D5:4 A4:2 D5:2 F5:2 G#5:2 A5:4 | G5:2 G5:2 Bb5:2 G5:2 D6:4 C#6:4 | C6:2 Bb5:2 A5:2 G5:2 F#5:2 G5:2 D5:4 | Ab5:2 Ab5:2 C6:2 Ab5:2 Eb6:4 D6:4 | Db6:2 C6:2 Bb5:2 Ab5:2 G5:2 Ab5:2 Eb5:4 | D5:2 E5:2 F5:2 G#5:2 A5:2 Bb5:2 A5:2 G#5:2 | Eb5:2 F5:2 Gb5:2 A5:2 Bb5:2 B5:2 Bb5:2 A5:2 | D6:4 C#6:2 D6:2 A5:4 F5:4 | E5:2 G5:2 C#5:2 E5:2 G#5:2 C#6:2 .:4"
+    },
+    {
+      "name": "arpeges",
+      "wave": "pulse12",
+      "volume": 0.1,
+      "arpeggio": true,
+      "release": 0.02,
+      "pattern": "[D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [Eb4 Gb4 Bb4]:6 .:2 [Eb4 Gb4 A4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [Bb3 D4 F4]:6 .:2 [Bb3 D4 E4]:6 .:2 | [A3 C#4 E4]:6 .:2 [A3 C#4 G4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [G4 Bb4 D5]:6 .:2 [G4 Bb4 C#5]:6 .:2 | [G4 Bb4 D5]:6 .:2 [G4 Bb4 C#5]:6 .:2 | [Ab3 C4 Eb4]:6 .:2 [Ab3 C4 D4]:6 .:2 | [Ab3 C4 Eb4]:6 .:2 [Ab3 C4 D4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [Eb4 Gb4 Bb4]:6 .:2 [Eb4 Gb4 A4]:6 .:2 | [D4 F4 A4]:6 .:2 [D4 F4 G#4]:6 .:2 | [C#4 E4 G4]:6 .:2 [C#4 E4 G4]:6 .:2"
+    },
+    {
+      "name": "basse",
+      "wave": "square",
+      "volume": 0.15,
+      "release": 0.02,
+      "pattern": "D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 D3:2 C#3:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 A2:2 D2:2 | Eb2:2 Eb2:2 Eb3:2 Eb2:2 A2:2 Eb2:2 Eb3:2 D2:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 D3:2 C#3:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 A2:2 Bb2:2 | Bb1:2 Bb1:2 Bb2:2 Bb1:2 E2:2 Bb1:2 Bb2:2 A2:2 | A1:2 A1:2 A2:2 A1:2 Eb2:2 A1:2 A2:2 C#2:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 D3:2 G2:2 | G2:2 G2:2 G3:2 G2:2 C#3:2 G2:2 G3:2 F#2:2 | G2:2 G2:2 G3:2 G2:2 C#3:2 G2:2 D3:2 Ab2:2 | Ab1:2 Ab1:2 Ab2:2 Ab1:2 D2:2 Ab1:2 Ab2:2 G2:2 | Ab1:2 Ab1:2 Ab2:2 Ab1:2 D2:2 Ab1:2 Eb2:2 C#2:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 D3:2 Eb2:2 | Eb2:2 Eb2:2 Eb3:2 Eb2:2 A2:2 Eb2:2 Eb3:2 D2:2 | D2:2 D2:2 D3:2 D2:2 G#2:2 D2:2 A2:2 C#3:2 | C#2:2 C#2:2 C#3:2 C#2:2 G2:2 C#2:2 C#3:2 .:2"
+    },
+    {
+      "name": "percu",
+      "wave": "noise",
+      "volume": 0.11,
+      "pattern": "k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . k . s . h . k . k . s s h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . s . k . s s s s s s | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . k . s . h . k . k . s s h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . h . k . h . s . h h | k . h . s . s . k . s s s s s s"
+    }
+  ]
+}

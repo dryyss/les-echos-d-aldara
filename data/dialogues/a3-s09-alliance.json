@@ -1,0 +1,77 @@
+{
+  "id": "a3-s09-alliance",
+  "titre": "Acte 3, scène 9 : L’alliance",
+  "lignes": [
+    { "type": "playMusic", "musique": "tension", "fondu": 1500 },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 10, "y": 5, "direction": "down" },
+    { "type": "spawn", "pnj": "garde-dumarre-1", "sprite": "garde-royal", "x": 8, "y": 4, "direction": "down" },
+    { "type": "spawn", "pnj": "garde-dumarre-2", "sprite": "garde-royal", "x": 12, "y": 4, "direction": "down" },
+    { "type": "spawn", "pnj": "garde-dumarre-3", "sprite": "garde-royal", "x": 7, "y": 5, "direction": "down" },
+    { "type": "spawn", "pnj": "garde-dumarre-4", "sprite": "garde-royal", "x": 13, "y": 5, "direction": "down" },
+    { "type": "quest", "action": "start", "mission": "m3-08" },
+    { "type": "quest", "action": "task", "mission": "m3-08", "tache": 0 },
+    { "type": "face", "cible": "dumarre", "direction": "left" },
+    { "type": "wait", "duree": 1000 },
+    { "type": "face", "cible": "dumarre", "direction": "down" },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "Je vous ai suivis depuis Valcourt. Je vous ai vus défendre cette cité. Et j’ai vu qui l’a détruite."
+    },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "Je me suis trompée sur vous. Je ne le dis pas souvent. Profitez-en."
+    },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Ça fait deux personnes qui nous disent ça cette semaine."
+    },
+    { "type": "quest", "action": "task", "mission": "m3-08", "tache": 1 },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "La Garde est à votre disposition. Mais je ne sais pas comment arrêter un homme qui frappe des Diapasons."
+    },
+    {
+      "perso": "oren",
+      "expr": "neutre",
+      "texte": "Il nous faudrait quelqu’un qui connaît vraiment les Accordeurs. Pas juste des livres."
+    },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "Il y a un peuple qui garde leur mémoire. Les Cendrais, au Désert de Cendre."
+    },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "Leur doyenne, Mère Sahra, vit à l’Oasis de Sahr. Personne de la capitale n’y est allé depuis cinquante ans."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Le désert. Là où se trouve le dernier Diapason. Ça tombe bien."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "On part demain." },
+    {
+      "perso": "dumarre",
+      "expr": "sourire",
+      "texte": "Je viens avec vous. Avec mes meilleurs gardes. Si on doit traverser le désert, autant le faire ensemble."
+    },
+    { "type": "setFlag", "drapeau": "alliance_garde" },
+    { "type": "quest", "action": "task", "mission": "m3-08", "tache": 2 },
+    { "type": "quest", "action": "task", "mission": "m3-08", "tache": 3 },
+    { "type": "quest", "action": "complete", "mission": "m3-08" },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-dumarre-1" },
+    { "type": "despawn", "pnj": "garde-dumarre-2" },
+    { "type": "despawn", "pnj": "garde-dumarre-3" },
+    { "type": "despawn", "pnj": "garde-dumarre-4" },
+    { "type": "fade", "vers": "noir", "duree": 1500 },
+    { "type": "playMusic", "musique": null, "fondu": 1500 },
+    { "type": "title", "texte": "Fin de l’Acte 3 : Le Vent Trahi", "duree": 3500 },
+    { "type": "save" }
+  ]
+}

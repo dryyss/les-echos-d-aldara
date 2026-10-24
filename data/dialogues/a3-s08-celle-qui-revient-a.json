@@ -1,0 +1,35 @@
+{
+  "id": "a3-s08-celle-qui-revient-a",
+  "titre": "Acte 3, scène 8 : Celle qui revient (trois jours plus tard)",
+  "lignes": [
+    { "type": "fade", "vers": "noir", "duree": 10 },
+    { "type": "title", "texte": "Ventelune", "sousTitre": "Trois jours plus tard", "duree": 2500 },
+    { "type": "playMusic", "musique": "ventelune", "fondu": 2000 },
+    { "type": "fade", "vers": "visible", "duree": 1500 },
+    { "type": "quest", "action": "start", "mission": "m3-07" },
+    { "type": "quest", "action": "task", "mission": "m3-07", "tache": 0 },
+    { "type": "emote", "cible": "nyra", "emote": "colere" },
+    {
+      "perso": "nyra",
+      "expr": "colere",
+      "texte": "Trois jours. Trois jours que je reconstruis des ponts au lieu de lui courir après."
+    },
+    { "perso": "oren", "expr": "triste", "texte": "On ne sait même pas où ils sont allés." },
+    {
+      "perso": "nyra",
+      "expr": "colere",
+      "texte": "Moi je sais où elle va finir. Au bout de ma flèche."
+    },
+    { "type": "spawn", "pnj": "garde-haut-vent-1", "sprite": "garde-royal", "x": 4, "y": 12, "direction": "right" },
+    { "type": "moveTo", "cible": "garde-haut-vent-1", "x": 9, "y": 10, "vitesse": 1.8 },
+    { "type": "emote", "cible": "garde-haut-vent-1", "emote": "exclamation" },
+    {
+      "perso": "garde-haut-vent",
+      "expr": "surpris",
+      "texte": "Il y a quelqu’un, à l’entrée de la cité. Une fille blessée. Elle demande Kaël."
+    },
+    { "type": "face", "cible": "player", "direction": "left" },
+    { "type": "moveTo", "cible": "garde-haut-vent-1", "x": 4, "y": 12, "vitesse": 1.8 },
+    { "type": "despawn", "pnj": "garde-haut-vent-1" }
+  ]
+}

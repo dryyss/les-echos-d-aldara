@@ -1,0 +1,82 @@
+[
+  {
+    "id": "fresque-sahr-1",
+    "title": "Première fresque de Sahr",
+    "text": "Le monde chantait trop fort. Les tempêtes déchiraient le ciel. Alors nous avons construit les Diapasons pour baisser le chant."
+  },
+  {
+    "id": "fresque-sahr-2",
+    "title": "Deuxième fresque de Sahr",
+    "text": "Mais un chant trop bas finit par s’éteindre. Nous le savions. Un jour, il faudra le réaccorder."
+  },
+  {
+    "id": "fresque-sahr-3",
+    "title": "Troisième fresque de Sahr",
+    "text": "Pas en frappant. En écoutant. Un Diapason après l’autre, une note après l’autre, par ceux qui entendent toutes les notes ensemble."
+  },
+  {
+    "id": "autel-bois-murmures",
+    "title": "L’autel du Bois des Murmures",
+    "text": "Que la racine monte vers la lumière. Que celui qui écoute fasse grandir. Les Accordeurs ont laissé cet autel au cœur du bois, pour celui qui saurait l’entendre."
+  },
+  {
+    "id": "colonne-tellume",
+    "title": "La colonne de Tellume",
+    "text": "Nous, les Accordeurs, avons calmé la terre. Que celui qui viendra un jour accorde ce que nous avons figé. Les colonnes de Tellume répètent cette phrase à qui pose la main dessus."
+  },
+  {
+    "id": "ere-tempetes",
+    "title": "L’Ère des Tempêtes",
+    "text": "Avant les Diapasons, l’Écho était trop fort. Les forêts poussaient en une nuit et brûlaient le lendemain, les mers quittaient leur lit. Il ne reste de cette époque que des fossiles de créatures géantes et des légendes que les vieux racontent le soir."
+  },
+  {
+    "id": "dressage-diapasons",
+    "title": "L’an 1 après les Diapasons",
+    "text": "Les Accordeurs ont dressé quatre monolithes aux quatre coins d’Aldara pour brider l’Écho. Ils ont confié une Clé à chacune des quatre familles gardiennes, puis ils ont disparu. On compte les années depuis ce jour."
+  },
+  {
+    "id": "grande-chasse",
+    "title": "La Grande Chasse",
+    "text": "En l’an 700, les royaumes ont interdit les Résonants, accusés de vouloir rallumer les Tempêtes. On les a enregistrés, bracelets de cuivre au poignet, puis chassés. Certaines villes appliquent encore ces lois sans se souvenir pourquoi."
+  },
+  {
+    "id": "echo-fatigue",
+    "title": "L’Écho fatigué",
+    "text": "Vers l’an 960, les saisons se sont déréglées et les premières sécheresses ont frappé le sud. Quelques savants ont parlé d’un « Écho fatigué ». Personne ne les a écoutés. Les champs morts du Désert de Cendre leur donnent raison."
+  },
+  {
+    "id": "nuit-corbec",
+    "title": "La nuit de Corbec",
+    "text": "En l’an 990, des chasseurs de Résonants ont brûlé le village de Corbec. Un garçon de dix-sept ans a survécu, le visage marqué par les flammes. Il a fondé l’Ordre du Silence pour que plus jamais un Résonant n’ait à se cacher."
+  },
+  {
+    "id": "lueurs-fragments",
+    "title": "Les Lueurs",
+    "text": "Les Lueurs sont des éclats vivants du Chœur. Elles choisissent de suivre un Résonant qu’elles jugent « juste », jamais l’inverse. Les Sourds ne les voient pas, et c’est pour cela qu’on les a longtemps prises pour des contes d’enfants."
+  },
+  {
+    "id": "familles-gardiennes",
+    "title": "Les Familles Gardiennes",
+    "text": "Quatre familles gardent les Clés depuis mille ans : celle d’Aubin pour la Terre, les Marelle pour l’Eau, les Aster pour le Vent, et les gardiens du Feu chez les Cendrais. Chacune a juré de cacher sa Clé, mais aucune n’a gardé la mémoire de ce qu’elle ouvre vraiment."
+  },
+  {
+    "id": "choeur-primordial",
+    "title": "Le Chœur Primordial",
+    "text": "À l’origine, le Chœur chante le monde. Il n’est ni bon ni mauvais : il est la source de l’Écho. Trop fort, il déchaîne les Tempêtes. Trop faible, il laisse la terre mourir. Il n’écoute personne, et pourtant il attend qu’on l’écoute."
+  },
+  {
+    "id": "sanctuaire-brumeval",
+    "title": "Les murmures du sanctuaire",
+    "text": "La nuit, les murs du sanctuaire de Brumeval murmurent une vieille berceuse des Accordeurs : « Quatre torches pour quatre notes, et la cinquième est le silence entre elles. » Les anciens du village y entendaient un fantôme. C’était une leçon."
+  },
+  {
+    "id": "bibliotheque-interdite",
+    "title": "Les livres interdits",
+    "text": "Trois ouvrages de la bibliothèque royale, interdits depuis la Grande Chasse, décrivent les Diapasons comme des instruments à réaccorder et non des armes à frapper. Celui qui les a lus en premier a été renvoyé. Il s’appelait Oren."
+  },
+  {
+    "id": "gant-monocle",
+    "title": "Les reliques des Accordeurs",
+    "text": "Le Gant et le Monocle d’Accordeur ne sont pas des objets magiques : ce sont des outils taillés pour les mains et les yeux de ceux qui entendent l’Écho. Un Sourd qui les porte ne sent qu’un gant et un morceau de verre."
+  }
+]

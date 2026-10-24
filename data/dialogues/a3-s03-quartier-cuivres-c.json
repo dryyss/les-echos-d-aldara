@@ -1,0 +1,10 @@
+{
+  "id": "a3-s03-quartier-cuivres-c",
+  "titre": "Acte 3, scène 3 : Le quartier des cuivres (le passage secret)",
+  "lignes": [
+    { "type": "playSound", "son": "secret" },
+    { "type": "quest", "action": "task", "mission": "m3-03", "tache": 3 },
+    { "type": "quest", "action": "complete", "mission": "m3-03" },
+    { "type": "save" }
+  ]
+}

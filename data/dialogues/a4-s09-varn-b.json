@@ -1,0 +1,276 @@
+{
+  "id": "a4-s09-varn-b",
+  "titre": "Acte 4, scène 9 : Le Chœur (réaccorder le Chœur, un Accord après l’autre)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ile-choeur", "fondu": 2000 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "shake", "duree": 1500, "intensite": 3 },
+    { "ecran": "La tempête hurle au-dessus du Chœur. Choisissez le premier Accord à lancer." },
+    {
+      "choix": [
+        {
+          "texte": "Magma (Kaël et Nyra)",
+          "drapeau": "choeur_accord_magma",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ff7a3c", "duree": 500 },
+            { "ecran": "Kaël et Nyra lancent l’Accord Magma. Une première note se pose." }
+          ]
+        },
+        {
+          "texte": "Vapeur (Nyra et Oren)",
+          "drapeau": "choeur_accord_vapeur",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#dbe9f4", "duree": 500 },
+            { "ecran": "Nyra et Oren lancent l’Accord Vapeur. Une première note se pose." }
+          ]
+        },
+        {
+          "texte": "Marée verte (Kaël et Oren)",
+          "drapeau": "choeur_accord_maree_verte",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#7fd87f", "duree": 500 },
+            { "ecran": "Kaël et Oren lancent l’Accord Marée verte. Une première note se pose." }
+          ]
+        },
+        {
+          "texte": "Tempête (Sefa et Oren)",
+          "drapeau": "choeur_accord_tempete",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#9fc5e8", "duree": 500 },
+            { "ecran": "Sefa et Oren lancent l’Accord Tempête. Une première note se pose." }
+          ]
+        },
+        {
+          "texte": "Sable vif (Sefa et Kaël)",
+          "drapeau": "choeur_accord_sable_vif",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#e8c88a", "duree": 500 },
+            { "ecran": "Sefa et Kaël lancent l’Accord Sable vif. Une première note se pose." }
+          ]
+        },
+        {
+          "texte": "Brasier (Sefa et Nyra)",
+          "drapeau": "choeur_accord_brasier",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ffb347", "duree": 500 },
+            { "ecran": "Sefa et Nyra lancent l’Accord Brasier. Une première note se pose." }
+          ]
+        }
+      ]
+    },
+    { "type": "shake", "duree": 1000, "intensite": 2 },
+    { "ecran": "Le vent faiblit. Choisissez le deuxième Accord." },
+    {
+      "choix": [
+        {
+          "texte": "Magma (Kaël et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_magma" } },
+          "drapeau": "choeur_accord_magma",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ff7a3c", "duree": 500 },
+            { "ecran": "Kaël et Nyra lancent l’Accord Magma. Une deuxième note répond à la première." }
+          ]
+        },
+        {
+          "texte": "Vapeur (Nyra et Oren)",
+          "si": { "not": { "flag": "choeur_accord_vapeur" } },
+          "drapeau": "choeur_accord_vapeur",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#dbe9f4", "duree": 500 },
+            { "ecran": "Nyra et Oren lancent l’Accord Vapeur. Une deuxième note répond à la première." }
+          ]
+        },
+        {
+          "texte": "Marée verte (Kaël et Oren)",
+          "si": { "not": { "flag": "choeur_accord_maree_verte" } },
+          "drapeau": "choeur_accord_maree_verte",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#7fd87f", "duree": 500 },
+            { "ecran": "Kaël et Oren lancent l’Accord Marée verte. Une deuxième note répond à la première." }
+          ]
+        },
+        {
+          "texte": "Tempête (Sefa et Oren)",
+          "si": { "not": { "flag": "choeur_accord_tempete" } },
+          "drapeau": "choeur_accord_tempete",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#9fc5e8", "duree": 500 },
+            { "ecran": "Sefa et Oren lancent l’Accord Tempête. Une deuxième note répond à la première." }
+          ]
+        },
+        {
+          "texte": "Sable vif (Sefa et Kaël)",
+          "si": { "not": { "flag": "choeur_accord_sable_vif" } },
+          "drapeau": "choeur_accord_sable_vif",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#e8c88a", "duree": 500 },
+            { "ecran": "Sefa et Kaël lancent l’Accord Sable vif. Une deuxième note répond à la première." }
+          ]
+        },
+        {
+          "texte": "Brasier (Sefa et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_brasier" } },
+          "drapeau": "choeur_accord_brasier",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ffb347", "duree": 500 },
+            { "ecran": "Sefa et Nyra lancent l’Accord Brasier. Une deuxième note répond à la première." }
+          ]
+        }
+      ]
+    },
+    { "type": "shake", "duree": 800, "intensite": 2 },
+    { "ecran": "Les éclairs s’espacent. Choisissez le troisième Accord." },
+    {
+      "choix": [
+        {
+          "texte": "Magma (Kaël et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_magma" } },
+          "drapeau": "choeur_accord_magma",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ff7a3c", "duree": 500 },
+            { "ecran": "Kaël et Nyra lancent l’Accord Magma. Trois notes tiennent ensemble." }
+          ]
+        },
+        {
+          "texte": "Vapeur (Nyra et Oren)",
+          "si": { "not": { "flag": "choeur_accord_vapeur" } },
+          "drapeau": "choeur_accord_vapeur",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#dbe9f4", "duree": 500 },
+            { "ecran": "Nyra et Oren lancent l’Accord Vapeur. Trois notes tiennent ensemble." }
+          ]
+        },
+        {
+          "texte": "Marée verte (Kaël et Oren)",
+          "si": { "not": { "flag": "choeur_accord_maree_verte" } },
+          "drapeau": "choeur_accord_maree_verte",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#7fd87f", "duree": 500 },
+            { "ecran": "Kaël et Oren lancent l’Accord Marée verte. Trois notes tiennent ensemble." }
+          ]
+        },
+        {
+          "texte": "Tempête (Sefa et Oren)",
+          "si": { "not": { "flag": "choeur_accord_tempete" } },
+          "drapeau": "choeur_accord_tempete",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#9fc5e8", "duree": 500 },
+            { "ecran": "Sefa et Oren lancent l’Accord Tempête. Trois notes tiennent ensemble." }
+          ]
+        },
+        {
+          "texte": "Sable vif (Sefa et Kaël)",
+          "si": { "not": { "flag": "choeur_accord_sable_vif" } },
+          "drapeau": "choeur_accord_sable_vif",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#e8c88a", "duree": 500 },
+            { "ecran": "Sefa et Kaël lancent l’Accord Sable vif. Trois notes tiennent ensemble." }
+          ]
+        },
+        {
+          "texte": "Brasier (Sefa et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_brasier" } },
+          "drapeau": "choeur_accord_brasier",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ffb347", "duree": 500 },
+            { "ecran": "Sefa et Nyra lancent l’Accord Brasier. Trois notes tiennent ensemble." }
+          ]
+        }
+      ]
+    },
+    { "type": "shake", "duree": 600, "intensite": 1 },
+    { "ecran": "Le ciel se déchire une dernière fois. Choisissez le quatrième Accord." },
+    {
+      "choix": [
+        {
+          "texte": "Magma (Kaël et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_magma" } },
+          "drapeau": "choeur_accord_magma",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ff7a3c", "duree": 500 },
+            { "ecran": "Kaël et Nyra lancent l’Accord Magma. Quatre notes. Le Chœur écoute." }
+          ]
+        },
+        {
+          "texte": "Vapeur (Nyra et Oren)",
+          "si": { "not": { "flag": "choeur_accord_vapeur" } },
+          "drapeau": "choeur_accord_vapeur",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#dbe9f4", "duree": 500 },
+            { "ecran": "Nyra et Oren lancent l’Accord Vapeur. Quatre notes. Le Chœur écoute." }
+          ]
+        },
+        {
+          "texte": "Marée verte (Kaël et Oren)",
+          "si": { "not": { "flag": "choeur_accord_maree_verte" } },
+          "drapeau": "choeur_accord_maree_verte",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#7fd87f", "duree": 500 },
+            { "ecran": "Kaël et Oren lancent l’Accord Marée verte. Quatre notes. Le Chœur écoute." }
+          ]
+        },
+        {
+          "texte": "Tempête (Sefa et Oren)",
+          "si": { "not": { "flag": "choeur_accord_tempete" } },
+          "drapeau": "choeur_accord_tempete",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#9fc5e8", "duree": 500 },
+            { "ecran": "Sefa et Oren lancent l’Accord Tempête. Quatre notes. Le Chœur écoute." }
+          ]
+        },
+        {
+          "texte": "Sable vif (Sefa et Kaël)",
+          "si": { "not": { "flag": "choeur_accord_sable_vif" } },
+          "drapeau": "choeur_accord_sable_vif",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#e8c88a", "duree": 500 },
+            { "ecran": "Sefa et Kaël lancent l’Accord Sable vif. Quatre notes. Le Chœur écoute." }
+          ]
+        },
+        {
+          "texte": "Brasier (Sefa et Nyra)",
+          "si": { "not": { "flag": "choeur_accord_brasier" } },
+          "drapeau": "choeur_accord_brasier",
+          "suite": [
+            { "type": "playSound", "son": "accord" },
+            { "type": "flash", "couleur": "#ffb347", "duree": 500 },
+            { "ecran": "Sefa et Nyra lancent l’Accord Brasier. Quatre notes. Le Chœur écoute." }
+          ]
+        }
+      ]
+    },
+    { "type": "playMusic", "musique": null, "fondu": 1500 },
+    { "type": "wait", "duree": 1000 },
+    { "type": "playSound", "son": "onde-diapason" },
+    { "type": "fade", "vers": "blanc", "duree": 2500 },
+    { "type": "playSound", "son": "lueur-trouvee" },
+    { "type": "wait", "duree": 1500 },
+    { "type": "setFlag", "drapeau": "choeur_reaccorde" },
+    { "type": "quest", "action": "task", "mission": "m4-08", "tache": 4 },
+    { "type": "quest", "action": "complete", "mission": "m4-08" },
+    { "type": "save" }
+  ]
+}

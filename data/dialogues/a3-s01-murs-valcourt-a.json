@@ -1,0 +1,20 @@
+{
+  "id": "a3-s01-murs-valcourt-a",
+  "titre": "Acte 3, scène 1 : Les murs de Valcourt (la caravane)",
+  "lignes": [
+    { "type": "playMusic", "musique": "valcourt", "fondu": 1200 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "quest", "action": "start", "mission": "m3-01" },
+    {
+      "perso": "oren",
+      "expr": "fatigue",
+      "texte": "Valcourt… Je pensais ne jamais revenir ici. Surtout pas en me cachant sous des sacs de navets."
+    },
+    {
+      "perso": "nyra",
+      "expr": "neutre",
+      "texte": "Les navets, c’est mieux que la prison. Respire et tais-toi."
+    },
+    { "type": "quest", "action": "task", "mission": "m3-01", "tache": 0 }
+  ]
+}

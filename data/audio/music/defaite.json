@@ -1,0 +1,41 @@
+{
+  "id": "defaite",
+  "title": "Les Lueurs s’éteignent",
+  "bpm": 66,
+  "stepsPerBeat": 4,
+  "loop": false,
+  "tracks": [
+    {
+      "name": "melodie",
+      "wave": "triangle",
+      "volume": 0.2,
+      "attack": 0.03,
+      "release": 0.4,
+      "vibrato": 6,
+      "pattern": "E5:6 D5:2 C5:8 | B4:6 A4:2 G#4:8 | A4:4 B4:4 C5:4 B4:4 | A4:8 ~ ~ ~ ~ ~ ~ ~ ~"
+    },
+    {
+      "name": "accords",
+      "wave": "triangle",
+      "volume": 0.12,
+      "detune": 4,
+      "attack": 0.1,
+      "release": 0.5,
+      "pattern": "[A3 C4 E4]:16 | [E3 G#3 B3]:16 | [D3 F3 A3]:16 | [A3 C4 E4]:16"
+    },
+    {
+      "name": "basse",
+      "wave": "triangle",
+      "volume": 0.18,
+      "attack": 0.05,
+      "release": 0.4,
+      "pattern": "A2:8 E2:8 | E2:8 B2:8 | D2:8 F2:8 | A2:16"
+    },
+    {
+      "name": "percu",
+      "wave": "noise",
+      "volume": 0.06,
+      "pattern": "k .:15 | .:8 k .:7 | k .:15 | .:16"
+    }
+  ]
+}

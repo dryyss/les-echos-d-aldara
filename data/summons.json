@@ -1,0 +1,137 @@
+[
+  {
+    "id": "golem-pierre",
+    "name": "Golem de Pierre",
+    "element": "terre",
+    "cost": 1,
+    "effect": { "type": "damage", "power": 70, "targets": "all", "element": "terre" },
+    "description": "Un golem de pierre surgit du sol et écrase tous les ennemis de ses poings.",
+    "sprite": "golem-pierre",
+    "animation": "golem-pierre"
+  },
+  {
+    "id": "titan-argile",
+    "name": "Titan d’Argile",
+    "element": "terre",
+    "cost": 2,
+    "effect": { "type": "shield", "turns": 3, "amount": 60 },
+    "description": "Un titan d’argile se dresse devant l’équipe et encaisse les coups à sa place pendant 3 tours.",
+    "sprite": "titan-argile",
+    "animation": "titan-argile"
+  },
+  {
+    "id": "colosse-basalte",
+    "name": "Colosse de Basalte",
+    "element": "terre",
+    "cost": 3,
+    "effect": { "type": "damage", "power": 260, "targets": "all", "element": "terre" },
+    "description": "Un colosse de basalte frappe le sol et fait s’effondrer le champ de bataille sur les ennemis.",
+    "sprite": "colosse-basalte",
+    "animation": "colosse-basalte"
+  },
+  {
+    "id": "salamandre-invoc",
+    "name": "Salamandre",
+    "element": "feu",
+    "cost": 1,
+    "effect": { "type": "damage", "power": 75, "targets": "all", "element": "feu" },
+    "description": "Une salamandre de braise crache une gerbe de flammes sur tous les ennemis.",
+    "sprite": "salamandre-invoc",
+    "animation": "salamandre-invoc"
+  },
+  {
+    "id": "phenix-rouge",
+    "name": "Phénix Rouge",
+    "element": "feu",
+    "cost": 2,
+    "effect": { "type": "revive", "power": 150 },
+    "description": "Un phénix rouge renaît de ses cendres et ramène un allié K.O. avec lui.",
+    "sprite": "phenix-rouge",
+    "animation": "phenix-rouge"
+  },
+  {
+    "id": "dragon-braise-invoc",
+    "name": "Dragon de Braise",
+    "element": "feu",
+    "cost": 3,
+    "effect": { "type": "damage", "power": 280, "targets": "all", "element": "feu" },
+    "description": "Le Dragon de Braise déploie ses ailes et réduit le champ de bataille en cendres.",
+    "sprite": "dragon-braise-invoc",
+    "animation": "dragon-braise-invoc"
+  },
+  {
+    "id": "ondine",
+    "name": "Ondine",
+    "element": "eau",
+    "cost": 1,
+    "effect": { "type": "heal", "power": 90, "targets": "all", "cures": ["poison"] },
+    "description": "Une ondine danse autour de l’équipe et lave les blessures et le poison.",
+    "sprite": "ondine",
+    "animation": "ondine"
+  },
+  {
+    "id": "serpent-marees",
+    "name": "Serpent des Marées",
+    "element": "eau",
+    "cost": 2,
+    "effect": { "type": "damage", "power": 150, "targets": "all", "element": "eau" },
+    "description": "Un serpent de marée s’enroule autour des ennemis et les écrase dans une vague.",
+    "sprite": "serpent-marees",
+    "animation": "serpent-marees"
+  },
+  {
+    "id": "leviathan-invoc",
+    "name": "Léviathan",
+    "element": "eau",
+    "cost": 3,
+    "effect": { "type": "damage", "power": 250, "targets": "all", "element": "eau" },
+    "description": "Le Léviathan surgit des profondeurs et engloutit le champ de bataille sous un raz-de-marée.",
+    "sprite": "leviathan-invoc",
+    "animation": "leviathan-invoc"
+  },
+  {
+    "id": "faucon",
+    "name": "Faucon",
+    "element": "vent",
+    "cost": 1,
+    "effect": { "type": "first-strike", "power": 80, "element": "vent" },
+    "description": "Un faucon fond sur un ennemi avant que quiconque ait le temps de bouger.",
+    "sprite": "faucon",
+    "animation": "faucon"
+  },
+  {
+    "id": "griffon",
+    "name": "Griffon",
+    "element": "vent",
+    "cost": 2,
+    "effect": { "type": "status", "status": "etourdi", "targets": "all", "chance": 0.75 },
+    "description": "Un griffon bat des ailes et renverse tous les ennemis d’une bourrasque.",
+    "sprite": "griffon",
+    "animation": "griffon"
+  },
+  {
+    "id": "roc-tempete-invoc",
+    "name": "Roc Tempête",
+    "element": "vent",
+    "cost": 3,
+    "effect": { "type": "damage", "power": 270, "targets": "all", "element": "vent" },
+    "description": "Le Roc Tempête déchaîne un orage d’éclairs sur tous les ennemis.",
+    "sprite": "roc-tempete-invoc",
+    "animation": "roc-tempete-invoc"
+  },
+  {
+    "id": "gardien-aldara",
+    "name": "Gardien d’Aldara",
+    "element": "tous",
+    "cost": 4,
+    "effect": {
+      "type": "heal",
+      "power": 350,
+      "targets": "all",
+      "cures": ["poison", "sommeil", "etourdi", "silence", "confusion"]
+    },
+    "description": "Le Gardien d’Aldara, fait des quatre éléments, chante le Chœur : l’équipe est soignée et purifiée de tous ses maux.",
+    "sprite": "gardien-aldara",
+    "animation": "gardien-aldara"
+  }
+]

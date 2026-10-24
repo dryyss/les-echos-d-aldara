@@ -1,0 +1,16 @@
+{
+  "id": "joss",
+  "base": "pecheur",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#4a3020",
+    "c": "#e0c060",
+    "C": "#a88a30",
+    "a": "#9a7a4a",
+    "A": "#6e5430",
+    "b": "#5a4a3a",
+    "B": "#3c3024"
+  }
+}

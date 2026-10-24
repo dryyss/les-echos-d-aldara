@@ -1,0 +1,19 @@
+{
+  "id": "a3-s02-nuit-cellules-c",
+  "titre": "Acte 3, scène 2 : La nuit des cellules (le gardien des égouts)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-02", "tache": 2 },
+    { "type": "spawn", "pnj": "inconnue", "sprite": "sefa-inconnue", "x": 10, "y": 6, "direction": "up" },
+    { "type": "playSound", "son": "tremblement" },
+    { "type": "shake", "duree": 600, "intensite": 3 },
+    { "type": "emote", "cible": "inconnue", "emote": "exclamation" },
+    { "type": "playMusic", "musique": "boss", "fondu": 300 },
+    { "type": "startBattle", "groupe": "boss-crocodile" },
+    { "type": "quest", "action": "task", "mission": "m3-02", "tache": 3 },
+    { "type": "playMusic", "musique": "egouts", "fondu": 800 },
+    { "type": "move", "cible": "inconnue", "direction": "up", "pas": 2 },
+    { "type": "despawn", "pnj": "inconnue" },
+    { "type": "fade", "vers": "noir", "duree": 800 },
+    { "type": "teleport", "carte": "valcourt-toits", "x": 8, "y": 10, "direction": "up" }
+  ]
+}

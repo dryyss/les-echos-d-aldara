@@ -1,0 +1,84 @@
+{
+  "id": "a3-s03-quartier-cuivres-b",
+  "titre": "Acte 3, scène 3 : Le quartier des cuivres (l’atelier de Sefa)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-03", "tache": 0 },
+    { "type": "playMusic", "musique": "sefa", "fondu": 1000 },
+    { "type": "spawn", "pnj": "sefa-pnj", "sprite": "sefa", "x": 8, "y": 5, "direction": "down" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "perso": "sefa", "expr": "neutre", "texte": "Je vais être franche. Une fois. Profitez." },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Je vole les Clés des Diapasons. Avant l’Ordre. Pour que Varn ne puisse pas aller au bout."
+    },
+    { "perso": "kael", "expr": "surpris", "texte": "Tu connais Varn ?" },
+    { "perso": "sefa", "expr": "neutre", "texte": "Tout le monde connaît Varn." },
+    { "type": "playSound", "son": "ecoute-bloquee" },
+    {
+      "pensee": "Ne pense pas à lui. Ne pense pas à lui. Il entend tout, ce gamin.",
+      "perso": "sefa"
+    },
+    {
+      "perso": "sefa",
+      "expr": "colere",
+      "texte": "Et arrête de fouiller ma tête, grand. C’est malpoli."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "La Clé du Vent est à Ventelune, chez les Aster. Je comptais y aller seule."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Mais trois paires de bras, c’est mieux qu’une. On fait équipe, jusqu’à nouvel ordre."
+    },
+    {
+      "choix": [
+        {
+          "texte": "D’accord.",
+          "suite": [
+            {
+              "perso": "sefa",
+              "expr": "sourire",
+              "texte": "Parfait. Règle numéro un : vous ne touchez pas à mes affaires."
+            }
+          ]
+        },
+        {
+          "texte": "On ne te fait pas confiance.",
+          "suite": [
+            {
+              "perso": "sefa",
+              "expr": "sourire",
+              "texte": "Tant mieux. Moi non plus. On va bien s’entendre."
+            }
+          ]
+        }
+      ]
+    },
+    { "type": "despawn", "pnj": "sefa-pnj" },
+    { "type": "recruit", "heros": "sefa" },
+    { "type": "setFlag", "drapeau": "sefa_recrutee" },
+    { "type": "give", "lueur": "rafale" },
+    { "type": "playSound", "son": "coffre" },
+    { "type": "emote", "cible": "sefa", "emote": "musique" },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Cadeau. Un receleur me le devait. Il montre ce qui est caché. Utile quand on vole."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Ou quand on cherche des passages secrets pour sortir d’une ville pleine de gardes."
+    },
+    { "type": "give", "objet": "monocle-accordeur", "quantite": 1 },
+    { "type": "give", "resonance": "revelation" },
+    { "ecran": "Kaël a obtenu le Monocle d’Accordeur. Nouvelle Résonance : Révélation." },
+    { "type": "quest", "action": "task", "mission": "m3-03", "tache": 2 },
+    { "type": "playMusic", "musique": "valcourt", "fondu": 1000 },
+    { "type": "save" }
+  ]
+}

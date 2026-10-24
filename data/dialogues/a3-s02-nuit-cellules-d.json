@@ -1,0 +1,42 @@
+{
+  "id": "a3-s02-nuit-cellules-d",
+  "titre": "Acte 3, scène 2 : La nuit des cellules (les toits)",
+  "lignes": [
+    { "type": "playMusic", "musique": "valcourt", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1000 },
+    { "type": "spawn", "pnj": "inconnue", "sprite": "sefa-inconnue", "x": 8, "y": 7, "direction": "down" },
+    { "type": "wait", "duree": 800 },
+    { "type": "despawn", "pnj": "inconnue" },
+    { "type": "spawn", "pnj": "sefa-pnj", "sprite": "sefa", "x": 8, "y": 7, "direction": "down" },
+    { "type": "playMusic", "musique": "sefa", "fondu": 1000 },
+    { "perso": "sefa", "expr": "sourire", "texte": "Sefa. Enchantée. Ou pas, on verra." },
+    { "perso": "kael", "expr": "neutre", "texte": "Pourquoi tu nous aides ?" },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Pourquoi tu poses la question, grand ? T’aimais ta cellule ?"
+    },
+    { "type": "spawn", "pnj": "rafale-pnj", "sprite": "rafale", "x": 9, "y": 7 },
+    { "type": "move", "cible": "rafale-pnj", "direction": "left", "pas": 1, "vitesse": 2 },
+    { "type": "move", "cible": "rafale-pnj", "direction": "up", "pas": 1, "vitesse": 2 },
+    { "type": "move", "cible": "rafale-pnj", "direction": "right", "pas": 1, "vitesse": 2 },
+    { "type": "emote", "cible": "rafale-pnj", "emote": "musique" },
+    { "perso": "rafale", "expr": "sourire", "texte": "Fffsshh !" },
+    {
+      "perso": "oren",
+      "expr": "surpris",
+      "texte": "Une Lueur de Vent ! Vous êtes Résonante aussi !"
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Bravo, le binoclard. T’as gagné le droit de te taire."
+    },
+    { "perso": "oren", "expr": "triste", "texte": "… Même elle." },
+    { "type": "quest", "action": "task", "mission": "m3-02", "tache": 4 },
+    { "type": "quest", "action": "complete", "mission": "m3-02" },
+    { "type": "despawn", "pnj": "rafale-pnj" },
+    { "type": "despawn", "pnj": "sefa-pnj" },
+    { "type": "save" }
+  ]
+}

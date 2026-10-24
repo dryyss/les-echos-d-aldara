@@ -1,0 +1,106 @@
+{
+  "id": "a3-s08-celle-qui-revient-b",
+  "titre": "Acte 3, scène 8 : Celle qui revient (l’entrée de la cité)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-07", "tache": 1 },
+    { "type": "spawn", "pnj": "sefa-pnj", "sprite": "sefa", "x": 6, "y": 8, "direction": "right" },
+    { "type": "playMusic", "musique": "sefa", "fondu": 1500 },
+    { "type": "face", "cible": "player", "direction": "left" },
+    { "perso": "sefa", "expr": "fatigue", "texte": "Salut, grand." },
+    { "type": "moveTo", "cible": "nyra", "x": 8, "y": 8, "vitesse": 1.5 },
+    { "type": "emote", "cible": "nyra", "emote": "colere" },
+    {
+      "perso": "nyra",
+      "expr": "colere",
+      "texte": "Toi ! Tu as un sacré culot de revenir ici !"
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Je sais. J’ai toujours eu du culot. C’est même ma meilleure qualité."
+    },
+    {
+      "perso": "sefa",
+      "expr": "fatigue",
+      "texte": "Écoute-moi. Une minute. Après, tu peux me laisser à la Garde, ou à Nyra. Elle a l’air d’en avoir envie."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Je ne vous ai pas trahis. Je l’ai trompé, lui. Varn ne fait confiance à personne. Sauf à moi."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Pour connaître son plan, il fallait qu’il croie que j’étais revenue."
+    },
+    { "perso": "oren", "expr": "surpris", "texte": "Et alors ? Tu sais ce qu’il prépare ?" },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Le dernier Diapason est dans un volcan, au Désert de Cendre. Quand il le frappera, une île sortira de la mer."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "L’Île du Chœur. Et là-bas… il veut réveiller quelque chose d’énorme."
+    },
+    {
+      "perso": "sefa",
+      "expr": "fatigue",
+      "texte": "Ilse m’a surprise quand je fuyais. Voilà pour le bras."
+    },
+    { "type": "playSound", "son": "ecoute" },
+    {
+      "pensee": "S’il te plaît, crois-moi. Je n’ai jamais eu de famille avant vous. Je ne veux pas la perdre.",
+      "perso": "sefa"
+    },
+    { "type": "quest", "action": "task", "mission": "m3-07", "tache": 2 },
+    {
+      "perso": "nyra",
+      "expr": "neutre",
+      "texte": "Kaël. C’est toi qui décides. Moi, je lui fais plus confiance."
+    },
+    {
+      "choix": [
+        {
+          "texte": "Je te crois.",
+          "drapeau": "sefa_confiance",
+          "suite": [
+            { "perso": "sefa", "expr": "triste", "texte": "… Merci. Vraiment." },
+            {
+              "perso": "nyra",
+              "expr": "colere",
+              "texte": "Tsss. Si elle nous trahit encore, je dirai « je te l’avais dit » pendant cent ans."
+            },
+            {
+              "perso": "sefa",
+              "expr": "sourire",
+              "texte": "Ça me va. Ça veut dire qu’on sera vivants dans cent ans."
+            }
+          ]
+        },
+        {
+          "texte": "Je ne sais pas encore.",
+          "drapeau": "sefa_mefiance",
+          "suite": [
+            {
+              "perso": "sefa",
+              "expr": "neutre",
+              "texte": "C’est honnête. Je ferai mes preuves. À ma façon."
+            },
+            { "perso": "oren", "expr": "neutre", "texte": "Elle reste avec nous en attendant ?" },
+            { "perso": "kael", "expr": "neutre", "texte": "Elle reste." }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m3-07", "tache": 3 },
+    { "type": "despawn", "pnj": "sefa-pnj" },
+    { "type": "setFlag", "drapeau": "sefa_absente", "valeur": false },
+    { "type": "heal" },
+    { "type": "quest", "action": "complete", "mission": "m3-07" },
+    { "type": "playMusic", "musique": "ventelune", "fondu": 1500 },
+    { "type": "save" }
+  ]
+}

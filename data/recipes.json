@@ -1,0 +1,126 @@
+[
+  {
+    "id": "recette-armure-ocre",
+    "result": "armure-ocre",
+    "materials": [
+      { "item": "minerai-ocre", "quantity": 4 },
+      { "item": "minerai-rouge", "quantity": 2 }
+    ],
+    "coins": 30
+  },
+  {
+    "id": "recette-epee-ocre",
+    "result": "epee-ocre",
+    "materials": [{ "item": "minerai-rouge", "quantity": 5 }],
+    "coins": 50
+  },
+  {
+    "id": "recette-hache-ocre",
+    "result": "hache-ocre",
+    "materials": [
+      { "item": "minerai-ocre", "quantity": 3 },
+      { "item": "minerai-rouge", "quantity": 2 }
+    ],
+    "coins": 40
+  },
+  {
+    "id": "recette-arc-braise",
+    "result": "arc-braise",
+    "materials": [
+      { "item": "minerai-rouge", "quantity": 3 },
+      { "item": "minerai-ocre", "quantity": 2 }
+    ],
+    "coins": 60,
+    "requiresFlag": "nyra_recrutee"
+  },
+  {
+    "id": "recette-lame-givre",
+    "result": "lame-givre",
+    "materials": [
+      { "item": "cristal-givre", "quantity": 3 },
+      { "item": "minerai-rouge", "quantity": 2 }
+    ],
+    "coins": 120,
+    "requiresFlag": "m1_08_fini"
+  },
+  {
+    "id": "recette-baton-perle",
+    "result": "baton-perle",
+    "materials": [
+      { "item": "perle-noire", "quantity": 2 },
+      { "item": "cristal-givre", "quantity": 1 }
+    ],
+    "coins": 100,
+    "requiresFlag": "m1_08_fini"
+  },
+  {
+    "id": "recette-fleau-maree",
+    "result": "fleau-maree",
+    "materials": [
+      { "item": "cristal-givre", "quantity": 2 },
+      { "item": "perle-noire", "quantity": 2 }
+    ],
+    "coins": 120,
+    "requiresFlag": "m1_08_fini"
+  },
+  {
+    "id": "recette-marteau-griffon",
+    "result": "marteau-griffon",
+    "materials": [
+      { "item": "plume-griffon", "quantity": 2 },
+      { "item": "minerai-rouge", "quantity": 3 }
+    ],
+    "coins": 300,
+    "requiresFlag": "m2_07_fini"
+  },
+  {
+    "id": "recette-dagues-soie",
+    "result": "dagues-soie",
+    "materials": [
+      { "item": "soie-vent", "quantity": 3 },
+      { "item": "plume-griffon", "quantity": 1 }
+    ],
+    "coins": 300,
+    "requiresFlag": "m2_07_fini"
+  },
+  {
+    "id": "recette-arc-tempete",
+    "result": "arc-tempete",
+    "materials": [
+      { "item": "plume-griffon", "quantity": 2 },
+      { "item": "soie-vent", "quantity": 2 }
+    ],
+    "coins": 350,
+    "requiresFlag": "m2_07_fini"
+  },
+  {
+    "id": "recette-epee-salamandre",
+    "result": "epee-salamandre",
+    "materials": [
+      { "item": "ecaille-salamandre", "quantity": 3 },
+      { "item": "cendre-sacree", "quantity": 1 }
+    ],
+    "coins": 600,
+    "requiresFlag": "m3_08_fini"
+  },
+  {
+    "id": "recette-baton-cendre-sacree",
+    "result": "baton-cendre-sacree",
+    "materials": [
+      { "item": "cendre-sacree", "quantity": 2 },
+      { "item": "perle-noire", "quantity": 2 }
+    ],
+    "coins": 600,
+    "requiresFlag": "m3_08_fini"
+  },
+  {
+    "id": "recette-marteau-accordeurs",
+    "result": "marteau-accordeurs",
+    "materials": [
+      { "item": "metal-legendaire", "quantity": 3 },
+      { "item": "fragment-accordeur", "quantity": 1 }
+    ],
+    "coins": 0,
+    "requiresFlag": "m3_08_fini"
+  }
+]

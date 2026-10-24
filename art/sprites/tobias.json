@@ -1,0 +1,15 @@
+{
+  "id": "tobias",
+  "base": "mineur",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "s": "#d8b090",
+    "S": "#b08068",
+    "a": "#6a6a60",
+    "A": "#46463e",
+    "b": "#4a4a40",
+    "B": "#30302a"
+  }
+}

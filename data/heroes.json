@@ -1,0 +1,148 @@
+[
+  {
+    "id": "kael",
+    "name": "Kaël",
+    "element": "terre",
+    "age": 16,
+    "description": "Apprenti forgeron de Brumeval. Calme, têtu, protecteur. Il entend les pierres depuis toujours et l’a toujours caché.",
+    "baseStats": { "hp": 48, "pr": 7.5, "attack": 10, "defense": 7.8, "speed": 6.2, "luck": 3.5 },
+    "growth": { "hp": 8, "pr": 1.5, "attack": 2, "defense": 1.8, "speed": 1.2, "luck": 0.5 },
+    "basePower": { "terre": 10, "feu": 0, "eau": 0, "vent": 0 },
+    "baseResistance": { "terre": 10, "feu": 0, "eau": 0, "vent": 0 },
+    "weaponTypes": ["epee", "hache", "marteau"],
+    "spells": [
+      { "spell": "frappe-de-gres", "level": 1 },
+      { "spell": "rempart", "level": 4 },
+      { "spell": "volee-de-pierres", "level": 7 },
+      { "spell": "provocation", "level": 10 },
+      { "spell": "secousse", "level": 15 },
+      { "spell": "mur-de-terre", "level": 19 },
+      { "spell": "seisme", "level": 26 },
+      { "spell": "coeur-de-montagne", "level": 36 }
+    ],
+    "classes": {
+      "base": "Forgeron",
+      "pure": ["Gardien", "Paladin"],
+      "hybrid": { "terre": "Gardien", "feu": "Briseur", "eau": "Druide", "vent": "Rôdeur" },
+      "accordeur": "Accordeur"
+    },
+    "startingLueur": "gres",
+    "startingEquipment": { "armor": "tunique-toile" },
+    "sprite": "kael",
+    "battleSprite": "kael-combat",
+    "portrait": "kael",
+    "voice": { "pitch": 260, "wave": "square", "length": 60 }
+  },
+  {
+    "id": "nyra",
+    "name": "Nyra",
+    "element": "feu",
+    "age": 17,
+    "description": "Chasseuse des bois de Hautegrange, recherchée comme « sorcière de feu ». Impulsive, grande gueule, loyale.",
+    "baseStats": { "hp": 41, "pr": 9.6, "attack": 11.4, "defense": 5.3, "speed": 8.5, "luck": 5.7 },
+    "growth": { "hp": 7, "pr": 1.6, "attack": 2.4, "defense": 1.3, "speed": 1.5, "luck": 0.7 },
+    "basePower": { "terre": 0, "feu": 10, "eau": 0, "vent": 0 },
+    "baseResistance": { "terre": 0, "feu": 10, "eau": 0, "vent": 0 },
+    "weaponTypes": ["arc", "dague"],
+    "spells": [
+      { "spell": "fleche-ardente", "level": 1 },
+      { "spell": "boule-de-feu", "level": 6 },
+      { "spell": "pluie-de-braises", "level": 9 },
+      { "spell": "oeil-du-chasseur", "level": 13 },
+      { "spell": "fournaise", "level": 17 },
+      { "spell": "mur-de-flammes", "level": 24 },
+      { "spell": "comete", "level": 30 },
+      { "spell": "brasier-eternel", "level": 38 }
+    ],
+    "classes": {
+      "base": "Chasseuse",
+      "pure": ["Tisonnière", "Incendiaire"],
+      "hybrid": {
+        "terre": "Fondeuse",
+        "feu": "Tisonnière",
+        "eau": "Alchimiste",
+        "vent": "Fulgurante"
+      },
+      "accordeur": "Accordeuse"
+    },
+    "startingLueur": "tison",
+    "startingEquipment": { "weapon": "arc-court", "armor": "tunique-toile" },
+    "sprite": "nyra",
+    "battleSprite": "nyra-combat",
+    "portrait": "nyra",
+    "voice": { "pitch": 380, "wave": "square", "length": 45 }
+  },
+  {
+    "id": "oren",
+    "name": "Oren",
+    "element": "eau",
+    "age": 15,
+    "description": "Apprenti de la bibliothèque royale, renvoyé pour avoir lu les mauvais livres. Timide, précis, passionné par les Accordeurs.",
+    "baseStats": { "hp": 36, "pr": 14.4, "attack": 6.3, "defense": 5.3, "speed": 7.3, "luck": 4.6 },
+    "growth": { "hp": 6, "pr": 2.4, "attack": 1.3, "defense": 1.3, "speed": 1.3, "luck": 0.6 },
+    "basePower": { "terre": 0, "feu": 0, "eau": 10, "vent": 0 },
+    "baseResistance": { "terre": 0, "feu": 0, "eau": 10, "vent": 0 },
+    "weaponTypes": ["baton"],
+    "spells": [
+      { "spell": "source", "level": 1 },
+      { "spell": "jet-d-eau", "level": 3 },
+      { "spell": "purification", "level": 6 },
+      { "spell": "ondee", "level": 11 },
+      { "spell": "givre-mordant", "level": 15 },
+      { "spell": "souffle-de-vie", "level": 19 },
+      { "spell": "vague", "level": 25 },
+      { "spell": "maree-de-vie", "level": 33 }
+    ],
+    "classes": {
+      "base": "Érudit",
+      "pure": ["Guérisseur", "Hydromancien"],
+      "hybrid": {
+        "terre": "Herboriste",
+        "feu": "Apothicaire",
+        "eau": "Guérisseur",
+        "vent": "Augure"
+      },
+      "accordeur": "Accordeur"
+    },
+    "startingLueur": "goutte",
+    "startingEquipment": { "weapon": "baton-marche", "armor": "tunique-toile" },
+    "sprite": "oren",
+    "battleSprite": "oren-combat",
+    "portrait": "oren",
+    "voice": { "pitch": 460, "wave": "triangle", "length": 50 }
+  },
+  {
+    "id": "sefa",
+    "name": "Sefa",
+    "element": "vent",
+    "age": 18,
+    "description": "Ancienne voleuse élevée dans l’Ordre du Silence. Ironique, calme, elle retourne toujours les questions.",
+    "baseStats": { "hp": 43, "pr": 9.8, "attack": 10, "defense": 6.4, "speed": 11, "luck": 7.9 },
+    "growth": { "hp": 7, "pr": 1.8, "attack": 2, "defense": 1.4, "speed": 2, "luck": 0.9 },
+    "basePower": { "terre": 0, "feu": 0, "eau": 0, "vent": 10 },
+    "baseResistance": { "terre": 0, "feu": 0, "eau": 0, "vent": 10 },
+    "weaponTypes": ["dague", "fleau"],
+    "spells": [
+      { "spell": "lame-de-vent", "level": 1 },
+      { "spell": "poudre-de-sommeil", "level": 4 },
+      { "spell": "pas-de-l-ombre", "level": 8 },
+      { "spell": "voile-de-silence", "level": 12 },
+      { "spell": "tourbillon", "level": 16 },
+      { "spell": "vent-contraire", "level": 21 },
+      { "spell": "foudre", "level": 28 },
+      { "spell": "ouragan", "level": 37 }
+    ],
+    "classes": {
+      "base": "Voleuse",
+      "pure": ["Ombre", "Danseuse des vents"],
+      "hybrid": { "terre": "Pisteuse", "feu": "Feu follet", "eau": "Tempestaire", "vent": "Ombre" },
+      "accordeur": "Accordeuse"
+    },
+    "startingLueur": "rafale",
+    "startingEquipment": { "weapon": "couteau", "armor": "tunique-toile" },
+    "sprite": "sefa",
+    "battleSprite": "sefa-combat",
+    "portrait": "sefa",
+    "voice": { "pitch": 340, "wave": "square", "length": 50 }
+  }
+]

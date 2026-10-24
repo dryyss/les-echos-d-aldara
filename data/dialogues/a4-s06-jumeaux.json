@@ -1,0 +1,180 @@
+{
+  "id": "a4-s06-jumeaux",
+  "titre": "Acte 4, scène 6 : Les jumeaux",
+  "lignes": [
+    { "type": "playMusic", "musique": "tension", "fondu": 800 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "quest", "action": "start", "mission": "m4-06" },
+    { "type": "spawn", "pnj": "garde-sol-1", "sprite": "garde-royal", "x": 6, "y": 9, "direction": "down" },
+    { "type": "spawn", "pnj": "garde-sol-2", "sprite": "garde-royal", "x": 14, "y": 10, "direction": "left" },
+    { "type": "spawn", "pnj": "garde-sol-3", "sprite": "garde-royal", "x": 9, "y": 12, "direction": "up" },
+    { "type": "anim", "cible": "garde-sol-1", "animation": "garde-royal/ko" },
+    { "type": "anim", "cible": "garde-sol-2", "animation": "garde-royal/ko" },
+    { "type": "anim", "cible": "garde-sol-3", "animation": "garde-royal/ko" },
+    { "type": "playMusic", "musique": "jumeaux", "fondu": 1200 },
+    { "type": "spawn", "pnj": "ilse", "sprite": "ilse", "x": 9, "y": 3, "direction": "down" },
+    { "type": "spawn", "pnj": "corvo", "sprite": "corvo", "x": 11, "y": 3, "direction": "down" },
+    { "type": "move", "cible": "ilse", "direction": "down", "pas": 3, "vitesse": 0.8 },
+    { "type": "move", "cible": "corvo", "direction": "down", "pas": 3, "vitesse": 0.8 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "quest", "action": "task", "mission": "m4-06", "tache": 0 },
+    {
+      "perso": "corvo",
+      "expr": "sourire",
+      "texte": "Ha ! Le petit ! Ça fait plaisir ! T’as grandi, on dirait. Et t’as récupéré la petite voleuse !"
+    },
+    { "perso": "sefa", "expr": "neutre", "texte": "Salut, Corvo." },
+    {
+      "perso": "ilse",
+      "expr": "colere",
+      "texte": "Traîtresse. Le Maître t’a donné une maison. Un nom. Et tu l’as poignardé dans le dos."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Il m’a donné une maison, oui. Mais il ne m’a jamais demandé si je voulais y rester."
+    },
+    {
+      "perso": "ilse",
+      "expr": "neutre",
+      "texte": "Donnez la Clé du Feu. C’est la dernière fois que je le demande."
+    },
+    {
+      "choix": [
+        {
+          "texte": "Varn se trompe. Frapper les Diapasons va détruire le monde.",
+          "suite": [
+            { "perso": "ilse", "expr": "neutre", "texte": "… Mensonges." },
+            { "type": "playSound", "son": "ecoute" },
+            {
+              "pensee": "Et si c’était vrai ? La vague à Port-Lazuli… Les enfants sur les quais… Je n’ai pas voulu ça.",
+              "perso": "ilse"
+            }
+          ]
+        },
+        {
+          "texte": "Venez avec nous.",
+          "suite": [
+            {
+              "perso": "corvo",
+              "expr": "sourire",
+              "texte": "Ha ! Il nous invite ! T’entends, sœurette ? Il est sympa, le petit."
+            },
+            { "perso": "ilse", "expr": "colere", "texte": "Tais-toi, Corvo." }
+          ]
+        }
+      ]
+    },
+    {
+      "perso": "corvo",
+      "expr": "neutre",
+      "texte": "Bon. Assez parlé. On fait le combat. Le dernier, le vrai. Pas de piège, pas de renforts."
+    },
+    {
+      "perso": "corvo",
+      "expr": "sourire",
+      "texte": "Juste nous deux contre vous quatre. Ça te va, Ilse ?"
+    },
+    { "perso": "ilse", "expr": "neutre", "texte": "… Ça me va." },
+    { "type": "playSound", "son": "combat-debut" },
+    { "type": "startBattle", "groupe": "boss-jumeaux-final" },
+    { "type": "quest", "action": "task", "mission": "m4-06", "tache": 1 },
+    { "type": "playMusic", "musique": "jumeaux", "fondu": 1500 },
+    { "type": "anim", "cible": "ilse", "animation": "ilse/ko" },
+    { "type": "anim", "cible": "corvo", "animation": "corvo/ko" },
+    { "type": "wait", "duree": 800 },
+    {
+      "perso": "corvo",
+      "expr": "fatigue",
+      "texte": "Ha… Ha ha… Le meilleur combat de ma vie. Merci, le petit."
+    },
+    { "perso": "ilse", "expr": "fatigue", "texte": "Finissez-en." },
+    {
+      "choix": [
+        {
+          "texte": "On ne tue personne.",
+          "drapeau": "jumeaux_epargnes",
+          "suite": [
+            { "perso": "ilse", "expr": "surpris", "texte": "… Pourquoi ?" },
+            { "perso": "kael", "expr": "neutre", "texte": "Parce que vous n’êtes pas lui." },
+            {
+              "perso": "corvo",
+              "expr": "sourire",
+              "texte": "Tu sais quoi, le petit ? T’aurais fait un super membre de l’Ordre. Et je dis ça comme un compliment."
+            },
+            { "perso": "ilse", "expr": "neutre", "texte": "Corvo. On s’en va. Et on ne revient pas." },
+            { "type": "anim", "cible": "ilse", "animation": "ilse/idle" },
+            { "type": "anim", "cible": "corvo", "animation": "corvo/idle" },
+            { "type": "move", "cible": "corvo", "direction": "up", "pas": 3, "vitesse": 0.8 },
+            { "type": "move", "cible": "ilse", "direction": "up", "pas": 2, "vitesse": 0.8 },
+            { "type": "face", "cible": "ilse", "direction": "down" },
+            { "type": "wait", "duree": 600 },
+            { "perso": "ilse", "expr": "neutre", "texte": "Il est déjà ici. Faites vite." },
+            { "type": "move", "cible": "ilse", "direction": "up", "pas": 1, "vitesse": 0.8 },
+            { "type": "despawn", "pnj": "ilse" },
+            { "type": "despawn", "pnj": "corvo" }
+          ]
+        },
+        {
+          "texte": "Livrez-vous à la Garde.",
+          "suite": [
+            { "type": "anim", "cible": "garde-sol-1", "animation": "garde-royal/idle" },
+            { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 5, "y": 10, "direction": "right" },
+            { "type": "moveTo", "cible": "dumarre", "x": 8, "y": 8, "vitesse": 1.2 },
+            {
+              "perso": "dumarre",
+              "expr": "colere",
+              "texte": "Vous avez entendu le gamin. Les mains en l’air."
+            },
+            {
+              "perso": "corvo",
+              "expr": "sourire",
+              "texte": "Ha. Bon. Au moins, en prison, on mange tous les jours."
+            },
+            {
+              "perso": "ilse",
+              "expr": "neutre",
+              "texte": "Vous arrivez trop tard, de toute façon. Regardez derrière vous."
+            },
+            { "type": "despawn", "pnj": "dumarre" }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m4-06", "tache": 2 },
+    { "type": "playSound", "son": "tremblement" },
+    { "type": "shake", "duree": 1200, "intensite": 3 },
+    { "type": "playMusic", "musique": "tension", "fondu": 300 },
+    { "type": "take", "objet": "cle-feu", "quantite": 1 },
+    { "type": "fade", "vers": "noir", "duree": 800 },
+    { "type": "despawn", "pnj": "garde-sol-1" },
+    { "type": "despawn", "pnj": "garde-sol-2" },
+    { "type": "despawn", "pnj": "garde-sol-3" },
+    {
+      "type": "if",
+      "condition": { "not": { "flag": "jumeaux_epargnes" } },
+      "alors": [{ "type": "despawn", "pnj": "ilse" }, { "type": "despawn", "pnj": "corvo" }]
+    },
+    { "type": "teleport", "carte": "temple-braise-5", "x": 10, "y": 10, "direction": "up" },
+    { "type": "spawn", "pnj": "varn", "sprite": "varn", "x": 10, "y": 5, "direction": "down" },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Merci de l’avoir protégée pour moi. Pendant que vous jouiez avec mes lieutenants, je n’ai eu qu’à me servir."
+    },
+    { "type": "emote", "cible": "sefa", "emote": "exclamation" },
+    {
+      "perso": "sefa",
+      "expr": "colere",
+      "texte": "Non… Il a utilisé le combat comme diversion !"
+    },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Je t’ai appris cette ruse, Sefa. Tu aurais dû t’en souvenir."
+    },
+    { "type": "quest", "action": "task", "mission": "m4-06", "tache": 3 },
+    { "type": "quest", "action": "complete", "mission": "m4-06" }
+  ]
+}

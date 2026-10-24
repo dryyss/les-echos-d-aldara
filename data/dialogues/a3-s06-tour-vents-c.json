@@ -1,0 +1,18 @@
+{
+  "id": "a3-s06-tour-vents-c",
+  "titre": "Acte 3, scène 6 : La Tour des Vents (étage 3, la Lueur Bise)",
+  "lignes": [
+    { "type": "playSound", "son": "lueur-trouvee" },
+    { "type": "spawn", "pnj": "bise-pnj", "sprite": "bise", "x": 14, "y": 6 },
+    { "type": "moveTo", "cible": "bise-pnj", "x": 11, "y": 6, "vitesse": 2 },
+    { "type": "emote", "cible": "bise-pnj", "emote": "musique" },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Toi, je t’aime bien. Tu ne poses pas de questions."
+    },
+    { "type": "despawn", "pnj": "bise-pnj" },
+    { "type": "give", "lueur": "bise" },
+    { "type": "quest", "action": "task", "mission": "m3-06", "tache": 2 }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "echo-feu",
+  "kind": "enemy",
+  "width": 32,
+  "height": 48,
+  "base": "echo-terre",
+  "palette": {
+    "a": "#c04a20",
+    "b": "#7a2a10",
+    "c": "#f08040",
+    "e": "#fff0a0"
+  },
+  "frames": {}
+}

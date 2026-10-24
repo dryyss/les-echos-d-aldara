@@ -1,0 +1,72 @@
+{
+  "id": "a4-s02-memoire-sahr-c",
+  "titre": "Acte 4, scène 2 : La mémoire de Sahr (la révélation)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m4-02", "tache": 1 },
+    { "type": "spawn", "pnj": "mere-sahra-cine", "sprite": "mere-sahra", "x": 10, "y": 7, "direction": "down" },
+    { "type": "emote", "cible": "oren", "emote": "exclamation" },
+    {
+      "perso": "oren",
+      "expr": "surpris",
+      "texte": "Réaccorder… pas frapper. Varn s’est trompé. Il croit qu’il faut réveiller le Chœur d’un coup."
+    },
+    {
+      "perso": "oren",
+      "expr": "surpris",
+      "texte": "Mais si on frappe tous les Diapasons, on revient à l’Ère des Tempêtes !"
+    },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "C’est exactement ça, petit savant. Il a raison sur le mal. Il se trompe sur le remède."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "Les Diapasons déjà frappés ?" },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "On peut encore les réaccorder. Mais pour ça, il faut savoir résonner à deux."
+    },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Ce que les Accordeurs appelaient un Accord."
+    },
+    {
+      "choix": [
+        {
+          "texte": "Apprenez-nous.",
+          "suite": [
+            {
+              "perso": "mere-sahra",
+              "expr": "sourire",
+              "texte": "C’est pour ça que vous êtes là. Demain, au lever du soleil."
+            }
+          ]
+        },
+        {
+          "texte": "Pourquoi personne ne savait ?",
+          "suite": [
+            {
+              "perso": "mere-sahra",
+              "expr": "triste",
+              "texte": "Parce que les rois ont préféré chasser les Résonants plutôt que d’écouter ceux qui savaient."
+            },
+            {
+              "perso": "mere-sahra",
+              "expr": "triste",
+              "texte": "Et parce que nous, les Cendrais, avons préféré nous cacher dans le désert."
+            },
+            {
+              "perso": "mere-sahra",
+              "expr": "triste",
+              "texte": "Tout le monde a eu peur. Tout le monde a eu tort."
+            }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m4-02", "tache": 2 },
+    { "type": "despawn", "pnj": "mere-sahra-cine" },
+    { "type": "save" }
+  ]
+}

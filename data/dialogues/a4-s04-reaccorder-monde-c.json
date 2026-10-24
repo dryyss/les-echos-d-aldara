@@ -1,0 +1,25 @@
+{
+  "id": "a4-s04-reaccorder-monde-c",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (le Diapason du Vent)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ruines", "fondu": 1000 },
+    { "type": "moveTo", "cible": "sefa", "x": 10, "y": 6, "vitesse": 0.8 },
+    { "type": "face", "cible": "sefa", "direction": "up" },
+    { "type": "wait", "duree": 1200 },
+    { "type": "face", "cible": "sefa", "direction": "down" },
+    { "perso": "sefa", "expr": "triste", "texte": "J’ai aidé à le casser." },
+    { "perso": "kael", "expr": "neutre", "texte": "Alors répare-le." },
+    { "type": "face", "cible": "sefa", "direction": "up" },
+    { "type": "playMusic", "musique": "sefa", "fondu": 500 },
+    { "type": "playSound", "son": "ecoute" },
+    { "type": "wait", "duree": 1500 },
+    { "type": "playSound", "son": "accord" },
+    { "type": "flash", "couleur": "#dbe9f4", "duree": 600 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "setFlag", "drapeau": "diapason_vent_reaccorde" },
+    { "type": "quest", "action": "task", "mission": "m4-04", "tache": 2 },
+    { "type": "wait", "duree": 1000 },
+    { "type": "playMusic", "musique": "ruines", "fondu": 2000 },
+    { "type": "save" }
+  ]
+}

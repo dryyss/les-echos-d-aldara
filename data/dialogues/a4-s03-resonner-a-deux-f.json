@@ -1,0 +1,21 @@
+{
+  "id": "a4-s03-resonner-a-deux-f",
+  "titre": "Acte 4, scène 3 : Résonner à deux (Kaël et Sefa, après Sable vif)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "playMusic", "musique": "sefa", "fondu": 1500 },
+    { "type": "face", "cible": "sefa", "direction": "left" },
+    { "type": "face", "cible": "player", "direction": "right" },
+    { "type": "wait", "duree": 800 },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "C’est bizarre, de résonner avec quelqu’un. J’ai l’impression que tu entends tout ce que je pense."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "Pas tout." },
+    { "perso": "sefa", "expr": "sourire", "texte": "Menteur." },
+    { "type": "give", "resonance": "brasier" },
+    { "type": "playMusic", "musique": "oasis", "fondu": 1500 },
+    { "type": "save" }
+  ]
+}

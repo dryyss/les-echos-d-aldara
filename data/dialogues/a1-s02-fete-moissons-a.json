@@ -1,0 +1,31 @@
+{
+  "id": "a1-s02-fete-moissons-a",
+  "titre": "Acte 1, scène 2 : La fête des moissons (la place illuminée)",
+  "lignes": [
+    { "type": "playMusic", "musique": "brumeval-nuit", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1500 },
+    { "type": "quest", "action": "task", "mission": "m1-02", "tache": 0 },
+    { "type": "move", "cible": "bertrand", "direction": "down", "pas": 2 },
+    { "type": "emote", "cible": "bertrand", "emote": "coeur" },
+    {
+      "perso": "bertrand",
+      "expr": "sourire",
+      "texte": "Kaël ! Prends un morceau de tourte, c’est la recette de ma grand-mère. Enfin, c’est ce que je dis à tout le monde."
+    },
+    { "type": "move", "cible": "margot", "direction": "right", "pas": 1 },
+    { "perso": "margot", "expr": "neutre", "texte": "Belle fête. Mais j’aime pas cette brume." },
+    {
+      "perso": "margot",
+      "expr": "triste",
+      "texte": "La dernière fois qu’elle était aussi épaisse, des étrangers sont passés par le col."
+    },
+    { "type": "move", "cible": "joss", "direction": "left", "pas": 1 },
+    {
+      "perso": "joss",
+      "expr": "neutre",
+      "texte": "Paraît qu’à Hautegrange, ils ont attrapé une sorcière de feu. Une Résonante. J’espère qu’ils l’ont bien enfermée."
+    },
+    { "perso": "kael", "texte": "…" },
+    { "type": "quest", "action": "task", "mission": "m1-02", "tache": 1 }
+  ]
+}

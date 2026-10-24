@@ -1,0 +1,16 @@
+{
+  "id": "rosa",
+  "base": "villageois-femme",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c84040",
+    "H": "#8a2828",
+    "a": "#f0e8d8",
+    "A": "#c8bca8",
+    "b": "#5a7a4a",
+    "B": "#3c5230",
+    "r": "#c8bca8"
+  }
+}

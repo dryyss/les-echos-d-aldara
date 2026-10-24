@@ -1,0 +1,123 @@
+{
+  "id": "fin-epilogue",
+  "titre": "Épilogue",
+  "lignes": [
+    { "type": "playMusic", "musique": "fin", "fondu": 3000 },
+    { "type": "fade", "vers": "visible", "duree": 2500 },
+    { "type": "anim", "cible": "varn", "animation": "varn/ko" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "wait", "duree": 1000 },
+    { "perso": "varn", "expr": "fatigue", "texte": "Je n’ai pas… gagné." },
+    {
+      "perso": "kael",
+      "expr": "neutre",
+      "texte": "Si. Les Lueurs se montrent à tout le monde, maintenant."
+    },
+    {
+      "perso": "kael",
+      "expr": "neutre",
+      "texte": "Plus personne ne pourra dire que les Résonants n’existent pas. Ou les chasser en secret."
+    },
+    { "perso": "varn", "expr": "triste", "texte": "… Ce que je voulais. Mais sans la tempête." },
+    {
+      "perso": "varn",
+      "expr": "triste",
+      "texte": "Aubin avait raison sur toi. Tu ne cries pas. Tu écoutes. C’était peut-être ça, la réponse."
+    },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 10, "y": 13, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-fin-1", "sprite": "garde-royal", "x": 9, "y": 14, "direction": "up" },
+    { "type": "spawn", "pnj": "garde-fin-2", "sprite": "garde-royal", "x": 11, "y": 14, "direction": "up" },
+    { "type": "moveTo", "cible": "dumarre", "x": 10, "y": 9, "vitesse": 1 },
+    { "type": "moveTo", "cible": "garde-fin-1", "x": 9, "y": 10, "vitesse": 1 },
+    { "type": "moveTo", "cible": "garde-fin-2", "x": 11, "y": 10, "vitesse": 1 },
+    { "perso": "dumarre", "expr": "neutre", "texte": "Varn de Corbec. Vous êtes en état d’arrestation." },
+    { "perso": "varn", "expr": "fatigue", "texte": "Je sais. Je ne fuirai pas. Pour une fois." },
+    { "type": "fade", "vers": "noir", "duree": 2000 },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-fin-1" },
+    { "type": "despawn", "pnj": "garde-fin-2" },
+    { "type": "despawn", "pnj": "varn" },
+    { "type": "wait", "duree": 800 },
+    { "type": "title", "texte": "Brumeval", "duree": 2500 },
+    {
+      "perso": "lila",
+      "expr": "sourire",
+      "texte": "Croix de bois, croix de fer ! T’as tenu ta promesse !"
+    },
+    {
+      "perso": "aubin",
+      "expr": "sourire",
+      "texte": "La forge t’attend, apprenti. Enfin, maître forgeron."
+    },
+    { "type": "wait", "duree": 600 },
+    { "type": "title", "texte": "Port-Lazuli", "duree": 2500 },
+    { "perso": "oren", "expr": "sourire", "texte": "Chapitre un. Techniquement, c’est le plus important." },
+    { "type": "wait", "duree": 600 },
+    { "type": "title", "texte": "Hautegrange", "duree": 2500 },
+    { "perso": "nyra", "expr": "sourire", "texte": "Visez la cible. Pas le maire." },
+    { "perso": "gontran", "expr": "surpris", "texte": "Merci !" },
+    { "type": "wait", "duree": 600 },
+    { "type": "title", "texte": "Ventelune", "duree": 2500 },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Pas mal, cette vie. Je crois que je vais rester un peu."
+    },
+    {
+      "type": "if",
+      "condition": { "flag": "sefa_confiance" },
+      "alors": [
+        {
+          "perso": "sefa",
+          "expr": "sourire",
+          "texte": "Et si le grand passe par ici, je lui garde une planche à porter. Il m’a fait confiance, je lui dois bien ça."
+        }
+      ],
+      "sinon": [
+        {
+          "perso": "sefa",
+          "expr": "neutre",
+          "texte": "Un pont, ça se gagne corde après corde. La confiance aussi, on dirait. Je sais attendre."
+        }
+      ]
+    },
+    {
+      "type": "if",
+      "condition": { "flag": "jumeaux_epargnes" },
+      "alors": [
+        { "type": "wait", "duree": 600 },
+        { "type": "title", "texte": "Brumeval", "sousTitre": "La nouvelle forge", "duree": 2500 },
+        {
+          "perso": "corvo",
+          "expr": "sourire",
+          "texte": "Ha ! Elle est où, la prochaine poutre ? J’en veux une plus lourde !"
+        },
+        { "perso": "ilse", "expr": "sourire", "texte": "… C’est calme, ici. J’aime bien." }
+      ]
+    },
+    { "type": "wait", "duree": 600 },
+    { "type": "title", "texte": "Une colline, au coucher du soleil", "duree": 2500 },
+    { "perso": "nyra", "expr": "sourire", "texte": "Bon. On fait quoi, maintenant ?" },
+    {
+      "perso": "oren",
+      "expr": "neutre",
+      "texte": "Techniquement, il reste des ruines inexplorées sous Valcourt…"
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Et un trésor de la Guilde que je n’ai pas encore volé."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "…" },
+    { "perso": "kael", "expr": "sourire", "texte": "On y va." },
+    { "type": "wait", "duree": 1500 },
+    { "type": "title", "texte": "Les Échos d’Aldara", "duree": 4000 },
+    { "type": "credits" },
+    { "type": "setFlag", "drapeau": "jeu_fini" },
+    { "type": "setFlag", "drapeau": "donjon_secret_ouvert" },
+    { "ecran": "Le donjon secret sous Valcourt est maintenant accessible." },
+    { "type": "title", "texte": "Fin", "duree": 3000 },
+    { "type": "save" },
+    { "type": "end" }
+  ]
+}

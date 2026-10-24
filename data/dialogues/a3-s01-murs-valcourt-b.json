@@ -1,0 +1,63 @@
+{
+  "id": "a3-s01-murs-valcourt-b",
+  "titre": "Acte 3, scène 1 : Les murs de Valcourt (la cour du château)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-01", "tache": 1 },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 12, "y": 4, "direction": "down" },
+    { "type": "move", "cible": "dumarre", "direction": "down", "pas": 3, "vitesse": 0.8 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "playMusic", "musique": "tension", "fondu": 800 },
+    {
+      "perso": "dumarre",
+      "expr": "colere",
+      "texte": "Kaël de Brumeval. Nyra la sorcière de feu. Oren, l’apprenti voleur. Vous avez du culot de vous présenter ici."
+    },
+    {
+      "choix": [
+        {
+          "texte": "On n’a rien à voir avec l’Ordre.",
+          "suite": [
+            {
+              "perso": "dumarre",
+              "expr": "neutre",
+              "texte": "C’est ce que dirait un complice de l’Ordre."
+            }
+          ]
+        },
+        {
+          "texte": "On veut vous aider à les arrêter.",
+          "suite": [
+            {
+              "perso": "dumarre",
+              "expr": "neutre",
+              "texte": "Trois gamins qui veulent aider la Garde Royale. Je note ça dans mon carnet des choses absurdes."
+            }
+          ]
+        }
+      ]
+    },
+    { "type": "playSound", "son": "ecoute" },
+    {
+      "pensee": "Ils ont l’air sincères. Mais une ville entière a été inondée. Je ne peux pas me tromper. Pas encore une fois.",
+      "perso": "dumarre"
+    },
+    {
+      "perso": "dumarre",
+      "expr": "neutre",
+      "texte": "Gardes. En cellule. On verra ce qu’ils valent après une nuit sur la paille."
+    },
+    { "type": "spawn", "pnj": "garde-cour-1", "sprite": "garde-royal", "x": 9, "y": 9, "direction": "right" },
+    { "type": "spawn", "pnj": "garde-cour-2", "sprite": "garde-royal", "x": 15, "y": 9, "direction": "left" },
+    { "type": "move", "cible": "garde-cour-1", "direction": "right", "pas": 2 },
+    { "type": "move", "cible": "garde-cour-2", "direction": "left", "pas": 2 },
+    { "type": "playSound", "son": "chaines" },
+    { "type": "fade", "vers": "noir", "duree": 1000 },
+    { "type": "quest", "action": "task", "mission": "m3-01", "tache": 2 },
+    { "type": "quest", "action": "complete", "mission": "m3-01" },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-cour-1" },
+    { "type": "despawn", "pnj": "garde-cour-2" },
+    { "type": "teleport", "carte": "valcourt-prison", "x": 6, "y": 6, "direction": "down" },
+    { "type": "save" }
+  ]
+}

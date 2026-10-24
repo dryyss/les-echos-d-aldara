@@ -1,0 +1,28 @@
+{
+  "id": "a3-s02-nuit-cellules-b",
+  "titre": "Acte 3, scène 2 : La nuit des cellules (l’inconnue)",
+  "lignes": [
+    { "type": "wait", "duree": 600 },
+    { "type": "playSound", "son": "chaines" },
+    { "type": "wait", "duree": 400 },
+    { "type": "playSound", "son": "porte" },
+    { "type": "setMapState", "cle": "porte-cellule", "valeur": "open" },
+    { "type": "spawn", "pnj": "inconnue", "sprite": "sefa-inconnue", "x": 8, "y": 6, "direction": "left" },
+    { "type": "face", "cible": "player", "direction": "right" },
+    { "type": "emote", "cible": "player", "emote": "exclamation" },
+    {
+      "perso": "inconnue",
+      "expr": "neutre",
+      "texte": "Si vous voulez vivre, suivez-moi. Si vous voulez poser des questions, restez."
+    },
+    { "perso": "nyra", "expr": "surpris", "texte": "T’es qui, toi ?" },
+    {
+      "perso": "inconnue",
+      "expr": "neutre",
+      "texte": "Quelqu’un qui ouvre des portes. Ça vous suffit, ou je referme ?"
+    },
+    { "type": "move", "cible": "inconnue", "direction": "down", "pas": 3, "vitesse": 1.2 },
+    { "type": "despawn", "pnj": "inconnue" },
+    { "type": "quest", "action": "task", "mission": "m3-02", "tache": 1 }
+  ]
+}

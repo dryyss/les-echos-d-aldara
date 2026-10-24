@@ -1,0 +1,37 @@
+{
+  "id": "varn-3",
+  "title": "Varn de Corbec, la tempête",
+  "bpm": 160,
+  "stepsPerBeat": 4,
+  "loop": true,
+  "tracks": [
+    {
+      "name": "melodie",
+      "wave": "square",
+      "volume": 0.2,
+      "release": 0.04,
+      "pattern": "D5:2 .:2 D5:2 D5:2 F5:2 E5:2 F5:2 E5:2 | Eb5:4 D5:2 Eb5:2 G5:4 Bb5:2 G5:2 | A5:2 .:2 A5:2 A5:2 F5:2 E5:2 D5:2 C#5:2 | E5:4 C#5:2 E5:2 A5:2 G5:2 F5:2 E5:2 | D5:2 .:2 D5:2 D5:2 F5:2 G5:2 A5:4 | Bb5:2 A5:2 Bb5:2 A5:2 G5:2 F5:2 G5:2 A5:2 | G5:2 .:2 G5:2 G5:2 Bb5:2 C6:2 D6:4 | C#6:2 D6:2 C#6:2 A5:2 E5:2 A5:2 C#6:2 E6:2 | D6:2 .:2 D6:2 D6:2 F6:2 E6:2 F6:2 E6:2 | Eb6:4 D6:2 C6:2 Bb5:4 G5:2 Bb5:2 | A5:2 .:2 A5:2 A5:2 F5:2 E5:2 D5:2 C#5:2 | E5:4 C#5:2 E5:2 A5:2 Bb5:2 A5:2 G5:2 | D5:2 .:2 D5:2 D5:2 F5:2 G5:2 A5:4 | Bb5:2 A5:2 Bb5:2 A5:2 G5:2 F5:2 E5:2 D5:2 | G5:2 .:2 G5:2 G5:2 Bb5:2 C6:2 D6:4 | C#6:4 A5:4 E5:4 C#5:4"
+    },
+    {
+      "name": "stabs",
+      "wave": "sawtooth",
+      "volume": 0.1,
+      "detune": 5,
+      "release": 0.05,
+      "pattern": "[D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . | [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . | [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . | [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . | [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . | [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . [Eb3 Bb3]:1 . | [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . | [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . [D3 A3]:1 . | [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . [Bb3 F4]:1 . | [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . [G3 D4]:1 . | [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 . [A3 E4]:1 ."
+    },
+    {
+      "name": "basse",
+      "wave": "triangle",
+      "volume": 0.22,
+      "release": 0.03,
+      "pattern": "D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb3 Eb3 Eb2 Eb2 | D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A3 A3 A2 A2 | D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb3 Bb3 Bb2 Bb2 | G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G3 G3 G2 G2 | A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A3 A3 A2 A2 | D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb2 Eb3 Eb3 Eb2 Eb2 | D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A3 A3 A2 A2 | D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D3 D3 D2 D2 | Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb2 Bb3 Bb3 Bb2 Bb2 | G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G2 G3 G3 G2 G2 | A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A2 A3 A3 A2 A2"
+    },
+    {
+      "name": "percu",
+      "wave": "noise",
+      "volume": 0.1,
+      "pattern": "k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 k:1 s:1 s:1 k:1 k:1 s:1 s:1 s:1 s:1 s:1 s:1 k:1 k:1 k:1 k:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 h:1 s:1 h:1 k:1 k:1 s:1 s:1 | k:1 k:1 s:1 s:1 k:1 k:1 s:1 s:1 s:1 s:1 s:1 s:1 k:1 k:1 k:1 k:1"
+    }
+  ]
+}

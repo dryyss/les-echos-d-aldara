@@ -1,0 +1,31 @@
+{
+  "id": "a3-s03-quartier-cuivres-a",
+  "titre": "Acte 3, scène 3 : Le quartier des cuivres (le mur)",
+  "lignes": [
+    { "type": "playMusic", "musique": "valcourt", "fondu": 1000 },
+    { "type": "quest", "action": "start", "mission": "m3-03" },
+    { "type": "spawn", "pnj": "resonante-cine", "sprite": "resonant", "x": 7, "y": 9, "direction": "right" },
+    { "type": "spawn", "pnj": "vieux-cine", "sprite": "resonant", "x": 10, "y": 9, "direction": "left" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "resonante",
+      "expr": "fatigue",
+      "texte": "On a le droit de vivre ici. Pas ailleurs. Pas de travail en dehors du mur. Mais au moins, on ne nous chasse pas."
+    },
+    {
+      "perso": "vieux-resonant",
+      "expr": "neutre",
+      "texte": "Le bracelet, c’est pour qu’ils nous reconnaissent. Comme les vaches au marché."
+    },
+    { "perso": "nyra", "expr": "colere", "texte": "Et vous acceptez ça ?" },
+    {
+      "perso": "vieux-resonant",
+      "expr": "triste",
+      "texte": "Petite, quand le choix c’est le bracelet ou la corde, on choisit le bracelet."
+    },
+    { "type": "move", "cible": "resonante-cine", "direction": "up", "pas": 2 },
+    { "type": "move", "cible": "vieux-cine", "direction": "up", "pas": 2 },
+    { "type": "despawn", "pnj": "resonante-cine" },
+    { "type": "despawn", "pnj": "vieux-cine" }
+  ]
+}

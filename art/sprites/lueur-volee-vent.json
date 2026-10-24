@@ -1,0 +1,115 @@
+{
+  "id": "lueur-volee-vent",
+  "kind": "enemy",
+  "width": 16,
+  "height": 16,
+  "palette": {
+    "k": "#1b1a2e",
+    "d": "#262a38",
+    "w": "#b8d8e8",
+    "e": "#ffffff",
+    "s": "#2a2838"
+  },
+  "frames": {
+    "idle-0": [
+      "................",
+      "....dddd........",
+      "..dddddddd......",
+      ".ddd....ddd.....",
+      ".dd..dddddddd...",
+      ".dd.ddwwwdddd...",
+      ".dd.dwweewdddd..",
+      ".dddwwkkkkwddd..",
+      "..ddddwkkwdddd..",
+      "....dddwwddddd..",
+      "......ddddddd...",
+      "........ddddd...",
+      "..........ddd...",
+      "................",
+      "......ssss......",
+      "................"
+    ],
+    "idle-1": [
+      "....dddd........",
+      "..dddddddd......",
+      ".ddd....ddd.....",
+      ".dd..dddddddd...",
+      ".dd.ddwwwdddd...",
+      ".dd.dwweewdddd..",
+      ".dddwwkkkkwddd..",
+      "..ddddwkkwdddd..",
+      "....dddwwddddd..",
+      "......ddddddd...",
+      "........ddddd...",
+      "..........ddd...",
+      "................",
+      "................",
+      "......ssss......",
+      "................"
+    ],
+    "attack-0": [
+      "................",
+      "................",
+      ".....dddd.......",
+      "...dddddddd.....",
+      "..ddd....ddd....",
+      "..dd..dddddddd..",
+      "..dd.ddwwwdddd..",
+      "..dd.dwweewdddd.",
+      "..dddwwkeekwddd.",
+      "...ddddwkkwdddd.",
+      ".....dddwwddddd.",
+      ".......ddddddd..",
+      ".........ddddd..",
+      "...........ddd..",
+      "......ssss......",
+      "................"
+    ],
+    "attack-1": [
+      "................",
+      "................",
+      ".......dddd.....",
+      ".....dddddddd...",
+      "....ddd....ddd..",
+      "....dd..dddddddd",
+      "....dd.ddwwwdddd",
+      "....dd.dwweewddd",
+      "....dddwwkeekwdd",
+      ".....ddddwkkwddd",
+      ".......dddwwdddd",
+      ".........ddddddd",
+      "...........ddddd",
+      ".............ddd",
+      "......ssss......",
+      "................"
+    ],
+    "hurt-0": [
+      "................",
+      "..dddd..........",
+      "dddddddd........",
+      "dd....ddd.......",
+      "d..dddddddd.....",
+      "d.ddkdkdddd.....",
+      "d.dwdkdddddd....",
+      "ddwwkdkdwddd....",
+      "ddddwkkwdddd....",
+      "..dddwwddddd....",
+      "....ddddddd.....",
+      "......ddddd.....",
+      "........ddd.....",
+      "................",
+      "......ssss......",
+      "................"
+    ]
+  },
+  "animations": {
+    "attack": {
+      "frames": [
+        "attack-0",
+        "attack-1"
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    }
+  }
+}

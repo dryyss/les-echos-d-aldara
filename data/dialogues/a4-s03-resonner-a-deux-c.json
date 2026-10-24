@@ -1,0 +1,11 @@
+{
+  "id": "a4-s03-resonner-a-deux-c",
+  "titre": "Acte 4, scène 3 : Résonner à deux (après l’épreuve Magma)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "flash", "couleur": "#ff7a3c", "duree": 300 },
+    { "type": "quest", "action": "task", "mission": "m4-03", "tache": 1 },
+    { "type": "give", "resonance": "maree-verte" },
+    { "type": "save" }
+  ]
+}

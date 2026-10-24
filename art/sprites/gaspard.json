@@ -1,0 +1,16 @@
+{
+  "id": "gaspard",
+  "base": "aubergiste",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#2e2a30",
+    "H": "#18161c",
+    "a": "#8a6a44",
+    "A": "#5e4428",
+    "b": "#6a6a7a",
+    "B": "#44445a",
+    "c": "#3a3a48"
+  }
+}

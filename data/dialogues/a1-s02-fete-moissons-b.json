@@ -1,0 +1,86 @@
+{
+  "id": "a1-s02-fete-moissons-b",
+  "titre": "Acte 1, scène 2 : La fête des moissons (Aubin au sanctuaire)",
+  "lignes": [
+    { "type": "playMusic", "musique": "kael", "fondu": 2000 },
+    { "type": "quest", "action": "task", "mission": "m1-02", "tache": 2 },
+    { "type": "face", "cible": "aubin", "direction": "down" },
+    { "perso": "aubin", "expr": "neutre", "texte": "Assieds-toi. Ce matin, avec Lila. J’ai entendu." },
+    { "perso": "kael", "expr": "surpris", "texte": "Entendu ?" },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "Le son. Ce bourdonnement grave, comme une cloche sous la terre."
+    },
+    {
+      "perso": "aubin",
+      "expr": "triste",
+      "texte": "Ça fait trente ans que je ne l’avais pas entendu chez quelqu’un d’autre."
+    },
+    { "perso": "kael", "expr": "surpris", "texte": "Chez quelqu’un… d’autre ?" },
+    { "type": "anim", "cible": "aubin", "animation": "aubin/lever-pierre" },
+    { "type": "playSound", "son": "sort-terre" },
+    { "type": "wait", "duree": 1200 },
+    {
+      "perso": "aubin",
+      "expr": "triste",
+      "texte": "Moi aussi, petit. J’ai caché ça toute ma vie. Ici, les gens aiment bien les Résonants… tant qu’ils sont dans les contes."
+    },
+    {
+      "choix": [
+        {
+          "texte": "Pourquoi tu ne m’as rien dit ?",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "triste",
+              "texte": "Parce que je voulais que tu aies une vie normale. Et parce que j’avais peur. Les deux ensemble, ça fait un vieux bête."
+            }
+          ]
+        },
+        {
+          "texte": "Qu’est-ce que je suis ?",
+          "suite": [
+            {
+              "perso": "aubin",
+              "expr": "sourire",
+              "texte": "Tu es Kaël. Tu es mon apprenti. Et tu entends l’Écho. Ça ne change rien au reste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "Il y a autre chose. Ma famille garde un secret depuis des siècles. Regarde."
+    },
+    { "type": "playSound", "son": "pousser" },
+    { "type": "setMapState", "cle": "autel-ouvert", "valeur": true },
+    { "type": "flash", "couleur": "#e0a040", "duree": 700 },
+    { "type": "wait", "duree": 500 },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "La Clé de Terre. Elle ouvre un Diapason, un de ces monolithes que les Accordeurs ont construits."
+    },
+    { "perso": "aubin", "expr": "colere", "texte": "Personne ne doit la trouver. Personne." },
+    { "perso": "kael", "texte": "Pourquoi tu me la montres ?" },
+    {
+      "perso": "aubin",
+      "expr": "triste",
+      "texte": "Parce que je deviens vieux. Et parce que la brume ne me plaît pas, ce soir."
+    },
+    {
+      "perso": "aubin",
+      "expr": "sourire",
+      "texte": "Avant de redescendre, je vais t’apprendre quelque chose d’utile. Ferme les yeux."
+    },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "Écoute mon chien, Caillou. Pas ses aboiements. Ce qu’il y a dessous."
+    },
+    { "type": "give", "resonance": "ecoute" }
+  ]
+}

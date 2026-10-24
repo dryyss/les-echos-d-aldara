@@ -1,0 +1,22 @@
+{
+  "id": "a3-s05-cite-suspendue-d",
+  "titre": "Acte 3, scène 5 : La cité suspendue (le dernier pont)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ventelune", "fondu": 1500 },
+    { "type": "spawn", "pnj": "dame-aster", "sprite": "dame-aster", "x": 10, "y": 3, "direction": "down" },
+    { "type": "move", "cible": "dame-aster", "direction": "down", "pas": 3, "vitesse": 0.8 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "dame-aster",
+      "expr": "triste",
+      "texte": "Vous avez défendu ma cité alors que je vous insultais. Les gens de l’Ordre ne font pas ça."
+    },
+    {
+      "perso": "dame-aster",
+      "expr": "neutre",
+      "texte": "Au sommet de la cité, il y a un dernier autel. Montez-y. Le vent vous portera."
+    },
+    { "type": "move", "cible": "dame-aster", "direction": "up", "pas": 3, "vitesse": 0.8 },
+    { "type": "despawn", "pnj": "dame-aster" }
+  ]
+}

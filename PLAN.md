@@ -2,13 +2,17 @@
 
 Ce plan découpe le jeu en 5 phases, chacune jouable à la fin. Chaque étape contient le message à envoyer à Claude Code et la condition pour la considérer comme terminée. On ne passe à la phase suivante que lorsque sa « porte » est franchie.
 
-Mode d'emploi : copie le message de l'étape dans Claude Code, teste le résultat dans le navigateur, puis passe à l'étape suivante. Claude Code coche les cases au fur et à mesure.
+Mode d'emploi : une étape à la fois, testée dans le navigateur, puis case cochée. Jamais de vague d’agents en parallèle.
+
+## État au 24/10/2026
+
+Les briques pures sont là : projet Phaser + TypeScript + Vite (0.1), `GameState` et sauvegarde (0.3), moteur de combat sans Phaser (2.1), audio, auth Supabase, beaucoup de JSON et de pixel art. Il manque encore la couche jouable : `WorldScene`, `EventRunner`, cartes, `enemies.json`, `quests.json`, PNJ. On assemble ces trous dans l’ordre du plan d’assemblage, sans tout relancer.
 
 ---
 
 ## Phase 0 : Mise en place du projet
 
-- [ ] **0.1 Créer le projet**
+- [x] **0.1 Créer le projet**
 
   > Lis CLAUDE.md et les 4 documents de docs/. Crée le projet Phaser 3 + TypeScript strict + Vite avec l'arborescence décrite dans CLAUDE.md. Configure ESLint, Prettier et Vitest. Ajoute les scripts dev, build, lint et test. Affiche une scène vide en 400 × 240 mise à l'échelle sans flou, avec le texte « Les Échos d'Aldara » au centre.
 
@@ -20,7 +24,7 @@ Mode d'emploi : copie le message de l'étape dans Claude Code, teste le résulta
 
   Terminé quand : les données se chargent et le test de validation passe.
 
-- [ ] **0.3 GameState et sauvegarde**
+- [x] **0.3 GameState et sauvegarde**
 
   > Crée GameState (équipe, Lueurs, inventaire, pièces, drapeaux, missions, carte et position actuelles) et SaveManager (3 emplacements dans le localStorage, saveVersion, sauvegarde auto). Ajoute des tests Vitest pour la sérialisation et le chargement.
 
@@ -36,7 +40,7 @@ Mode d'emploi : copie le message de l'étape dans Claude Code, teste le résulta
 
 ## Phase 1 : Prototype d'exploration
 
-- [ ] **1.1 Carte et déplacement**
+- [x] **1.1 Carte et déplacement**
 
   > Crée une carte placeholder de Brumeval (20 × 15 tuiles) au format Tiled JSON avec les calques sol, décor, collisions et objets. Charge-la dans WorldScene. Fais marcher Kaël case par case dans 4 directions avec une petite animation, bloqué par les collisions. La caméra suit Kaël et reste dans les limites de la carte.
 
@@ -72,7 +76,7 @@ Mode d'emploi : copie le message de l'étape dans Claude Code, teste le résulta
 
 ## Phase 2 : Prototype de combat
 
-- [ ] **2.1 Logique de combat pure**
+- [x] **2.1 Logique de combat pure**
 
   > Dans src/battle/, code en TypeScript pur (sans Phaser) : les formules de dégâts physiques, de sorts, de soin et de critique du GDD, l'ordre des tours par Vitesse avec l'aléa de 0,9 à 1,1, les statuts (poison, sommeil, étourdi, silence, confusion, K.O.) et le calcul d'XP (20 × n²). Écris les tests Vitest correspondants.
 

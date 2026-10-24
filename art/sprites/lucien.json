@@ -1,0 +1,13 @@
+{
+  "id": "lucien",
+  "base": "chasseur",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c8a060",
+    "c": "#8a6a3a",
+    "a": "#6a8a4a",
+    "A": "#466030"
+  }
+}

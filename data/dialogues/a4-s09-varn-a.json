@@ -1,0 +1,121 @@
+{
+  "id": "a4-s09-varn-a",
+  "titre": "Acte 4, scène 9 : Le Chœur (Varn sans masque et le combat final)",
+  "lignes": [
+    { "type": "playMusic", "musique": "tension", "fondu": 1000 },
+    { "type": "spawn", "pnj": "varn", "sprite": "varn", "x": 10, "y": 5, "direction": "down" },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    { "type": "quest", "action": "start", "mission": "m4-08" },
+    { "perso": "varn", "expr": "neutre", "texte": "Vous êtes venus. Tous les quatre. Je le savais." },
+    { "type": "wait", "duree": 800 },
+    { "type": "playSound", "son": "objet" },
+    { "type": "wait", "duree": 1200 },
+    {
+      "perso": "varn",
+      "expr": "triste",
+      "texte": "Mon village s’appelait Corbec. J’avais dix-sept ans. Les chasseurs sont venus une nuit."
+    },
+    {
+      "perso": "varn",
+      "expr": "triste",
+      "texte": "Ils ont brûlé toutes les maisons où vivaient des Résonants. Ma mère. Ma sœur. Mes amis."
+    },
+    {
+      "perso": "varn",
+      "expr": "triste",
+      "texte": "Aubin était là, ce soir-là. Il s’est caché. Moi, j’ai crié."
+    },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Depuis, j’ai compris une chose. Le monde ne changera que si on l’oblige à changer."
+    },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Le Chœur réveillé, les Résonants seront les plus forts. Plus personne ne pourra nous chasser."
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "Et les autres ? Ceux qui n’entendent pas ?" },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Ils apprendront à avoir peur. Comme nous avons eu peur."
+    },
+    {
+      "choix": [
+        {
+          "texte": "Ce n’est pas de la justice. C’est de la vengeance.",
+          "suite": [
+            {
+              "perso": "varn",
+              "expr": "neutre",
+              "texte": "Peut-être. Mais la justice n’est jamais venue. Alors j’ai pris ce qui restait."
+            }
+          ]
+        },
+        {
+          "texte": "Les tempêtes vont tuer tout le monde. Résonants compris.",
+          "suite": [
+            {
+              "perso": "varn",
+              "expr": "neutre",
+              "texte": "Les Accordeurs mentaient. Ils avaient peur, comme tous les autres."
+            },
+            {
+              "perso": "oren",
+              "expr": "colere",
+              "texte": "Non ! Nous avons lu les fresques ! Mère Sahra nous a montré !"
+            },
+            { "perso": "varn", "expr": "colere", "texte": "… Assez." }
+          ]
+        }
+      ]
+    },
+    { "type": "quest", "action": "task", "mission": "m4-08", "tache": 0 },
+    { "type": "playSound", "son": "combat-debut" },
+    { "type": "playMusic", "musique": "varn-1", "fondu": 300 },
+    { "type": "startBattle", "groupe": "boss-varn-1" },
+    { "type": "quest", "action": "task", "mission": "m4-08", "tache": 1 },
+    { "type": "playMusic", "musique": "varn-2", "fondu": 300 },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Vous êtes forts. Mais vous n’êtes que quatre notes. Moi, je les entends toutes."
+    },
+    { "type": "playSound", "son": "lueur-liberee" },
+    { "type": "spawn", "pnj": "lueur-volee-terre", "sprite": "lueur-volee-terre", "x": 8, "y": 4 },
+    { "type": "spawn", "pnj": "lueur-volee-feu", "sprite": "lueur-volee-feu", "x": 12, "y": 4 },
+    { "type": "spawn", "pnj": "lueur-volee-eau", "sprite": "lueur-volee-eau", "x": 8, "y": 6 },
+    { "type": "spawn", "pnj": "lueur-volee-vent", "sprite": "lueur-volee-vent", "x": 12, "y": 6 },
+    { "type": "emote", "cible": "sefa", "emote": "colere" },
+    {
+      "perso": "sefa",
+      "expr": "colere",
+      "texte": "Varn ! Ces Lueurs ne t’ont jamais choisi ! Tu les as volées, comme moi je volais des bourses !"
+    },
+    { "perso": "varn", "expr": "neutre", "texte": "Elles m’obéissent. C’est tout ce qui compte." },
+    { "type": "startBattle", "groupe": "boss-varn-2" },
+    { "type": "quest", "action": "task", "mission": "m4-08", "tache": 2 },
+    { "type": "despawn", "pnj": "lueur-volee-terre" },
+    { "type": "despawn", "pnj": "lueur-volee-feu" },
+    { "type": "despawn", "pnj": "lueur-volee-eau" },
+    { "type": "despawn", "pnj": "lueur-volee-vent" },
+    { "type": "playSound", "son": "onde-diapason" },
+    { "type": "flash", "couleur": "#ffffff", "duree": 800 },
+    { "type": "shake", "duree": 2000, "intensite": 6 },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "move", "cible": "varn", "direction": "down", "pas": 2, "vitesse": 3 },
+    { "type": "anim", "cible": "varn", "animation": "varn/ko" },
+    { "type": "playMusic", "musique": "varn-3", "fondu": 300 },
+    { "perso": "varn", "expr": "fatigue", "texte": "Non… Pas comme ça… Il devait m’écouter…" },
+    {
+      "perso": "kael",
+      "expr": "neutre",
+      "texte": "Il n’écoute personne. Il faut qu’on l’écoute, lui."
+    },
+    { "type": "startBattle", "groupe": "boss-varn-3" },
+    { "type": "quest", "action": "task", "mission": "m4-08", "tache": 3 },
+    { "type": "save" }
+  ]
+}

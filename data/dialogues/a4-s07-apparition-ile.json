@@ -1,0 +1,55 @@
+{
+  "id": "a4-s07-apparition-ile",
+  "titre": "Acte 4, scène 7 : L’apparition de l’Île",
+  "lignes": [
+    { "type": "face", "cible": "varn", "direction": "up" },
+    { "type": "wait", "duree": 800 },
+    { "type": "playSound", "son": "cloche" },
+    { "type": "playSound", "son": "onde-diapason" },
+    { "type": "flash", "couleur": "#ff7a3c", "duree": 500 },
+    { "type": "shake", "duree": 2500, "intensite": 6 },
+    { "type": "setFlag", "drapeau": "diapason_feu_frappe" },
+    { "type": "playSound", "son": "tremblement" },
+    { "type": "face", "cible": "varn", "direction": "down" },
+    { "perso": "varn", "expr": "neutre", "texte": "Quatre. C’est fini. Le Chœur se réveille." },
+    { "type": "fade", "vers": "blanc", "duree": 600 },
+    { "type": "playSound", "son": "vague" },
+    { "type": "wait", "duree": 800 },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "setFlag", "drapeau": "ile_apparue" },
+    { "type": "wait", "duree": 800 },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "wait", "duree": 600 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "wait", "duree": 600 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Si les quatre sont frappés sans être accordés, l’Ère des Tempêtes reviendra."
+    },
+    { "type": "emote", "cible": "oren", "emote": "sueur" },
+    { "perso": "oren", "expr": "surpris", "texte": "Ça commence. Les tempêtes… elles commencent." },
+    {
+      "perso": "varn",
+      "expr": "neutre",
+      "texte": "Vous vouliez savoir ce que je voulais ? Venez le voir. Je vous attends au sommet."
+    },
+    { "type": "playSound", "son": "braise" },
+    { "type": "flash", "couleur": "#ff7a3c", "duree": 400 },
+    { "type": "despawn", "pnj": "varn" },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 10, "y": 13, "direction": "up" },
+    { "type": "moveTo", "cible": "dumarre", "x": 10, "y": 11, "vitesse": 1.5 },
+    {
+      "perso": "dumarre",
+      "expr": "colere",
+      "texte": "Tout le monde ! On part pour la côte. On réunit tout ce qu’on a. Bateaux, planeurs, gardes, fouilleurs. Tout."
+    },
+    { "perso": "nyra", "expr": "sourire", "texte": "C’est le moment de faire du bruit, forgeron." },
+    { "perso": "kael", "expr": "neutre", "texte": "On y va. Tous ensemble." },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "quest", "action": "start", "mission": "m4-07" },
+    { "type": "fade", "vers": "noir", "duree": 1200 },
+    { "type": "save" }
+  ]
+}

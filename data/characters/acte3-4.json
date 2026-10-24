@@ -1,0 +1,142 @@
+[
+  {
+    "id": "garde-haut-vent",
+    "name": "Garde Haut-Vent",
+    "portrait": null,
+    "voice": { "pitch": 240, "wave": "square", "length": 45 },
+    "color": "#9fc5e8"
+  },
+  {
+    "id": "enfant-cendrais",
+    "name": "Enfant cendrais",
+    "portrait": null,
+    "voice": { "pitch": 680, "wave": "triangle", "length": 35 },
+    "color": "#f6c27a"
+  },
+  {
+    "id": "prisme",
+    "name": "Lueur Prisme",
+    "portrait": null,
+    "voice": { "pitch": 1750, "wave": "sine", "length": 30 },
+    "color": "#ffffff"
+  },
+  {
+    "id": "bise",
+    "name": "Bise",
+    "portrait": null,
+    "voice": { "pitch": 1600, "wave": "sine", "length": 30 },
+    "color": "#dbe9f4"
+  },
+  {
+    "id": "magma",
+    "name": "Magma",
+    "portrait": null,
+    "voice": { "pitch": 1450, "wave": "sine", "length": 35 },
+    "color": "#ff7a3c"
+  },
+  {
+    "id": "alize",
+    "name": "Alizé",
+    "portrait": null,
+    "voice": { "pitch": 1650, "wave": "sine", "length": 30 },
+    "color": "#cfe8ff"
+  },
+  {
+    "id": "resonant",
+    "name": "Résonant enregistré",
+    "portrait": null,
+    "voice": { "pitch": 230, "wave": "square", "length": 45 },
+    "color": "#d8b07a"
+  },
+  {
+    "id": "enfant-resonant",
+    "name": "Enfant du quartier",
+    "portrait": null,
+    "voice": { "pitch": 700, "wave": "triangle", "length": 35 },
+    "color": "#e9c89a"
+  },
+  {
+    "id": "receleur",
+    "name": "Le receleur",
+    "portrait": null,
+    "voice": { "pitch": 170, "wave": "sawtooth", "length": 50 },
+    "color": "#b59a6a"
+  },
+  {
+    "id": "bibliothecaire",
+    "name": "Bibliothécaire",
+    "portrait": null,
+    "voice": { "pitch": 400, "wave": "triangle", "length": 45 },
+    "color": "#c9b8e8"
+  },
+  {
+    "id": "habitant",
+    "name": "Habitant de Valcourt",
+    "portrait": null,
+    "voice": { "pitch": 240, "wave": "square", "length": 45 },
+    "color": "#cfd6e4"
+  },
+  {
+    "id": "habitante",
+    "name": "Habitante de Valcourt",
+    "portrait": null,
+    "voice": { "pitch": 410, "wave": "triangle", "length": 45 },
+    "color": "#e4cfd6"
+  },
+  {
+    "id": "crieur",
+    "name": "Crieur public",
+    "portrait": null,
+    "voice": { "pitch": 280, "wave": "sawtooth", "length": 40 },
+    "color": "#f0d070"
+  },
+  {
+    "id": "haut-vent",
+    "name": "Haut-Vent",
+    "portrait": null,
+    "voice": { "pitch": 250, "wave": "square", "length": 45 },
+    "color": "#a8d8ea"
+  },
+  {
+    "id": "tisserande",
+    "name": "Tisserande",
+    "portrait": null,
+    "voice": { "pitch": 420, "wave": "triangle", "length": 45 },
+    "color": "#d9c2f0"
+  },
+  {
+    "id": "berger",
+    "name": "Berger",
+    "portrait": null,
+    "voice": { "pitch": 210, "wave": "triangle", "length": 50 },
+    "color": "#b8d8a8"
+  },
+  {
+    "id": "pilote",
+    "name": "Pilote de planeur",
+    "portrait": null,
+    "voice": { "pitch": 300, "wave": "square", "length": 40 },
+    "color": "#ffd27f"
+  },
+  {
+    "id": "cendrais",
+    "name": "Cendrais",
+    "portrait": null,
+    "voice": { "pitch": 220, "wave": "triangle", "length": 50 },
+    "color": "#e8a85a"
+  },
+  {
+    "id": "cendraise",
+    "name": "Cendraise",
+    "portrait": null,
+    "voice": { "pitch": 400, "wave": "triangle", "length": 45 },
+    "color": "#f2c58a"
+  },
+  {
+    "id": "plongeur",
+    "name": "Plongeur de la Guilde",
+    "portrait": null,
+    "voice": { "pitch": 230, "wave": "square", "length": 45 },
+    "color": "#7fb8d8"
+  }
+]

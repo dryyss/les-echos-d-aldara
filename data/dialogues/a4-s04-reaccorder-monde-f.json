@@ -1,0 +1,32 @@
+{
+  "id": "a4-s04-reaccorder-monde-f",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (Brumeval : Aubin et Lila)",
+  "lignes": [
+    { "type": "playMusic", "musique": "brumeval", "fondu": 1000 },
+    { "type": "spawn", "pnj": "aubin-cine", "sprite": "aubin", "x": 10, "y": 7, "direction": "down" },
+    { "type": "spawn", "pnj": "lila-cine", "sprite": "lila", "x": 12, "y": 10, "direction": "left" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "aubin",
+      "expr": "sourire",
+      "texte": "Tu es revenu. Je le savais. Lila aussi. Elle a dit « je le savais » à tout le village."
+    },
+    { "type": "moveTo", "cible": "lila-cine", "x": 11, "y": 9, "vitesse": 1.8 },
+    { "type": "emote", "cible": "lila-cine", "emote": "exclamation" },
+    { "perso": "lila", "expr": "sourire", "texte": "Je le savais !" },
+    { "type": "setFlag", "drapeau": "alliance_brumeval" },
+    { "type": "despawn", "pnj": "aubin-cine" },
+    { "type": "despawn", "pnj": "lila-cine" },
+    {
+      "type": "if",
+      "condition": {
+        "all": [{ "flag": "alliance_marelle" }, { "flag": "alliance_aster" }, { "flag": "alliance_brumeval" }]
+      },
+      "alors": [
+        { "type": "quest", "action": "task", "mission": "m4-04", "tache": 3 },
+        { "type": "quest", "action": "complete", "mission": "m4-04" }
+      ]
+    },
+    { "type": "save" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a4-s02-fresque-3",
+  "titre": "Acte 4, scène 2 : La troisième fresque",
+  "lignes": [
+    { "type": "playSound", "son": "ecoute" },
+    {
+      "pensee": "Pas en frappant. En écoutant. Un Diapason après l’autre, une note après l’autre, par ceux qui entendent toutes les notes ensemble."
+    },
+    { "type": "setFlag", "drapeau": "fresque_3_lue" }
+  ]
+}

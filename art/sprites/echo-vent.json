@@ -1,0 +1,14 @@
+{
+  "id": "echo-vent",
+  "kind": "enemy",
+  "width": 32,
+  "height": 48,
+  "base": "echo-terre",
+  "palette": {
+    "a": "#8aa8b8",
+    "b": "#5a7888",
+    "c": "#c8e0e8",
+    "e": "#ffffff"
+  },
+  "frames": {}
+}

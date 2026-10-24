@@ -1,0 +1,69 @@
+{
+  "id": "mini-carte",
+  "name": "Mini carte",
+  "tileset": "mini",
+  "music": "test",
+  "zone": "test",
+  "indoor": false,
+  "ground": ["......", ".,,...", "..~~..", "......", "...**."],
+  "decor": ["T.....", "#.....", "......", "......", "......"],
+  "collisions": ["......", "......", "......", "#.....", "....o."],
+  "encounters": null,
+  "objects": [
+    { "type": "spawn", "id": "defaut", "x": 1, "y": 3, "direction": "down" },
+    { "type": "warp", "x": 5, "y": 0, "to": { "map": "autre-carte", "spawn": "entree" }, "direction": "up" },
+    { "type": "npc", "id": "aubin", "x": 3, "y": 1, "direction": "left" },
+    {
+      "type": "object",
+      "id": "brasero-a",
+      "sprite": "brasero",
+      "x": 0,
+      "y": 3,
+      "reactsTo": ["braise"],
+      "onReact": "light",
+      "solid": true,
+      "state": "off",
+      "props": { "persist": false }
+    },
+    {
+      "type": "object",
+      "id": "brasero-b",
+      "sprite": "brasero",
+      "x": 2,
+      "y": 3,
+      "reactsTo": ["braise"],
+      "onReact": "light",
+      "solid": true,
+      "state": "off"
+    },
+    {
+      "type": "object",
+      "id": "porte-1",
+      "sprite": "porte-fermee",
+      "x": 5,
+      "y": 2,
+      "reactsTo": [],
+      "onReact": "lever",
+      "solid": true,
+      "state": "idle"
+    },
+    { "type": "trigger", "id": "zone-1", "x": 3, "y": 3, "w": 2, "h": 2, "scene": "test-scene", "once": true },
+    {
+      "type": "chest",
+      "id": "coffre-1",
+      "item": "herbe-soin",
+      "quantity": 2,
+      "x": 4,
+      "y": 1,
+      "si": { "flag": "test_flag" }
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "braseros-test",
+      "type": "all",
+      "objects": ["brasero-a", "brasero-b"],
+      "onSolved": { "setMapState": { "porte-1": "open" }, "setFlag": "test_porte" }
+    }
+  ]
+}

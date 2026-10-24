@@ -1,0 +1,14 @@
+{
+  "id": "echo-eau",
+  "kind": "enemy",
+  "width": 32,
+  "height": 48,
+  "base": "echo-terre",
+  "palette": {
+    "a": "#3a7ab8",
+    "b": "#224a80",
+    "c": "#70b0e0",
+    "e": "#e0ffff"
+  },
+  "frames": {}
+}

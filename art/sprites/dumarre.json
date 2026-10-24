@@ -1,0 +1,18 @@
+{
+  "id": "dumarre",
+  "base": "ilse",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "s": "#f1c9a5",
+    "S": "#d49a76",
+    "h": "#9a9aa0",
+    "H": "#6a6a72",
+    "a": "#8a8a98",
+    "A": "#5a5a68",
+    "c": "#c8c8d0",
+    "b": "#4a3038",
+    "B": "#30202a"
+  }
+}

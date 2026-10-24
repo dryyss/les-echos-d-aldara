@@ -1,0 +1,12 @@
+{
+  "id": "a4-s08-ile-choeur-d",
+  "titre": "Acte 4, scène 8 : L’Île du Chœur (le sommet)",
+  "lignes": [
+    { "type": "playMusic", "musique": "tension", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    { "type": "quest", "action": "task", "mission": "m4-07", "tache": 4 },
+    { "type": "quest", "action": "complete", "mission": "m4-07" },
+    { "type": "heal" },
+    { "type": "save" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a4-s03-resonner-a-deux-b",
+  "titre": "Acte 4, scène 3 : Résonner à deux (après l’épreuve Vapeur)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "face", "cible": "nyra", "direction": "right" },
+    { "type": "face", "cible": "oren", "direction": "left" },
+    { "perso": "nyra", "expr": "sourire", "texte": "… Ok. C’était cool." },
+    { "perso": "oren", "expr": "surpris", "texte": "Tu as dit que j’étais cool ?" },
+    { "perso": "nyra", "expr": "neutre", "texte": "J’ai dit que c’était cool. Pas toi." },
+    { "type": "quest", "action": "task", "mission": "m4-03", "tache": 0 },
+    { "type": "give", "resonance": "magma" },
+    { "type": "save" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "a1-s01-matin-brumeval-b",
+  "titre": "Acte 1, scène 1 : Le matin à Brumeval (le village se réveille)",
+  "lignes": [
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "move", "cible": "villageoise", "direction": "down", "pas": 2 },
+    { "type": "emote", "cible": "villageoise", "emote": "musique" },
+    {
+      "perso": "villageoise",
+      "expr": "sourire",
+      "texte": "Bonjour, Kaël ! Ce soir, c’est la fête des moissons. Tu viendras danser, cette année ?"
+    },
+    { "perso": "kael", "texte": "…" },
+    { "type": "move", "cible": "villageoise", "direction": "up", "pas": 2 }
+  ]
+}

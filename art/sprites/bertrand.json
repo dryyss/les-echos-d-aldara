@@ -1,0 +1,14 @@
+{
+  "id": "bertrand",
+  "base": "aubergiste",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c86a30",
+    "H": "#8a4018",
+    "b": "#4a7a4a",
+    "B": "#2e5230",
+    "c": "#5a4a3a"
+  }
+}

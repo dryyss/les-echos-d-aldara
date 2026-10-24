@@ -1,0 +1,192 @@
+[
+  {
+    "id": "hautegrange-armurerie",
+    "name": "Armurerie de Hautegrange",
+    "merchant": "gaspard",
+    "items": [
+      "epee-fer",
+      "hache-bucheron",
+      "marteau-forge",
+      "arc-chasse",
+      "dague-fer",
+      "baton-chene",
+      "fleau-fer",
+      "veste-cuir",
+      "bracelet-cuir",
+      "capuche-cuir"
+    ],
+    "lines": {
+      "hello": "Des lames, des boucliers, et du sérieux.",
+      "buy": "Bon choix. Prends-en soin.",
+      "bye": "Reviens vivant, c’est meilleur pour les affaires."
+    }
+  },
+  {
+    "id": "hautegrange-epicerie",
+    "name": "Épicerie de Hautegrange",
+    "merchant": "rosa",
+    "items": ["herbe-soin", "eau-claire", "antidote", "reveil", "encens-calme", "plume-vie"],
+    "lines": {
+      "hello": "Herbes, remèdes, et potions qui marchent… presque toujours.",
+      "buy": "Une gorgée le matin, une le soir. Ou quand tu saignes.",
+      "bye": "Prends soin de toi, mon grand !"
+    }
+  },
+  {
+    "id": "port-lazuli-armurerie",
+    "name": "Armurerie du port",
+    "merchant": "armurier-lazuli",
+    "items": [
+      "lame-lazuli",
+      "hache-marin",
+      "masse-corail",
+      "arc-saphir",
+      "dague-nacre",
+      "baton-corail",
+      "fleau-ancre",
+      "cotte-mailles",
+      "bouclier-fer",
+      "casque-fer"
+    ],
+    "lines": {
+      "hello": "Du fer qui ne rouille pas, même en mer. Enfin, pas tout de suite.",
+      "buy": "Vendu. Et si ça casse, c’est que tu as tapé trop fort.",
+      "bye": "Bon vent, et garde les pieds secs."
+    }
+  },
+  {
+    "id": "port-lazuli-epicerie",
+    "name": "Épicerie du port",
+    "merchant": "epiciere-lazuli",
+    "items": [
+      "herbe-soin",
+      "grande-herbe",
+      "eau-claire",
+      "eau-vive",
+      "antidote",
+      "reveil",
+      "encens-calme",
+      "plume-vie"
+    ],
+    "lines": {
+      "hello": "Tout ce qu’il faut pour tenir une traversée. Et même une tempête.",
+      "buy": "Bien emballé, ça ne prendra pas l’eau.",
+      "bye": "Revenez quand la marée sera basse !"
+    }
+  },
+  {
+    "id": "port-lazuli-guilde",
+    "name": "Comptoir de la Guilde des Fouilleurs",
+    "merchant": "ottavio",
+    "items": [
+      "minerai-rouge",
+      "cristal-givre",
+      "perle-noire",
+      "anneau-chance",
+      "amulette-vipere",
+      "anneau-resonance"
+    ],
+    "lines": {
+      "hello": "Des reliques authentiques, mes amis. Enfin, presque toutes.",
+      "buy": "Excellent goût. Je n’en dirai rien à la Garde.",
+      "bye": "Si vous trouvez quelque chose de vieux et de brillant, pensez à moi."
+    }
+  },
+  {
+    "id": "valcourt-armurerie",
+    "name": "Armurerie royale de Valcourt",
+    "merchant": "armurier-valcourt",
+    "items": [
+      "epee-royale",
+      "hache-valcourt",
+      "marteau-ardoise",
+      "arc-royal",
+      "stylet-valcourt",
+      "sceptre-bibliotheque",
+      "fleau-royal",
+      "cuirasse-royale",
+      "bracelet-bronze",
+      "heaume-royal"
+    ],
+    "lines": {
+      "hello": "Fournisseur de la Garde Royale. Je ne pose pas de questions, je vends.",
+      "buy": "Du travail de Valcourt. Ça durera plus longtemps que vous.",
+      "bye": "Ne vous faites pas arrêter avec ça sur le dos."
+    }
+  },
+  {
+    "id": "valcourt-epicerie",
+    "name": "Herboristerie de Valcourt",
+    "merchant": "epiciere-valcourt",
+    "items": [
+      "herbe-soin",
+      "grande-herbe",
+      "baume",
+      "eau-claire",
+      "eau-vive",
+      "antidote",
+      "reveil",
+      "encens-calme",
+      "plume-vie"
+    ],
+    "lines": {
+      "hello": "Remèdes de la capitale. Deux fois plus chers, deux fois plus efficaces. Enfin, le premier point est sûr.",
+      "buy": "À prendre avec un verre d’eau et beaucoup de courage.",
+      "bye": "Portez-vous bien, et évitez le quartier des cuivres après le couvre-feu."
+    }
+  },
+  {
+    "id": "ventelune-atelier",
+    "name": "Atelier des planeurs de Ventelune",
+    "merchant": "artisan-ventelune",
+    "items": [
+      "lame-cimes",
+      "hache-falaises",
+      "masse-vents",
+      "arc-haut-vents",
+      "dagues-planeur",
+      "baton-nuees",
+      "fleau-tempetes",
+      "manteau-cimes",
+      "bouclier-ardoise",
+      "casque-vents",
+      "soie-vent",
+      "plume-griffon",
+      "bottes-legeres"
+    ],
+    "lines": {
+      "hello": "Léger, solide, et ça ne craint pas le vide. Comme tout ce qu’on fait ici.",
+      "buy": "Attachez-le bien. Ici, ce qui tombe ne remonte pas.",
+      "bye": "Que le vent vous porte, pas qu’il vous emporte."
+    }
+  },
+  {
+    "id": "oasis-marche",
+    "name": "Marché de l’Oasis de Sahr",
+    "merchant": "marchande-sahr",
+    "items": [
+      "epee-cendre",
+      "hache-desert",
+      "marteau-obsidienne",
+      "arc-sahr",
+      "dagues-verre-noir",
+      "baton-oasis",
+      "fleau-braise",
+      "armure-cendre",
+      "bracelet-verre-noir",
+      "couronne-cendre",
+      "baume",
+      "eau-vive",
+      "elixir",
+      "plume-vie",
+      "ecaille-salamandre",
+      "cendre-sacree",
+      "amulette-flamme"
+    ],
+    "lines": {
+      "hello": "Les Cendrais n’oublient rien, et ne jettent rien. Regardez.",
+      "buy": "Le désert vous l’a prêté. Rendez-le-lui quand vous n’en aurez plus besoin.",
+      "bye": "Buvez avant d’avoir soif, Résonants."
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "vieux-pecheur",
+  "base": "pecheur",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c8c4b8",
+    "c": "#6a7a5a",
+    "C": "#44523a",
+    "a": "#5a7a8a",
+    "A": "#3a5260",
+    "b": "#3c3024",
+    "B": "#261e16"
+  }
+}

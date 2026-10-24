@@ -1,0 +1,33 @@
+{
+  "id": "a1-s02-fete-moissons-c",
+  "titre": "Acte 1, scène 2 : La fête des moissons (après l’Écoute sur Caillou, la cloche)",
+  "lignes": [
+    { "type": "emote", "cible": "caillou", "emote": "sueur" },
+    {
+      "perso": "aubin",
+      "expr": "sourire",
+      "texte": "Ha ! Tu as entendu ? Ce chien cache des os sous mon banc depuis des mois."
+    },
+    {
+      "perso": "aubin",
+      "expr": "neutre",
+      "texte": "Avec ce pouvoir, tu entendras ce que les gens taisent. Utilise-le avec respect."
+    },
+    { "ecran": "Kaël a appris la Résonance Écoute." },
+    { "type": "quest", "action": "task", "mission": "m1-02", "tache": 3 },
+    { "type": "quest", "action": "complete", "mission": "m1-02" },
+    { "type": "wait", "duree": 800 },
+    { "type": "playMusic", "musique": null, "fondu": 300 },
+    { "type": "playSound", "son": "cloche" },
+    { "type": "wait", "duree": 700 },
+    { "type": "playSound", "son": "cloche" },
+    { "type": "emote", "cible": "aubin", "emote": "exclamation" },
+    { "type": "emote", "cible": "player", "emote": "exclamation" },
+    { "type": "wait", "duree": 500 },
+    { "type": "playMusic", "musique": "attaque", "fondu": 400 },
+    { "type": "quest", "action": "start", "mission": "m1-03" },
+    { "type": "move", "cible": "aubin", "direction": "down", "pas": 4, "vitesse": 2 },
+    { "type": "despawn", "pnj": "aubin" },
+    { "type": "setMapState", "cle": "alarme", "valeur": true }
+  ]
+}

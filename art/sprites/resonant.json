@@ -1,0 +1,16 @@
+{
+  "id": "resonant",
+  "base": "villageois-homme",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#3a3a4a",
+    "H": "#22222e",
+    "a": "#6a7a9a",
+    "A": "#485670",
+    "b": "#4a4a5a",
+    "B": "#30303c",
+    "r": "#d08a3a"
+  }
+}

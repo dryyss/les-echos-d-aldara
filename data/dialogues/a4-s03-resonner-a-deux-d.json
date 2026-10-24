@@ -1,0 +1,11 @@
+{
+  "id": "a4-s03-resonner-a-deux-d",
+  "titre": "Acte 4, scène 3 : Résonner à deux (après l’épreuve Marée verte)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "flash", "couleur": "#7fd87f", "duree": 300 },
+    { "type": "quest", "action": "task", "mission": "m4-03", "tache": 2 },
+    { "type": "give", "resonance": "tempete" },
+    { "type": "save" }
+  ]
+}

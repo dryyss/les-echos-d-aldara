@@ -1,0 +1,41 @@
+{
+  "id": "a3-s05-cite-suspendue-b",
+  "titre": "Acte 3, scène 5 : La cité suspendue (le palais des Aster)",
+  "lignes": [
+    { "type": "spawn", "pnj": "dame-aster", "sprite": "dame-aster", "x": 10, "y": 4, "direction": "down" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "dame-aster",
+      "expr": "neutre",
+      "texte": "Les fugitifs de Valcourt. Les affiches sont arrivées avant vous. Que voulez-vous ?"
+    },
+    { "perso": "kael", "expr": "neutre", "texte": "Protéger la Clé du Vent." },
+    {
+      "perso": "dame-aster",
+      "expr": "colere",
+      "texte": "Et pourquoi vous croirais-je ? Peut-être que vous travaillez pour l’Ordre. Peut-être que vous voulez la voler."
+    },
+    { "type": "face", "cible": "sefa", "direction": "left" },
+    { "type": "wait", "duree": 800 },
+    { "type": "quest", "action": "task", "mission": "m3-05", "tache": 0 },
+    { "type": "playSound", "son": "cloche" },
+    { "type": "shake", "duree": 400, "intensite": 2 },
+    { "type": "playMusic", "musique": "attaque", "fondu": 300 },
+    { "type": "spawn", "pnj": "garde-haut-vent-1", "sprite": "garde-royal", "x": 10, "y": 12, "direction": "up" },
+    { "type": "move", "cible": "garde-haut-vent-1", "direction": "up", "pas": 4, "vitesse": 1.6 },
+    { "type": "emote", "cible": "garde-haut-vent-1", "emote": "exclamation" },
+    {
+      "perso": "garde-haut-vent",
+      "expr": "surpris",
+      "texte": "L’Ordre ! Ils attaquent les ponts !"
+    },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Bon. Voilà notre preuve qui arrive en volant."
+    },
+    { "type": "move", "cible": "garde-haut-vent-1", "direction": "down", "pas": 4, "vitesse": 1.6 },
+    { "type": "despawn", "pnj": "garde-haut-vent-1" },
+    { "type": "despawn", "pnj": "dame-aster" }
+  ]
+}

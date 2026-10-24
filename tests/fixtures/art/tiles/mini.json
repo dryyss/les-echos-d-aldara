@@ -1,0 +1,33 @@
+{
+  "id": "mini",
+  "tileSize": 4,
+  "palette": {
+    "g": "#4f9d4a",
+    "G": "#3a7d3a",
+    "d": "#8a6a44",
+    "k": "#2a2420",
+    "b": "#3a6ea5",
+    "B": "#5b8fd0"
+  },
+  "tiles": {
+    "herbe": { "char": ".", "rows": ["gggg", "gGgg", "gggg", "ggGg"] },
+    "touffe": { "char": ",", "rows": ["gggg", "gGGg", "gGGg", "gggg"] },
+    "mur": { "char": "#", "solid": true, "rows": ["dddd", "dkkd", "dkkd", "dddd"] },
+    "arbre-haut": {
+      "char": "T",
+      "solid": true,
+      "above": true,
+      "rows": [".GG.", "GGGG", "GGGG", ".GG."]
+    },
+    "eau": {
+      "char": "~",
+      "solid": true,
+      "water": true,
+      "frames": [
+        ["bbbb", "bBbb", "bbbb", "bbBb"],
+        ["bbbb", "bbBb", "bbbb", "Bbbb"]
+      ]
+    },
+    "vide": { "char": "*", "solid": true, "gap": true, "rows": ["kkkk", "kkkk", "kkkk", "kkkk"] }
+  }
+}

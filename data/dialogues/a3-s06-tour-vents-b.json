@@ -1,0 +1,9 @@
+{
+  "id": "a3-s06-tour-vents-b",
+  "titre": "Acte 3, scène 6 : La Tour des Vents (étage 3, le mur de vent)",
+  "lignes": [
+    { "type": "emote", "cible": "sefa", "emote": "question" },
+    { "type": "face", "cible": "sefa", "direction": "right" },
+    { "perso": "sefa", "expr": "surpris", "texte": "Attendez. Il y a quelque chose, là." }
+  ]
+}

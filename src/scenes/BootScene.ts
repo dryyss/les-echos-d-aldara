@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { COLORS, GAME_HEIGHT, GAME_WIDTH, PIXEL_FONT, SCENES, TILESETS } from '../config';
+import { bootServices } from '../game/services';
 
 /** Entrée du manifeste produit par scripts/build-art.mjs. */
 interface ManifestAnimation {
@@ -59,9 +60,11 @@ export class BootScene extends Phaser.Scene {
     }
     this.load.once(Phaser.Loader.Events.COMPLETE, () => {
       this.createAnimations(sprites);
+      bootServices();
       this.scene.start(SCENES.title);
     });
     if (sprites.length === 0) {
+      bootServices();
       this.scene.start(SCENES.title);
       return;
     }

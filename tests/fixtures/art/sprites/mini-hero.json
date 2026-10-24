@@ -1,0 +1,24 @@
+{
+  "id": "mini-hero",
+  "kind": "character",
+  "width": 4,
+  "height": 6,
+  "palette": { "k": "#1b1a2e", "s": "#f1c9a5", "h": "#7a4a2a", "g": "#3fae5a" },
+  "frames": {
+    "down-0": [".hh.", "hssh", ".ss.", "gggg", ".kk.", "k..k"],
+    "down-1": { "copy": "down-0" },
+    "down-2": [".hh.", "hssh", ".ss.", "gggg", ".kk.", ".k.k"],
+    "up-0": [".hh.", "hhhh", ".hh.", "gggg", ".kk.", "k..k"],
+    "up-1": { "copy": "up-0" },
+    "up-2": { "copy": "up-0" },
+    "left-0": [".hh.", "hhs.", ".ss.", "gggg", ".kk.", "k.k."],
+    "left-1": { "copy": "left-0" },
+    "left-2": { "copy": "left-0", "palette": { "g": "#2a7d3a" } },
+    "right-0": { "mirror": "left-0" },
+    "right-1": { "mirror": "left-1" },
+    "right-2": { "mirror": "left-2" }
+  },
+  "animations": {
+    "special": { "frames": ["down-0", "down-2"], "frameRate": 6, "repeat": 0 }
+  }
+}

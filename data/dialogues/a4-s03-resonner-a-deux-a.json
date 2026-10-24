@@ -1,0 +1,37 @@
+{
+  "id": "a4-s03-resonner-a-deux-a",
+  "titre": "Acte 4, scène 3 : Résonner à deux (le lever du soleil)",
+  "lignes": [
+    { "type": "playMusic", "musique": "oasis", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1500 },
+    {
+      "type": "if",
+      "condition": { "quest": "m4-02", "status": "active" },
+      "alors": [
+        { "type": "quest", "action": "task", "mission": "m4-02", "tache": 3 },
+        { "type": "quest", "action": "complete", "mission": "m4-02" }
+      ]
+    },
+    { "type": "quest", "action": "start", "mission": "m4-03" },
+    { "type": "spawn", "pnj": "mere-sahra-cine", "sprite": "mere-sahra", "x": 10, "y": 5, "direction": "down" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Un Accord, c’est deux notes qui deviennent une. Il faut que chacun écoute l’autre autant que lui-même."
+    },
+    { "perso": "mere-sahra", "expr": "neutre", "texte": "Nyra, Oren. Commencez." },
+    { "type": "face", "cible": "nyra", "direction": "right" },
+    { "type": "face", "cible": "oren", "direction": "left" },
+    { "perso": "nyra", "expr": "surpris", "texte": "Avec le binoclard ? Sérieux ?" },
+    {
+      "perso": "oren",
+      "expr": "neutre",
+      "texte": "Je te ferai remarquer que le feu et l’eau, ensemble, c’est techniquement la combinaison la plus puissante."
+    },
+    { "perso": "nyra", "expr": "neutre", "texte": "Ça fait de la vapeur." },
+    { "perso": "oren", "expr": "sourire", "texte": "Exactement !" },
+    { "type": "give", "resonance": "vapeur" },
+    { "type": "despawn", "pnj": "mere-sahra-cine" }
+  ]
+}

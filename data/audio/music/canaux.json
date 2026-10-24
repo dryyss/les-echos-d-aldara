@@ -1,0 +1,37 @@
+{
+  "id": "canaux",
+  "title": "Les Canaux pris par le givre",
+  "bpm": 92,
+  "stepsPerBeat": 4,
+  "loop": true,
+  "tracks": [
+    {
+      "name": "melodie",
+      "wave": "pulse12",
+      "volume": 0.18,
+      "release": 0.3,
+      "pattern": "E5:4 .:2 G5:2 B5:4 .:4 | C6:4 .:2 B5:2 G5:4 .:4 | D5:4 .:2 G5:2 B5:4 .:4 | A5:8 F#5:4 D5:4 | E5:4 .:2 G5:2 B5:4 .:4 | C6:4 .:2 E6:2 D6:4 .:4 | D#5:4 .:2 F#5:2 B5:4 .:4 | E5:12 .:4 | A5:2 B5:2 C6:4 .:2 E5:2 A5:4 | G5:2 F#5:2 E5:4 .:2 B4:2 E5:4 | C5:2 E5:2 G5:4 .:2 E5:2 C6:4 | B5:8 .:4 D#5:2 F#5:2 | E5:4 .:2 G5:2 B5:4 .:4 | C6:4 .:2 B5:2 G5:4 .:4 | A5:4 F#5:4 D5:4 F#5:4 | E5:8 .:8"
+    },
+    {
+      "name": "cristal",
+      "wave": "sine",
+      "volume": 0.07,
+      "release": 0.1,
+      "pattern": "E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 | C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 | G6 B6 D7 B6 G6 B6 D7 B6 G6 B6 D7 B6 G6 B6 D7 B6 | D6 F#6 A6 F#6 D6 F#6 A6 F#6 D6 F#6 A6 F#6 D6 F#6 A6 F#6 | E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 | C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 | B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 | E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 | A5 C6 E6 C6 A5 C6 E6 C6 A5 C6 E6 C6 A5 C6 E6 C6 | E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 | C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 | B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 B5 D#6 F#6 D#6 | E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 | C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 C6 E6 G6 E6 | D6 F#6 A6 F#6 D6 F#6 A6 F#6 D6 F#6 A6 F#6 D6 F#6 A6 F#6 | E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6 E6 G6 B6 G6"
+    },
+    {
+      "name": "basse",
+      "wave": "triangle",
+      "volume": 0.18,
+      "attack": 0.05,
+      "release": 0.3,
+      "pattern": "E2:12 .:4 | C2:12 .:4 | G2:12 .:4 | D2:12 .:4 | E2:12 .:4 | C2:12 .:4 | B2:12 .:4 | E2:12 .:4 | A2:12 .:4 | E2:12 .:4 | C2:12 .:4 | B2:12 .:4 | E2:12 .:4 | C2:12 .:4 | D2:12 .:4 | E2:12 .:4"
+    },
+    {
+      "name": "glace",
+      "wave": "noise",
+      "volume": 0.04,
+      "pattern": ".:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:11 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:7 h:1 .:3 | .:4 h:1 .:11"
+    }
+  ]
+}

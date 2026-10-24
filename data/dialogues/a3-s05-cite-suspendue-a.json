@@ -1,0 +1,25 @@
+{
+  "id": "a3-s05-cite-suspendue-a",
+  "titre": "Acte 3, scène 5 : La cité suspendue (l’arrivée)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ventelune", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1000 },
+    {
+      "type": "if",
+      "condition": { "quest": "m3-04", "status": "active" },
+      "alors": [{ "type": "quest", "action": "complete", "mission": "m3-04" }]
+    },
+    { "type": "quest", "action": "start", "mission": "m3-05" },
+    { "type": "emote", "cible": "oren", "emote": "exclamation" },
+    {
+      "perso": "oren",
+      "expr": "surpris",
+      "texte": "C’est… magnifique. Les Haut-Vents ont construit ça il y a quatre siècles, sans un seul clou !"
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Et sans rambarde. Fais attention où tu mets les pieds, le savant."
+    }
+  ]
+}

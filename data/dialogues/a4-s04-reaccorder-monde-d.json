@@ -1,0 +1,55 @@
+{
+  "id": "a4-s04-reaccorder-monde-d",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (Port-Lazuli : les Marelle et Ottavio)",
+  "lignes": [
+    { "type": "playMusic", "musique": "port-lazuli", "fondu": 1000 },
+    { "type": "spawn", "pnj": "mila-cine", "sprite": "mila", "x": 12, "y": 9, "direction": "left" },
+    { "type": "moveTo", "cible": "mila-cine", "x": 10, "y": 9, "vitesse": 1.8 },
+    { "type": "face", "cible": "player", "direction": "right" },
+    { "perso": "mila", "expr": "sourire", "texte": "Kaël ! T’as gardé mon coquillage ?" },
+    { "type": "playSound", "son": "objet" },
+    { "type": "emote", "cible": "mila-cine", "emote": "coeur" },
+    { "perso": "mila", "expr": "sourire", "texte": "Hiii !" },
+    { "type": "spawn", "pnj": "ottavio-cine", "sprite": "ottavio", "x": 6, "y": 8, "direction": "right" },
+    { "type": "moveTo", "cible": "ottavio-cine", "x": 8, "y": 9, "vitesse": 0.9 },
+    { "type": "face", "cible": "player", "direction": "left" },
+    {
+      "type": "if",
+      "condition": { "flag": "ottavio_relique_rendue" },
+      "alors": [
+        {
+          "perso": "ottavio",
+          "expr": "sourire",
+          "texte": "J’ai fini par découvrir que ma relique était fausse. Excellent travail, d’ailleurs."
+        },
+        {
+          "perso": "ottavio",
+          "expr": "neutre",
+          "texte": "Je vous aide quand même. La fin du monde, c’est mauvais pour les affaires."
+        }
+      ],
+      "sinon": [
+        {
+          "perso": "ottavio",
+          "expr": "neutre",
+          "texte": "Vous me deviez un service. Je viens le réclamer : laissez-moi vous aider. La fin du monde, c’est mauvais pour les affaires."
+        }
+      ]
+    },
+    { "type": "setFlag", "drapeau": "alliance_marelle" },
+    { "type": "setFlag", "drapeau": "alliance_guilde" },
+    { "type": "despawn", "pnj": "mila-cine" },
+    { "type": "despawn", "pnj": "ottavio-cine" },
+    {
+      "type": "if",
+      "condition": {
+        "all": [{ "flag": "alliance_marelle" }, { "flag": "alliance_aster" }, { "flag": "alliance_brumeval" }]
+      },
+      "alors": [
+        { "type": "quest", "action": "task", "mission": "m4-04", "tache": 3 },
+        { "type": "quest", "action": "complete", "mission": "m4-04" }
+      ]
+    },
+    { "type": "save" }
+  ]
+}

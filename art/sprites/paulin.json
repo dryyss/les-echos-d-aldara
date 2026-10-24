@@ -1,0 +1,16 @@
+{
+  "id": "paulin",
+  "base": "marchand",
+  "kind": "character",
+  "width": 16,
+  "height": 24,
+  "palette": {
+    "h": "#c8b890",
+    "c": "#f0ece0",
+    "C": "#c0b8a8",
+    "a": "#f4f0e8",
+    "A": "#ccc4b4",
+    "b": "#8a8a9a",
+    "B": "#5e5e70"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a4-s02-fresque-1",
+  "titre": "Acte 4, scène 2 : La première fresque",
+  "lignes": [
+    { "type": "playSound", "son": "ecoute" },
+    {
+      "pensee": "Le monde chantait trop fort. Les tempêtes déchiraient le ciel. Alors nous avons construit les Diapasons pour baisser le chant."
+    },
+    { "type": "setFlag", "drapeau": "fresque_1_lue" }
+  ]
+}

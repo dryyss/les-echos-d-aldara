@@ -1,0 +1,58 @@
+{
+  "id": "a3-s06-tour-vents-d",
+  "titre": "Acte 3, scène 6 : La Tour des Vents (le sommet et la Clé)",
+  "lignes": [
+    { "type": "quest", "action": "task", "mission": "m3-06", "tache": 1 },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "spawn", "pnj": "roc-tempete", "sprite": "roc-tempete", "x": 10, "y": 4, "direction": "down" },
+    { "type": "shake", "duree": 700, "intensite": 3 },
+    { "type": "emote", "cible": "nyra", "emote": "sueur" },
+    {
+      "perso": "nyra",
+      "expr": "surpris",
+      "texte": "C’est un oiseau. Un oiseau énorme. Pourquoi c’est toujours énorme ?"
+    },
+    { "type": "playMusic", "musique": "boss", "fondu": 300 },
+    { "type": "startBattle", "groupe": "boss-roc-tempete" },
+    { "type": "quest", "action": "task", "mission": "m3-06", "tache": 3 },
+    { "type": "playMusic", "musique": "ruines", "fondu": 1500 },
+    { "type": "move", "cible": "roc-tempete", "direction": "up", "pas": 1, "vitesse": 0.5 },
+    { "type": "wait", "duree": 800 },
+    { "perso": "kael", "expr": "neutre", "texte": "On l’a. Avant eux, cette fois." },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Enfin ! Enfin, on gagne un truc ! On fait la fête ce soir, je décide !"
+    },
+    { "type": "moveTo", "cible": "sefa", "x": 10, "y": 6 },
+    { "type": "face", "cible": "sefa", "direction": "up" },
+    { "type": "playSound", "son": "objet" },
+    { "type": "wait", "duree": 1800 },
+    { "type": "face", "cible": "sefa", "direction": "down" },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Je la porte. J’ai l’habitude de garder ce qui a de la valeur."
+    },
+    {
+      "choix": [
+        {
+          "texte": "D’accord.",
+          "drapeau": "sefa_porte_cle",
+          "suite": [{ "perso": "sefa", "expr": "sourire", "texte": "… Merci, grand." }]
+        },
+        {
+          "texte": "Je préfère la garder.",
+          "suite": [
+            { "perso": "sefa", "expr": "neutre", "texte": "Comme tu veux." },
+            { "type": "moveTo", "cible": "sefa", "x": 10, "y": 8 },
+            { "type": "playSound", "son": "objet" }
+          ]
+        }
+      ]
+    },
+    { "type": "give", "objet": "cle-vent", "quantite": 1 },
+    { "type": "quest", "action": "task", "mission": "m3-06", "tache": 4 },
+    { "type": "despawn", "pnj": "roc-tempete" }
+  ]
+}

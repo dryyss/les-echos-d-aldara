@@ -1,0 +1,60 @@
+{
+  "id": "a4-s08-ile-choeur-b",
+  "titre": "Acte 4, scène 8 : L’Île du Chœur (les quatre portes)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ile-choeur", "fondu": 2000 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    { "type": "quest", "action": "task", "mission": "m4-07", "tache": 0 },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "oren",
+      "expr": "neutre",
+      "texte": "Quatre sanctuaires. Un par élément. Chacun de nous doit ouvrir le sien."
+    },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "On se sépare ? C’est jamais une bonne idée, dans les histoires."
+    },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Ce n’est pas une histoire. Enfin… si, un peu. Mais c’est la nôtre."
+    },
+    { "type": "face", "cible": "nyra", "direction": "left" },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "Hé, forgeron. Si je meurs, je te hanterai. Avec des flèches."
+    },
+    { "type": "face", "cible": "oren", "direction": "left" },
+    {
+      "perso": "oren",
+      "expr": "triste",
+      "texte": "Kaël… Merci de m’avoir sorti de cette cave, à Port-Lazuli. C’est le meilleur chapitre de ma vie."
+    },
+    { "type": "face", "cible": "sefa", "direction": "left" },
+    {
+      "type": "if",
+      "condition": { "flag": "sefa_porte_cle" },
+      "alors": [
+        {
+          "perso": "sefa",
+          "expr": "sourire",
+          "texte": "Grand. Tu te souviens, à la Tour ? Tu m’as laissé porter la Clé. Personne ne m’avait jamais fait confiance comme ça."
+        }
+      ],
+      "sinon": [
+        {
+          "perso": "sefa",
+          "expr": "sourire",
+          "texte": "Grand. On se voit en haut. Ne me fais pas attendre."
+        }
+      ]
+    },
+    { "type": "move", "cible": "nyra", "direction": "up", "pas": 3, "vitesse": 1.2 },
+    { "type": "move", "cible": "oren", "direction": "up", "pas": 3, "vitesse": 1.2 },
+    { "type": "move", "cible": "sefa", "direction": "up", "pas": 3, "vitesse": 1.2 },
+    { "type": "save" }
+  ]
+}

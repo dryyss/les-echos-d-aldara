@@ -1,0 +1,39 @@
+{
+  "id": "a4-s08-ile-choeur-a",
+  "titre": "Acte 4, scène 8 : L’Île du Chœur (la côte du rassemblement)",
+  "lignes": [
+    { "type": "playMusic", "musique": "tension", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "playSound", "son": "tonnerre" },
+    { "type": "spawn", "pnj": "ottavio-cine", "sprite": "ottavio", "x": 7, "y": 8, "direction": "right" },
+    { "type": "spawn", "pnj": "dame-aster", "sprite": "dame-aster", "x": 10, "y": 6, "direction": "down" },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 13, "y": 8, "direction": "left" },
+    { "type": "spawn", "pnj": "mme-marelle-cine", "sprite": "mme-marelle", "x": 5, "y": 10, "direction": "right" },
+    { "type": "spawn", "pnj": "m-marelle-cine", "sprite": "m-marelle", "x": 5, "y": 11, "direction": "right" },
+    { "type": "spawn", "pnj": "garde-cote-1", "sprite": "garde-royal", "x": 15, "y": 9, "direction": "left" },
+    { "type": "spawn", "pnj": "garde-cote-2", "sprite": "garde-royal", "x": 15, "y": 11, "direction": "left" },
+    { "type": "spawn", "pnj": "plongeur-cine", "sprite": "pecheur", "x": 6, "y": 7, "direction": "right" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "ottavio",
+      "expr": "neutre",
+      "texte": "Mes plongeurs connaissent les courants. On vous amène au pied de l’île. Après, c’est votre affaire."
+    },
+    {
+      "perso": "dame-aster",
+      "expr": "neutre",
+      "texte": "Les planeurs vont détourner les éclairs. Nous tiendrons le ciel aussi longtemps que possible."
+    },
+    { "perso": "dumarre", "expr": "colere", "texte": "La Garde tient la plage. Rien ne passe. Allez-y." },
+    { "type": "despawn", "pnj": "ottavio-cine" },
+    { "type": "despawn", "pnj": "dame-aster" },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "mme-marelle-cine" },
+    { "type": "despawn", "pnj": "m-marelle-cine" },
+    { "type": "despawn", "pnj": "garde-cote-1" },
+    { "type": "despawn", "pnj": "garde-cote-2" },
+    { "type": "despawn", "pnj": "plongeur-cine" },
+    { "type": "save" }
+  ]
+}

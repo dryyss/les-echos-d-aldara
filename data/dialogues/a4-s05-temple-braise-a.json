@@ -1,0 +1,18 @@
+{
+  "id": "a4-s05-temple-braise-a",
+  "titre": "Acte 4, scène 5 : Le Temple de Braise (l’entrée du volcan)",
+  "lignes": [
+    { "type": "playMusic", "musique": "volcan", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1000 },
+    { "type": "quest", "action": "start", "mission": "m4-05" },
+    { "type": "quest", "action": "task", "mission": "m4-05", "tache": 0 },
+    { "type": "emote", "cible": "nyra", "emote": "coeur" },
+    { "perso": "nyra", "expr": "sourire", "texte": "Enfin un endroit où je me sens chez moi." },
+    { "type": "emote", "cible": "oren", "emote": "sueur" },
+    {
+      "perso": "oren",
+      "expr": "fatigue",
+      "texte": "Je transpire de partout. Mes lunettes fondent. Je crois que mes lunettes fondent vraiment."
+    }
+  ]
+}

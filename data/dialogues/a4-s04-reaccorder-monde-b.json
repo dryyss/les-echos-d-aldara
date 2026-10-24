@@ -1,0 +1,32 @@
+{
+  "id": "a4-s04-reaccorder-monde-b",
+  "titre": "Acte 4, scène 4 : Réaccorder le monde (le Diapason d’Eau)",
+  "lignes": [
+    { "type": "playMusic", "musique": "temple-englouti", "fondu": 1000 },
+    { "type": "moveTo", "cible": "oren", "x": 10, "y": 6, "vitesse": 0.8 },
+    { "type": "face", "cible": "oren", "direction": "up" },
+    { "type": "emote", "cible": "oren", "emote": "sueur" },
+    {
+      "perso": "oren",
+      "expr": "fatigue",
+      "texte": "Je… je n’ai jamais rien réparé d’aussi grand. J’ai déjà eu du mal à recoller une tasse."
+    },
+    {
+      "perso": "nyra",
+      "expr": "sourire",
+      "texte": "T’es pas obligé de le recoller, t’es censé le chanter."
+    },
+    { "perso": "oren", "expr": "fatigue", "texte": "Ce n’est pas plus rassurant." },
+    { "type": "playMusic", "musique": "oren", "fondu": 500 },
+    { "type": "playSound", "son": "ecoute" },
+    { "type": "wait", "duree": 1500 },
+    { "type": "playSound", "son": "accord" },
+    { "type": "flash", "couleur": "#7fb8d8", "duree": 600 },
+    { "type": "playSound", "son": "vague" },
+    { "type": "setFlag", "drapeau": "diapason_eau_reaccorde" },
+    { "type": "quest", "action": "task", "mission": "m4-04", "tache": 1 },
+    { "type": "wait", "duree": 1000 },
+    { "type": "playMusic", "musique": "temple-englouti", "fondu": 2000 },
+    { "type": "save" }
+  ]
+}

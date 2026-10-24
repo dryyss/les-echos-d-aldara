@@ -1,0 +1,10 @@
+{
+  "id": "a4-s03-resonner-a-deux-e",
+  "titre": "Acte 4, scène 3 : Résonner à deux (après les turbines, Tempête)",
+  "lignes": [
+    { "type": "playSound", "son": "puzzle-ok" },
+    { "type": "flash", "couleur": "#9fc5e8", "duree": 300 },
+    { "type": "give", "resonance": "sable-vif" },
+    { "type": "save" }
+  ]
+}

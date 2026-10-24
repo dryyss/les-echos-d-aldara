@@ -1,0 +1,22 @@
+{
+  "id": "a3-s06-tour-vents-a",
+  "titre": "Acte 3, scène 6 : La Tour des Vents (l’entrée)",
+  "lignes": [
+    { "type": "playMusic", "musique": "ruines", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "quest", "action": "start", "mission": "m3-06" },
+    { "type": "quest", "action": "task", "mission": "m3-06", "tache": 0 },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "face", "cible": "oren", "direction": "up" },
+    {
+      "perso": "oren",
+      "expr": "fatigue",
+      "texte": "Cinq étages. Sans escalier. Les Accordeurs avaient un sens de l’humour particulier."
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Ou ils savaient voler. Accrochez-vous à moi, je vous fais monter."
+    }
+  ]
+}

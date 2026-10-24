@@ -1,0 +1,15 @@
+{
+  "id": "autre-carte",
+  "name": "Autre carte",
+  "tileset": "mini",
+  "music": "test",
+  "zone": "test",
+  "indoor": true,
+  "ground": ["....", "....", "...."],
+  "encounters": null,
+  "objects": [
+    { "type": "spawn", "id": "defaut", "x": 1, "y": 1, "direction": "down" },
+    { "type": "spawn", "id": "entree", "x": 2, "y": 2, "direction": "up" },
+    { "type": "warp", "x": 0, "y": 0, "to": { "map": "mini-carte", "spawn": "defaut" } }
+  ]
+}

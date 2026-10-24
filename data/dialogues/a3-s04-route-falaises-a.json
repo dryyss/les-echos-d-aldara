@@ -1,0 +1,21 @@
+{
+  "id": "a3-s04-route-falaises-a",
+  "titre": "Acte 3, scène 4 : La route des falaises (le col)",
+  "lignes": [
+    { "type": "playMusic", "musique": "falaises", "fondu": 1200 },
+    { "type": "fade", "vers": "visible", "duree": 800 },
+    { "type": "quest", "action": "start", "mission": "m3-04" },
+    { "type": "playSound", "son": "bourrasque" },
+    { "type": "emote", "cible": "oren", "emote": "sueur" },
+    {
+      "perso": "oren",
+      "expr": "surpris",
+      "texte": "Mes lunettes vont s’envoler. Mes livres vont s’envoler. Je vais m’envoler."
+    },
+    {
+      "perso": "sefa",
+      "expr": "sourire",
+      "texte": "Pour une fois que tu dis quelque chose d’intéressant."
+    }
+  ]
+}

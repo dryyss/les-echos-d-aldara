@@ -1,0 +1,37 @@
+{
+  "id": "a4-s01-mer-cendres-a",
+  "titre": "Acte 4, scène 1 : La mer de cendres (les champs morts)",
+  "lignes": [
+    { "type": "playMusic", "musique": "desert", "fondu": 1500 },
+    { "type": "fade", "vers": "visible", "duree": 1200 },
+    { "type": "quest", "action": "start", "mission": "m4-01" },
+    { "type": "spawn", "pnj": "dumarre", "sprite": "dumarre", "x": 8, "y": 10, "direction": "right" },
+    { "type": "spawn", "pnj": "garde-escorte-1", "sprite": "garde-royal", "x": 7, "y": 11, "direction": "right" },
+    { "type": "spawn", "pnj": "garde-escorte-2", "sprite": "garde-royal", "x": 7, "y": 9, "direction": "right" },
+    { "type": "face", "cible": "oren", "direction": "up" },
+    {
+      "perso": "oren",
+      "expr": "triste",
+      "texte": "Regardez ces champs. D’après les archives, c’était une région fertile il y a cinquante ans."
+    },
+    {
+      "perso": "oren",
+      "expr": "triste",
+      "texte": "Ce n’est pas la sécheresse. C’est l’Écho qui s’éteint."
+    },
+    {
+      "perso": "nyra",
+      "expr": "triste",
+      "texte": "Tu veux dire que le monde est en train de mourir ? Comme ça, tranquillement ?"
+    },
+    { "perso": "oren", "expr": "triste", "texte": "Techniquement… oui." },
+    {
+      "perso": "sefa",
+      "expr": "neutre",
+      "texte": "Varn parlait de ça. Tout le temps. « Le monde meurt, et personne n’écoute. » Je pensais que c’était une excuse."
+    },
+    { "type": "despawn", "pnj": "dumarre" },
+    { "type": "despawn", "pnj": "garde-escorte-1" },
+    { "type": "despawn", "pnj": "garde-escorte-2" }
+  ]
+}

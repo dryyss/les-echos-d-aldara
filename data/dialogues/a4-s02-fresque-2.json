@@ -1,0 +1,11 @@
+{
+  "id": "a4-s02-fresque-2",
+  "titre": "Acte 4, scène 2 : La deuxième fresque",
+  "lignes": [
+    { "type": "playSound", "son": "ecoute" },
+    {
+      "pensee": "Mais un chant trop bas finit par s’éteindre. Nous le savions. Un jour, il faudra le réaccorder."
+    },
+    { "type": "setFlag", "drapeau": "fresque_2_lue" }
+  ]
+}

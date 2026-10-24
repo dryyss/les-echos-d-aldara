@@ -1,0 +1,32 @@
+{
+  "id": "a4-s02-memoire-sahr-b",
+  "titre": "Acte 4, scène 2 : La mémoire de Sahr (la grande tente)",
+  "lignes": [
+    { "type": "playSound", "son": "braise" },
+    { "type": "face", "cible": "player", "direction": "up" },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Quatre Résonants. Un de chaque note. Ça faisait mille ans que je vous attendais."
+    },
+    {
+      "perso": "mere-sahra",
+      "expr": "sourire",
+      "texte": "Enfin, ma lignée vous attendait. Moi, seulement depuis soixante ans. Asseyez-vous."
+    },
+    { "perso": "kael", "expr": "surpris", "texte": "Vous savez qui on est ?" },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Je suis aveugle, petit. Mais je vous entends. Toi, tu sonnes comme une montagne. Elle, comme un feu de camp."
+    },
+    {
+      "perso": "mere-sahra",
+      "expr": "neutre",
+      "texte": "Lui, comme une rivière qui hésite. Et elle… comme un vent qui cherche où se poser."
+    },
+    { "perso": "sefa", "expr": "neutre", "texte": "… C’est pas faux." },
+    { "perso": "mere-sahra", "expr": "neutre", "texte": "Venez. Les fresques vont vous parler." },
+    { "type": "quest", "action": "task", "mission": "m4-02", "tache": 0 }
+  ]
+}
