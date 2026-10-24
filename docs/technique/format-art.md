@@ -42,7 +42,7 @@ Pourquoi : aucun graphiste n'est disponible, et ce format permet à toute l'équ
 }
 ```
 
-- `kind` : `character` (exploration 16 × 24), `battle` (combat 32 × 48), `enemy` (taille libre, multiple de 8), `portrait` (48 × 48), `object` (16 × 16 ou 16 × 24), `icon` (16 × 16), `effect` (taille libre), `background` (fond de combat 400 × 120 maximum).
+- `kind` : `character` (exploration 16 × 24), `battle` (combat 32 × 48), `enemy` (taille libre, multiple de 8), `portrait` (48 × 48), `object` (16 × 16 ou 16 × 24), `icon` (16 × 16), `effect` (taille libre), `background` (fond de combat 200 × 60, affiché à l’échelle 2).
 - Une frame est soit un tableau de lignes, soit `{ "mirror": "autre-frame" }` (miroir horizontal), soit `{ "copy": "autre-frame", "palette": { "h": "#c0392b" } }` (copie avec couleurs remplacées).
 - Un sprite entier peut dériver d'un autre : `"base": "villageois-homme"` avec une `palette` qui remplace certaines couleurs. Les frames de la base sont reprises, celles définies localement les remplacent. Idéal pour les variantes de villageois, gardes et sbires.
 

@@ -179,7 +179,8 @@ export type UnleashEffect =
 export interface LueurData {
   id: string;
   name: string;
-  element: Element;
+  /** Élément, ou « prisme » pour la Lueur secrète des 4 éléments. */
+  element: Element | 'prisme';
   description: string;
   /** Cri de la Lueur, affiché quand on la trouve (ex. « Grrr-ès ! »). */
   cry: string;
@@ -615,6 +616,14 @@ export interface NpcData {
   lines: NpcLine[];
   /** Déplacement aléatoire autour de sa position. */
   wander?: boolean;
+}
+
+/** Réplique d'un membre de l'équipe quand on « parle » dans le vide (data/banter/*.json). */
+export interface BanterData {
+  /** Identifiant de carte ou de zone. */
+  zone: string;
+  si?: EventCondition;
+  lignes: Partial<Record<HeroId, string>>;
 }
 
 /** Entrée du journal « Souvenirs » et fragments d'histoire (data/lore.json). */
