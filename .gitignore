@@ -8,3 +8,10 @@ coverage/
 *.log
 .DS_Store
 Thumbs.db
+
+# Assets générés depuis art/ et maps/ (npm run build:assets)
+assets/sprites/*.png
+assets/sprites/*.json
+assets/tiles/*.png
+assets/tiles/*.json
+assets/maps/*.tmj

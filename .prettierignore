@@ -4,3 +4,8 @@ coverage/
 package-lock.json
 assets/maps/*.tmj
 docs/
+assets/
+art/
+maps/
+data/dialogues/
+data/audio/
