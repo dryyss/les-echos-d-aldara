@@ -15,3 +15,5 @@ assets/sprites/*.json
 assets/tiles/*.png
 assets/tiles/*.json
 assets/maps/*.tmj
+e2e/results/
+e2e/screenshots/
