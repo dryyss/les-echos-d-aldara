@@ -30,3 +30,21 @@ export const COLORS = {
   subtitle: '#9aa5c4',
   accent: '#e0a84a',
 } as const;
+
+/** Tilesets chargés au démarrage (assets/tiles/<id>.png et .json). */
+export const TILESETS = [
+  'village',
+  'interieur',
+  'foret',
+  'grotte',
+  'ruines',
+  'monde',
+  'port',
+  'ville',
+  'falaises',
+  'desert',
+  'volcan',
+] as const;
+
+/** Largeur du texte de dialogue en caractères (police 8 px, boîte de 400 px avec portrait). */
+export const DIALOGUE_COLUMNS = 40;
